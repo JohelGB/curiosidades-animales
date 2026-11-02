@@ -6,7 +6,7 @@ narración en español con voz gratis (edge-tts, `es-MX-JorgeNeural`), música s
 Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del video.
 
 ## Datos fijos
-- Buffer: organización `6ae8ff01f564b1c779db4f50`, canal TikTok `6ae8ff41e29c69a1713efa8f`
+- Buffer: organización `6ae8ff01f564b1c779db4f50`, canal TikTok `6ae8ff41e29c69a1713efa8f`, canal YouTube `6ae91564e29c69a171401081` (FunnyAnimalsJHLK)
 - URL pública del video: `https://raw.githubusercontent.com/JohelGB/curiosidades-animales/main/videos/<slug>.mp4`
 - Zona horaria del dueño: America/Guatemala (UTC-6). Franjas: `manana` (7 am), `mediodia` (12 md), `tarde` (6 pm).
 
@@ -22,11 +22,14 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    Revisa: el animal se reconoce y se ve bonito, nada tapa el texto, ningún texto se sale, props bien ubicados. Corrige y repite.
 7. `python3 engine/build.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 20–45 s).
 8. Agrega una línea a `publicados.md`, luego `git add specs videos publicados.md && git commit && git push origin main`.
-9. Publica con Buffer `create_post`: `channelId` del canal, `schedulingType: "automatic"`, `mode: "shareNow"`,
-   `text` = caption del spec, `assets: [{video:{url:<URL raw>, metadata:{title, thumbnailOffset:1500}}}]`,
-   `metadata: {tiktok: {title, isAiGenerated: true}}`.
-10. Espera ~1–2 min y verifica con `get_post` que `status` sea `sent`; anota el `externalLink` en la línea de `publicados.md`
-    (commit + push). Si queda en `error`, reporta el mensaje de error; no reintentes más de una vez.
+9. Publica con Buffer `create_post` en **los dos canales** (dos llamadas), ambos con `schedulingType: "automatic"`, `mode: "shareNow"`
+   y `assets: [{video:{url:<URL raw>, metadata:{title, thumbnailOffset:1500}}}]`:
+   - **TikTok** (`6ae8ff41e29c69a1713efa8f`): `text` = `caption` del spec; `metadata: {tiktok: {title, isAiGenerated: true}}`.
+   - **YouTube Shorts** (`6ae91564e29c69a171401081`): `text` = 2–3 frases que resuman la curiosidad + línea "Síguenos para más
+     curiosidades animales." + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
+     categoryId: "15", privacy: "public", madeForKids: false, isAiGenerated: true, notifySubscribers: true}}`.
+10. Espera ~1–2 min y verifica con `get_post` que ambos queden `sent`; anota los dos `externalLink` en la línea de `publicados.md`
+    (commit + push). Si uno queda en `error`, reporta el mensaje; no reintentes más de una vez. Que falle uno no impide el otro.
 
 ## Formato del spec
 ```json
@@ -56,4 +59,4 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
   Usa comillas simples dentro del SVG para no romper el JSON. Nunca dibujes personajes con marca o copyright.
 
 ## publicados.md
-Una línea por video: `| fecha | franja | animal | tema | link TikTok |`.
+Una línea por video: `| fecha | franja | animal | tema | link TikTok | link YouTube |`.
