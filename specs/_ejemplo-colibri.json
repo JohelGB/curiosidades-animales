@@ -1,0 +1,16 @@
+{
+  "slug": "_ejemplo-colibri",
+  "animal": "colibrí",
+  "habitat": "jungle",
+  "caption": "¿Sabías esto del colibrí? 🐦💚 Vuela hacia atrás y su corazón late a mil. #curiosidades #animales #colibri #sabiasque #datoscuriosos #fyp",
+  "title": "¿Sabías que el colibrí puede volar hacia atrás?",
+  "animalSvg": "<g class='flap' data-cx='300' data-cy='270'><ellipse cx='330' cy='170' rx='55' ry='150' fill='#7fd6c2' opacity='.85' transform='rotate(25 330 170)'/></g><path d='M190 330 L 70 420 L 110 330 L 60 300 Z' fill='#1f8a6e'/><ellipse cx='290' cy='320' rx='130' ry='85' fill='#2bb38a' transform='rotate(-15 290 320)'/><ellipse cx='300' cy='350' rx='90' ry='50' fill='#bff0dc' transform='rotate(-15 300 350)'/><circle cx='400' cy='240' r='70' fill='#2bb38a'/><path d='M360 280 C 380 320, 430 320, 450 280 C 430 300, 380 300, 360 280 Z' fill='#e8344a'/><path d='M455 225 L 585 205 L 458 248 Z' fill='#3a2b22'/><g class='blink' data-cy='228'><circle cx='418' cy='228' r='18' fill='#fff'/><circle cx='423' cy='228' r='11' fill='#1d2b36'/><circle cx='427' cy='223' r='4' fill='#fff'/></g><g class='flap' data-cx='300' data-cy='290'><ellipse cx='250' cy='170' rx='60' ry='160' fill='#5cc9ad' transform='rotate(-20 250 170)'/></g><path d='M270 400 l -10 60 M 310 400 l 0 60' stroke='#3a2b22' stroke-width='8' stroke-linecap='round'/>",
+  "scenes": [
+    {"text": "¿Sabías que el colibrí puede volar <span class='hl'>hacia atrás</span>?", "narration": "¿Sabías que el colibrí puede volar hacia atrás?", "anim": "hover"},
+    {"text": "Bate sus alas hasta", "badge": "80 por segundo", "narration": "Bate sus alas hasta ochenta veces por segundo.", "anim": "hover"},
+    {"text": "Y su <span class='hl'>corazón</span> late más de", "badge": "1200 por minuto", "narration": "Y su corazón late más de mil doscientas veces por minuto.", "anim": "zoom", "prop": "<path d='M150 250 C 30 170, 40 60, 150 110 C 260 60, 270 170, 150 250 Z' fill='#e8344a' stroke='#8a1424' stroke-width='10'/>", "propPos": "right"},
+    {"text": "Por eso come cada <span class='hl'>10 a 15 minutos</span>", "narration": "Por eso necesita comer néctar cada diez a quince minutos.", "anim": "left", "prop": "<g><path d='M150 160 L150 290' stroke='#2d7a3e' stroke-width='12'/><g fill='#ff5fa2'><ellipse cx='150' cy='80' rx='35' ry='60'/><ellipse cx='150' cy='80' rx='35' ry='60' transform='rotate(72 150 130)'/><ellipse cx='150' cy='80' rx='35' ry='60' transform='rotate(144 150 130)'/><ellipse cx='150' cy='80' rx='35' ry='60' transform='rotate(216 150 130)'/><ellipse cx='150' cy='80' rx='35' ry='60' transform='rotate(288 150 130)'/></g><circle cx='150' cy='130' r='28' fill='#ffe066'/></g>", "propPos": "right"},
+    {"text": "Y de noche entra en un <span class='hl'>sueño profundo</span> para ahorrar energía", "sub": "se llama torpor", "narration": "Y de noche entra en un sueño profundo, llamado torpor, para ahorrar energía.", "anim": "sleep"},
+    {"text": "Síguenos para más <span class='hl'>curiosidades animales</span>", "narration": "Síguenos para más curiosidades animales.", "cta": true}
+  ]
+}
