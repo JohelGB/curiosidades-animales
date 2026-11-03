@@ -1,0 +1,57 @@
+{
+  "slug": "2026-11-03-tarde-rana-de-bosque",
+  "animal": "rana de bosque",
+  "habitat": "arctic",
+  "caption": "¿Sabías que la rana de bosque se congela y luego revive? 🐸🧊 Su corazón se detiene ¡hasta 7 meses! ¿Lo sabías? 👇 #curiosidades #animales #rana #anfibios #sabiasque #datoscuriosos #fyp",
+  "title": "¿La rana que se congela y revive?",
+  "animalSvg": "<g class='tail' data-cx='210' data-cy='430'><path d='M215 420 Q120 440 105 505 Q140 525 230 490 Z' fill='#a8743f' stroke='#5e3d1e' stroke-width='6' stroke-linejoin='round'/><path d='M110 505 l-25 12 M118 512 l-12 24 M132 515 l5 24' stroke='#5e3d1e' stroke-width='6' stroke-linecap='round'/></g><g class='tail' data-cx='390' data-cy='430'><path d='M385 420 Q480 440 495 505 Q460 525 370 490 Z' fill='#a8743f' stroke='#5e3d1e' stroke-width='6' stroke-linejoin='round'/><path d='M490 505 l25 12 M482 512 l12 24 M468 515 l-5 24' stroke='#5e3d1e' stroke-width='6' stroke-linecap='round'/></g><ellipse cx='300' cy='395' rx='165' ry='125' fill='#c48a4e' stroke='#5e3d1e' stroke-width='6'/><ellipse cx='300' cy='425' rx='105' ry='80' fill='#f3dcb4'/><circle cx='220' cy='380' r='10' fill='#8a5a2e'/><circle cx='385' cy='370' r='8' fill='#8a5a2e'/><circle cx='395' cy='405' r='6' fill='#8a5a2e'/><path d='M240 505 Q230 540 205 548 M360 505 Q370 540 395 548' stroke='#5e3d1e' stroke-width='14' stroke-linecap='round' fill='none'/><path d='M205 548 l-20 6 M205 548 l-8 16 M395 548 l20 6 M395 548 l8 16' stroke='#5e3d1e' stroke-width='7' stroke-linecap='round'/><ellipse cx='300' cy='275' rx='150' ry='100' fill='#c48a4e' stroke='#5e3d1e' stroke-width='6'/><path d='M165 255 Q200 300 255 290 L250 260 Q205 268 170 235 Z' fill='#4a2e17'/><path d='M435 255 Q400 300 345 290 L350 260 Q395 268 430 235 Z' fill='#4a2e17'/><circle cx='225' cy='205' r='48' fill='#c48a4e' stroke='#5e3d1e' stroke-width='6'/><circle cx='375' cy='205' r='48' fill='#c48a4e' stroke='#5e3d1e' stroke-width='6'/><g class='blink' data-cx='225' data-cy='205'><circle cx='225' cy='205' r='34' fill='#fff'/><circle cx='230' cy='210' r='21' fill='#1d2b36'/><circle cx='238' cy='200' r='7' fill='#fff'/></g><g class='blink' data-cx='375' data-cy='205'><circle cx='375' cy='205' r='34' fill='#fff'/><circle cx='370' cy='210' r='21' fill='#1d2b36'/><circle cx='378' cy='200' r='7' fill='#fff'/></g><ellipse cx='210' cy='318' rx='24' ry='14' fill='#ff8fa3' opacity='.75'/><ellipse cx='390' cy='318' rx='24' ry='14' fill='#ff8fa3' opacity='.75'/><path d='M245 320 Q300 355 355 320' stroke='#5e3d1e' stroke-width='7' fill='none' stroke-linecap='round'/><circle cx='285' cy='272' r='5' fill='#5e3d1e'/><circle cx='315' cy='272' r='5' fill='#5e3d1e'/>",
+  "scenes": [
+    {
+      "text": "¿Sabías que esta rana se <span class='hl'>congela</span>… y revive?",
+      "narration": "¿Sabías que la rana de bosque se congela como un hielo, y luego revive?",
+      "anim": "bob"
+    },
+    {
+      "text": "En invierno se convierte en hielo",
+      "badge": "60% congelada",
+      "sub": "hasta el 60% de su cuerpo",
+      "narration": "En invierno, hasta el sesenta por ciento de su cuerpo se vuelve hielo.",
+      "anim": "left",
+      "prop": "<g stroke='#4f8fb8' stroke-width='6' stroke-linejoin='round'><path d='M150 50 L250 100 L150 150 L50 100 Z' fill='#e6f6ff'/><path d='M50 100 L150 150 L150 255 L50 205 Z' fill='#b8e2fa'/><path d='M250 100 L150 150 L150 255 L250 205 Z' fill='#8fcdf2'/></g><path d='M80 130 L80 180 M110 150 L110 170' stroke='#fff' stroke-width='8' stroke-linecap='round'/>",
+      "propPos": "right"
+    },
+    {
+      "text": "Su corazón <span class='hl'>deja de latir</span>",
+      "sub": "y deja de respirar",
+      "narration": "Su corazón deja de latir y deja de respirar.",
+      "anim": "sleep"
+    },
+    {
+      "text": "Su truco: llenarse de <span class='hl'>azúcar</span>",
+      "sub": "hasta 10 veces lo normal: su anticongelante",
+      "narration": "Su truco es llenarse de azúcar, hasta diez veces lo normal, que funciona como anticongelante.",
+      "anim": "left",
+      "prop": "<g stroke='#b08a5a' stroke-width='5' stroke-linejoin='round'><path d='M150 80 L230 120 L150 160 L70 120 Z' fill='#ffffff'/><path d='M70 120 L150 160 L150 245 L70 205 Z' fill='#f1ece4'/><path d='M230 120 L150 160 L150 245 L230 205 Z' fill='#ddd5c8'/></g><g fill='#fff' stroke='#b08a5a' stroke-width='3'><circle cx='60' cy='260' r='9'/><circle cx='245' cy='255' r='7'/><circle cx='200' cy='275' r='6'/></g>",
+      "propPos": "right"
+    },
+    {
+      "text": "En Alaska aguanta <span class='hl'>-18 °C</span>",
+      "sub": "¡el frío de un congelador!",
+      "narration": "En Alaska aguanta hasta dieciocho grados bajo cero, el frío de un congelador.",
+      "anim": "shake",
+      "prop": "<rect x='120' y='30' width='60' height='190' rx='30' fill='#fff' stroke='#3d5a73' stroke-width='7'/><rect x='138' y='130' width='24' height='90' fill='#4fb3ff'/><circle cx='150' cy='235' r='45' fill='#4fb3ff' stroke='#3d5a73' stroke-width='7'/><path d='M180 70 h20 M180 105 h20 M180 140 h20 M180 175 h20' stroke='#3d5a73' stroke-width='6' stroke-linecap='round'/>",
+      "propPos": "bottomright"
+    },
+    {
+      "text": "¡Puede pasar <span class='hl'>7 meses</span> congelada!",
+      "sub": "y en primavera, vuelve a la vida",
+      "narration": "¡Y puede pasar hasta siete meses congelada! En primavera se descongela y vuelve a la vida.",
+      "anim": "jump"
+    },
+    {
+      "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+      "narration": "Síguenos para más curiosidades animales.",
+      "cta": true
+    }
+  ]
+}
