@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-03-mediodia-quetzalcoatlus",
+  "animal": "quetzalcoatlus",
+  "habitat": "sky",
+  "caption": "¿Sabías que el quetzalcoatlus, un reptil volador, era tan alto como una jirafa? 🦒🦅 Vivió hace unos 70 millones de años. ¿Lo sabías? 👇 #curiosidades #animales #quetzalcoatlus #prehistoria #dinosaurios #sabiasque #datoscuriosos #fyp",
+  "title": "¿Un reptil volador tan alto como una jirafa?",
+  "animalSvg": "<g class='flap' data-cx='265' data-cy='345'><path d='M265 330 L60 250 Q40 300 70 330 Q150 380 260 395 Z' fill='#f2a65a' stroke='#8a4b2a' stroke-width='6' stroke-linejoin='round'/><path d='M265 335 L70 255' stroke='#c46a38' stroke-width='8' stroke-linecap='round'/></g><g class='flap' data-cx='335' data-cy='345'><path d='M335 330 L540 250 Q560 300 530 330 Q450 380 340 395 Z' fill='#f2a65a' stroke='#8a4b2a' stroke-width='6' stroke-linejoin='round'/><path d='M335 335 L530 255' stroke='#c46a38' stroke-width='8' stroke-linecap='round'/></g><path d='M270 450 L255 520 M330 450 L345 520' stroke='#8a4b2a' stroke-width='12' stroke-linecap='round'/><path d='M235 522 L275 522 M325 522 L365 522' stroke='#8a4b2a' stroke-width='10' stroke-linecap='round'/><ellipse cx='300' cy='380' rx='72' ry='80' fill='#d9824a' stroke='#8a4b2a' stroke-width='6'/><ellipse cx='300' cy='400' rx='42' ry='52' fill='#f7d3a8'/><path d='M282 320 Q270 250 285 200 L325 205 Q318 260 318 320 Z' fill='#d9824a' stroke='#8a4b2a' stroke-width='6' stroke-linejoin='round'/><path d='M265 150 Q240 70 205 60 Q250 70 300 120 Z' fill='#e0554a' stroke='#8a4b2a' stroke-width='6' stroke-linejoin='round'/><path d='M330 165 L540 205 Q545 212 535 216 L330 222 Z' fill='#ffd36b' stroke='#8a4b2a' stroke-width='6' stroke-linejoin='round'/><ellipse cx='300' cy='175' rx='62' ry='55' fill='#d9824a' stroke='#8a4b2a' stroke-width='6'/><g class='blink' data-cx='292' data-cy='165'><circle cx='292' cy='165' r='24' fill='#fff'/><circle cx='298' cy='168' r='15' fill='#1d2b36'/><circle cx='303' cy='162' r='5' fill='#fff'/></g><ellipse cx='275' cy='205' rx='18' ry='11' fill='#ff8fa3' opacity='.75'/><path d='M335 210 Q350 218 365 211' stroke='#8a4b2a' stroke-width='5' fill='none' stroke-linecap='round'/>",
+  "scenes": [
+    {
+      "text": "¿Un reptil volador tan alto como una <span class='hl'>jirafa</span>?",
+      "narration": "¿Sabías que el quetzalcoatlus, un reptil volador, era tan alto como una jirafa?",
+      "anim": "bob"
+    },
+    {
+      "text": "Sus alas medían unos",
+      "badge": "10 metros",
+      "sub": "de punta a punta, ¡casi un autobús!",
+      "narration": "Sus alas medían unos diez metros de punta a punta, casi como un autobús.",
+      "anim": "fly"
+    },
+    {
+      "text": "No era dinosaurio: era un <span class='hl'>pterosaurio</span>",
+      "sub": "hace unos 70 millones de años, en Texas",
+      "narration": "No era un dinosaurio, sino un pterosaurio que vivió hace unos setenta millones de años, en lo que hoy es Texas.",
+      "anim": "pop"
+    },
+    {
+      "text": "Para despegar daba un <span class='hl'>salto gigante</span>",
+      "badge": "2.4 m",
+      "sub": "se cree que con patas y brazos",
+      "narration": "Los científicos creen que despegaba dando un salto de unos dos metros y medio, empujando con patas y brazos.",
+      "anim": "jump"
+    },
+    {
+      "text": "Y en el suelo cazaba como una <span class='hl'>garza gigante</span>",
+      "sub": "¿Lo sabías? 👇",
+      "narration": "Y en tierra caminaba como una garza gigante, atrapando animalitos con su pico. ¿Lo sabías?",
+      "anim": "walk"
+    },
+    {
+      "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+      "narration": "Síguenos para más curiosidades animales.",
+      "cta": true
+    }
+  ]
+}
