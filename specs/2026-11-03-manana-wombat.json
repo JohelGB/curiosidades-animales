@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-03-manana-wombat",
+  "animal": "wombat",
+  "habitat": "savanna",
+  "caption": "¿Sabías que el wombat hace caca en forma de cubo? 🟫🐾 Hasta 100 cubitos al día para marcar su territorio. #curiosidades #animales #wombat #sabiasque #datoscuriosos #fyp",
+  "title": "¿Sabías que el wombat hace caca en forma de cubo?",
+  "animalSvg": "<g class='wiggle' data-cx='225' data-cy='175'><ellipse cx='200' cy='168' rx='24' ry='28' fill='#7a5a42' transform='rotate(-25 200 168)'/><ellipse cx='202' cy='172' rx='12' ry='15' fill='#e8a9a0' transform='rotate(-25 202 172)'/></g><g class='wiggle' data-cx='375' data-cy='175'><ellipse cx='400' cy='168' rx='24' ry='28' fill='#7a5a42' transform='rotate(25 400 168)'/><ellipse cx='398' cy='172' rx='12' ry='15' fill='#e8a9a0' transform='rotate(25 398 172)'/></g><ellipse cx='300' cy='385' rx='195' ry='145' fill='#8c6a4f' stroke='#5a4030' stroke-width='6'/><ellipse cx='300' cy='410' rx='120' ry='95' fill='#c9a888'/><ellipse cx='175' cy='505' rx='55' ry='32' fill='#6e5240' stroke='#5a4030' stroke-width='5'/><ellipse cx='425' cy='505' rx='55' ry='32' fill='#6e5240' stroke='#5a4030' stroke-width='5'/><path d='M150 515 l0 14 M175 518 l0 14 M200 515 l0 14 M400 515 l0 14 M425 518 l0 14 M450 515 l0 14' stroke='#3a2b22' stroke-width='5' stroke-linecap='round'/><ellipse cx='300' cy='255' rx='150' ry='120' fill='#8c6a4f' stroke='#5a4030' stroke-width='6'/><ellipse cx='300' cy='300' rx='80' ry='62' fill='#c9a888'/><g class='blink' data-cx='250' data-cy='235'><circle cx='250' cy='235' r='24' fill='#fff'/><circle cx='254' cy='238' r='15' fill='#1d2b36'/><circle cx='259' cy='232' r='5' fill='#fff'/></g><g class='blink' data-cx='350' data-cy='235'><circle cx='350' cy='235' r='24' fill='#fff'/><circle cx='346' cy='238' r='15' fill='#1d2b36'/><circle cx='351' cy='232' r='5' fill='#fff'/></g><ellipse cx='215' cy='290' rx='22' ry='14' fill='#ff8fa3' opacity='.7'/><ellipse cx='385' cy='290' rx='22' ry='14' fill='#ff8fa3' opacity='.7'/><path d='M250 268 Q300 250 350 268 Q358 304 300 312 Q242 304 250 268 Z' fill='#3a2b22'/><ellipse cx='285' cy='272' rx='10' ry='5' fill='#6b5a50'/><path d='M282 325 Q300 340 318 325' stroke='#3a2b22' stroke-width='6' fill='none' stroke-linecap='round'/>",
+  "scenes": [
+    {
+      "text": "¿Sabías que el wombat hace caca en forma de <span class='hl'>cubo</span>?",
+      "narration": "¿Sabías que el wombat hace caca en forma de cubo?",
+      "anim": "bob"
+    },
+    {
+      "text": "Puede hacer hasta",
+      "badge": "100 cubos al día",
+      "narration": "Puede hacer hasta cien cubitos en un solo día.",
+      "anim": "left",
+      "prop": "<g stroke='#4a3020' stroke-width='5' stroke-linejoin='round'><path d='M150 70 L240 115 L150 160 L60 115 Z' fill='#a07850'/><path d='M60 115 L150 160 L150 260 L60 215 Z' fill='#7a5535'/><path d='M240 115 L150 160 L150 260 L240 215 Z' fill='#5e4028'/></g>",
+      "propPos": "right"
+    },
+    {
+      "text": "Cada cubito mide unos <span class='hl'>2 cm</span>",
+      "sub": "y salen de 4 a 8 a la vez",
+      "narration": "Cada cubito mide unos dos centímetros, y salen de cuatro a ocho a la vez.",
+      "anim": "pop"
+    },
+    {
+      "text": "Su intestino tiene partes <span class='hl'>rígidas y elásticas</span>",
+      "sub": "que le dan las esquinas",
+      "narration": "Su intestino tiene partes rígidas y elásticas que le van formando las esquinas.",
+      "anim": "zoom"
+    },
+    {
+      "text": "Los deja sobre rocas para <span class='hl'>marcar territorio</span>",
+      "sub": "¡y no se ruedan!",
+      "narration": "Los deja sobre rocas y troncos para marcar su territorio, y como son cubos, no se ruedan.",
+      "anim": "left",
+      "prop": "<path d='M20 280 Q30 170 120 160 Q230 150 280 280 Z' fill='#9aa3ad' stroke='#5c6670' stroke-width='6'/><g stroke='#4a3020' stroke-width='3' stroke-linejoin='round'><g transform='translate(95 120)'><path d='M30 0 L60 15 L30 30 L0 15 Z' fill='#a07850'/><path d='M0 15 L30 30 L30 62 L0 47 Z' fill='#7a5535'/><path d='M60 15 L30 30 L30 62 L60 47 Z' fill='#5e4028'/></g><g transform='translate(150 128)'><path d='M30 0 L60 15 L30 30 L0 15 Z' fill='#a07850'/><path d='M0 15 L30 30 L30 62 L0 47 Z' fill='#7a5535'/><path d='M60 15 L30 30 L30 62 L60 47 Z' fill='#5e4028'/></g></g>",
+      "propPos": "right"
+    },
+    {
+      "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+      "narration": "Síguenos para más curiosidades animales.",
+      "cta": true
+    }
+  ]
+}
