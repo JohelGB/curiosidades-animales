@@ -31,6 +31,24 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
 10. Espera ~1–2 min y verifica con `get_post` que ambos queden `sent`; anota los dos `externalLink` en la línea de `publicados.md`
     (commit + push). Si uno queda en `error`, reporta el mensaje; no reintentes más de una vez. Que falle uno no impide el otro.
 
+## Objetivo: crecer en seguidores y vistas (curioso + educativo)
+Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir tema y escribir el spec:
+- **Elegir el tema**: prefiere curiosidades con efecto "¡no puede ser!" que la gente quiera compartir (récords, superpoderes,
+  cuerpos raros, comparaciones con humanos), mezclando animales famosos (más búsquedas) con raros (más sorpresa).
+  Que sea **educativo**: explica el *por qué* o el *para qué* (adaptación, evolución, ecosistema), no solo el dato.
+- **Gancho (escena 1)**: pregunta o afirmación imposible con cifra o comparación concreta ("tiene 3 corazones", "más rápido que
+  un auto"). Nada de introducciones; el dato fuerte va en la primera frase.
+- **Comparaciones humanas**: traduce cifras a algo cotidiano ("como levantar 10 autos", "del tamaño de un autobús").
+- **Remate**: el dato más sorprendente va al final, antes del CTA, para que la gente vea el video completo.
+- **Comentarios**: en la escena previa al CTA o en el `caption`, cierra con una pregunta corta para el público
+  ("¿Cuál te sorprendió más?", "¿Lo sabías? 👇").
+- **Títulos**: cortos, con número o pregunta y el nombre del animal ("¿Por qué el pulpo tiene 3 corazones?").
+  En YouTube, el título y la descripción deben incluir el nombre del animal y palabras que la gente busca
+  (curiosidades, datos, sabías que).
+- **Hashtags**: 1–2 del animal y su grupo (#pulpo #animalesmarinos) además de los generales.
+- **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
+- Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
+
 ## Formato del spec
 ```json
 {
