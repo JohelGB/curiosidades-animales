@@ -8,13 +8,19 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
 ## Datos fijos
 - Buffer: organización `6ae8ff01f564b1c779db4f50`, canal TikTok `6ae8ff41e29c69a1713efa8f`, canal YouTube `6ae91564e29c69a171401081` (FunnyAnimalsJHLK)
 - URL pública del video: `https://raw.githubusercontent.com/JohelGB/curiosidades-animales/main/videos/<slug>.mp4`
-- Zona horaria del dueño: America/Guatemala (UTC-6). Franjas: `manana` (7 am), `mediodia` (12 md), `tarde` (6 pm).
+- Zona horaria del dueño: America/Guatemala (UTC-6). Franjas: `manana` (6 am), `mediodia` (12 md), `tarde` (6 pm).
 
 ## Procedimiento de una publicación (tarea programada)
 1. `cd` al clon del repo y `git pull --rebase origin main`.
 2. `bash engine/setup.sh` (instala edge-tts y confía en el proxy). Debe imprimir `setup ok`.
 3. Lee `publicados.md`. Elige un **animal que no aparezca ahí** (nunca repetir animal). Varía el hábitat y el tipo
-   de animal respecto a los últimos 3 (mamífero, ave, insecto, pez, reptil, anfibio, marino…).
+   de animal respecto a los últimos 3 (mamífero, ave, insecto, pez, reptil, anfibio, marino, prehistórico…).
+   **Animales prehistóricos**: también valen (dinosaurios, mamut, megalodón, tigre dientes de sable, pterosaurios,
+   reptiles marinos, artrópodos gigantes, etc.). Incluye uno más o menos cada 4 videos (si en los últimos 4 de
+   `publicados.md` no hay ninguno, toca uno). Usa lo que dice la ciencia actual (museos, universidades, revistas
+   científicas) y di cuándo vivió ("hace 66 millones de años"); si un dato es estimado o debatido, dilo así
+   ("se cree que…"). Dibújalo como en las reconstrucciones actuales (p. ej. velociraptor con plumas y del tamaño
+   de un pavo), nunca como personajes de películas. En `publicados.md` escribe el nombre común (p. ej. `megalodón`).
 4. Elige **una curiosidad sorprendente** con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
 5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal>.json` (formato abajo). `slug` = mismo nombre sin `.json`.
@@ -45,7 +51,7 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 - **Títulos**: cortos, con número o pregunta y el nombre del animal ("¿Por qué el pulpo tiene 3 corazones?").
   En YouTube, el título y la descripción deben incluir el nombre del animal y palabras que la gente busca
   (curiosidades, datos, sabías que).
-- **Hashtags**: 1–2 del animal y su grupo (#pulpo #animalesmarinos) además de los generales.
+- **Hashtags**: 1–2 del animal y su grupo (#pulpo #animalesmarinos) además de los generales. Para prehistóricos agrega #dinosaurios o #prehistoria.
 - **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
 - Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
 
@@ -54,7 +60,7 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 {
   "slug": "2026-11-03-manana-ajolote",
   "animal": "ajolote",
-  "habitat": "ocean | jungle | savanna | arctic | desert | sky | night | farm",
+  "habitat": "ocean | jungle | savanna | arctic | desert | sky | night | farm" (prehistóricos: el que más se parezca a su ambiente),
   "caption": "Texto del post con 1-2 emojis + 5-6 hashtags (#curiosidades #animales #<animal> #sabiasque #datoscuriosos #fyp)",
   "title": "Gancho corto para TikTok",
   "animalSvg": "<SVG interno para viewBox 0 0 600 600>",
