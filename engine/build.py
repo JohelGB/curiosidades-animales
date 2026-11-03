@@ -10,23 +10,50 @@ spec_path=sys.argv[1];frames_only='--frames' in sys.argv
 spec=json.load(open(spec_path));slug=spec['slug']
 wd=os.path.join(ROOT,'work',slug);os.makedirs(wd,exist_ok=True)
 voice=spec.get('voice','es-MX-JorgeNeural');rate=spec.get('rate','+8%')
-env=dict(os.environ,NO_PROXY='',no_proxy='')
+os.environ['NO_PROXY']='';os.environ['no_proxy']='';env=dict(os.environ)
 def dur(f):return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f]))
-# 1) voz por escena
-ds=[]
+# 1) voz por escena (+ tiempos de cada palabra para subtitulos)
+import re,asyncio
+style=spec.get('style','classic')
+def clean(t):return t.replace('*','')
+async def tts_words(text,f):
+    import edge_tts
+    c=edge_tts.Communicate(text,voice,rate=rate);sb=[]
+    with open(f,'wb') as fh:
+        async for ch in c.stream():
+            if ch['type']=='audio':fh.write(ch['data'])
+            elif ch['type']=='SentenceBoundary':sb.append((ch['offset']/1e7,ch['duration']/1e7,ch['text']))
+    # tiempos por palabra estimados dentro de cada oracion (peso = letras + pausa por puntuacion)
+    ws=[]
+    for o,d,tx in sb:
+        toks=[t for t in tx.split() if re.sub(r'[^\w]','',t)]
+        wts=[len(re.sub(r'[^\w]','',t))+2+(4 if re.search(r'[,:;.?!]$',t) else 0) for t in toks];tot=sum(wts) or 1;acc=0
+        for t,wt in zip(toks,wts):
+            ws.append({'w':re.sub(r'[¿?¡!.,:;]','',t),'o':o+d*acc/tot,'d':d*wt/tot});acc+=wt
+    return ws
+ds=[];wbs=[]
 for i,sc in enumerate(spec['scenes']):
-    f=os.path.join(wd,f'v{i}.mp3')
-    if not os.path.exists(f) or os.path.getsize(f)==0:
-        subprocess.run(['edge-tts','--voice',voice,f'--rate={rate}','--text',sc['narration'],'--write-media',f],check=True,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-    ds.append(dur(f))
+    f=os.path.join(wd,f'v{i}.mp3');wf=os.path.join(wd,f'v{i}.json')
+    if not os.path.exists(f) or os.path.getsize(f)==0 or not os.path.exists(wf):
+        import time
+        for _try in range(4):
+            try: ws=asyncio.run(tts_words(clean(sc['narration']),f));break
+            except Exception as ex:
+                if _try==3: raise
+                time.sleep(3)
+        json.dump(ws,open(wf,'w'))
+    wbs.append(json.load(open(wf)));ds.append(dur(f))
 # 2) tiempos
 PAD=0.55;t=0.3;starts=[]
 for i,(sc,d) in enumerate(zip(spec['scenes'],ds)):
     s=0 if i==0 else t;e=t+d+PAD+(1.2 if i==len(ds)-1 else 0);sc['s']=round(s,3);sc['e']=round(e,3)
-    starts.append(0.3 if i==0 else s);t=e
+    st0=0.3 if i==0 else s;starts.append(st0)
+    hlset={re.sub(r'[^\wáéíóúñü]','',x.lower()) for x in re.findall(r'\*([^*]+)\*',sc['narration']) for x in x.split()}
+    sc['words']=[{'w':w['w'],'s':round(st0+w['o'],3),'hl':re.sub(r'[^\wáéíóúñü]','',w['w'].lower()) in hlset,'first':j==0} for j,w in enumerate(wbs[i])]
+    t=e
 D=spec['scenes'][-1]['e']
 # 3) pagina
-shutil.copy(os.path.join(ENG,'template.html'),os.path.join(wd,'index.html'));shutil.copy(os.path.join(ENG,'logo.png'),os.path.join(wd,'logo.png'))
+shutil.copy(os.path.join(ENG,'blueprint.html' if style=='blueprint' else 'template.html'),os.path.join(wd,'index.html'));shutil.copy(os.path.join(ENG,'logo.png'),os.path.join(wd,'logo.png'))
 open(os.path.join(wd,'spec.js'),'w').write('window.SPEC='+json.dumps(spec,ensure_ascii=False)+';')
 if frames_only:
     mids=[round((sc['s']+sc['e'])/2,2) for sc in spec['scenes']]
