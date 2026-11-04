@@ -1,0 +1,59 @@
+{
+ "slug": "_muestra-cancion-pulpo",
+ "style": "cancion",
+ "animal": "pulpo",
+ "habitat": "ocean",
+ "bpm": 104,
+ "songTitle": "La canción del <span class='hl'>pulpo</span> 🐙",
+ "animalSvg": "<defs><radialGradient id='hg' cx='40%' cy='30%' r='75%'><stop offset='0%' stop-color='#ff9a8a'/><stop offset='55%' stop-color='#f2625a'/><stop offset='100%' stop-color='#c63d48'/></radialGradient></defs>\n<g class='wiggle' data-cx='200' data-cy='380'><path d='M200 370 C 168.0 450, 120 470, 112.0 540 C 108.0 570, 136.0 580, 132.0 555' stroke='#e05a57' stroke-width='38' fill='none' stroke-linecap='round'/></g><g class='wiggle' data-cx='240' data-cy='380'><path d='M240 370 C 224.0 450, 200 470, 196.0 540 C 194.0 570, 208.0 580, 206.0 555' stroke='#e05a57' stroke-width='38' fill='none' stroke-linecap='round'/></g><g class='wiggle' data-cx='280' data-cy='380'><path d='M280 370 C 275.2 450, 268 470, 266.8 540 C 266.2 570, 270.4 580, 269.8 555' stroke='#e05a57' stroke-width='38' fill='none' stroke-linecap='round'/></g><g class='wiggle' data-cx='320' data-cy='380'><path d='M320 370 C 324.8 450, 332 470, 333.2 540 C 333.8 570, 329.6 580, 330.2 555' stroke='#e05a57' stroke-width='38' fill='none' stroke-linecap='round'/></g><g class='wiggle' data-cx='360' data-cy='380'><path d='M360 370 C 376.0 450, 400 470, 404.0 540 C 406.0 570, 392.0 580, 394.0 555' stroke='#e05a57' stroke-width='38' fill='none' stroke-linecap='round'/></g><g class='wiggle' data-cx='400' data-cy='380'><path d='M400 370 C 432.0 450, 480 470, 488.0 540 C 492.0 570, 464.0 580, 468.0 555' stroke='#e05a57' stroke-width='38' fill='none' stroke-linecap='round'/></g>\n<path d='M300 60 C 440 60, 490 170, 478 270 C 466 350, 400 395, 300 395 C 200 395, 134 350, 122 270 C 110 170, 160 60, 300 60 Z' fill='url(#hg)'/>\n<ellipse cx='230' cy='140' rx='50' ry='24' fill='#fff' opacity='.3' transform='rotate(-25 230 140)'/>\n<g class='blink' data-cy='265'><ellipse cx='245' cy='265' rx='38' ry='44' fill='#fff'/><circle cx='252' cy='272' r='22' fill='#1d2b36'/><circle cx='260' cy='262' r='8' fill='#fff'/></g>\n<g class='blink' data-cy='265'><ellipse cx='355' cy='265' rx='38' ry='44' fill='#fff'/><circle cx='362' cy='272' r='22' fill='#1d2b36'/><circle cx='370' cy='262' r='8' fill='#fff'/></g>\n<ellipse cx='195' cy='320' rx='20' ry='10' fill='#ff8fa0' opacity='.7'/><ellipse cx='405' cy='320' rx='20' ry='10' fill='#ff8fa0' opacity='.7'/>\n<path d='M270 330 Q 300 365 330 330' fill='#7a1f2e'/>",
+ "lines": [
+  {
+   "text": "Pulpito, pulpito, ¿qué guardas ahí?",
+   "kind": "verse"
+  },
+  {
+   "text": "¡*Tres corazones* que laten así!",
+   "kind": "verse",
+   "badge": "3 ❤️❤️❤️"
+  },
+  {
+   "text": "¡*Bum, bum, bum*, late el corazón!",
+   "kind": "chorus"
+  },
+  {
+   "text": "¡Uno, dos y tres, *aplaude* conmigo!",
+   "kind": "chorus"
+  },
+  {
+   "text": "Dos mandan sangre a sus *branquias*,",
+   "kind": "verse"
+  },
+  {
+   "text": "y el tercero al *cuerpo* entero.",
+   "kind": "verse"
+  },
+  {
+   "text": "¿Y de qué color es su sangre? ¡Adivina!",
+   "kind": "quiz"
+  },
+  {
+   "text": "¡*Azul*! ¡Azul como el mar!",
+   "kind": "answer",
+   "bigText": "AZUL",
+   "bigColor": "#5ab8ff"
+  },
+  {
+   "text": "¡*Bum, bum, bum*, late el corazón!",
+   "kind": "chorus"
+  },
+  {
+   "text": "¡Uno, dos y tres, *aplaude* conmigo!",
+   "kind": "chorus"
+  },
+  {
+   "text": "¡Síguenos para más *canciones de animales*!",
+   "kind": "cta",
+   "cta": true
+  }
+ ]
+}
