@@ -1,0 +1,52 @@
+{
+  "slug": "2026-11-04-mediodia-camaron-mantis",
+  "animal": "camarón mantis",
+  "habitat": "ocean",
+  "caption": "¿Sabías que el camarón mantis golpea a 83 km/h… bajo el agua? 🦐💥 Su golpe puede romper el vidrio de un acuario. ¿Lo sabías? 👇 #curiosidades #animales #camaronmantis #animalesmarinos #sabiasque #datoscuriosos #fyp",
+  "title": "¿El golpe más rápido del mar? 🦐💥",
+  "animalSvg": "<g class='tail' data-cx='170' data-cy='360'><path d='M175 345 Q110 290 75 320 Q90 360 70 400 Q110 430 175 380 Z' fill='#2f8fd8' stroke='#17324d' stroke-width='6' stroke-linejoin='round'/><circle cx='110' cy='340' r='9' fill='#ff5a5f'/><circle cx='108' cy='385' r='9' fill='#ff5a5f'/></g><path d='M250 420 l-12 55 M300 425 l-6 58 M350 422 l4 56' stroke='#ff7a1a' stroke-width='12' stroke-linecap='round'/><path d='M165 360 Q170 300 230 285 L400 270 Q445 275 445 335 Q440 405 380 420 L230 420 Q170 415 165 360 Z' fill='#33c27a' stroke='#17324d' stroke-width='6' stroke-linejoin='round'/><path d='M220 290 Q210 355 225 418 M270 282 Q258 352 272 420 M320 276 Q308 350 322 420 M365 272 Q355 345 368 418' stroke='#1f8f57' stroke-width='6' fill='none' stroke-linecap='round'/><path d='M200 300 Q260 270 420 275' stroke='#9be7c0' stroke-width='10' fill='none' stroke-linecap='round' opacity='.8'/><g class='wiggle' data-cx='450' data-cy='280'><path d='M445 280 Q500 200 560 190' stroke='#ff7a1a' stroke-width='7' fill='none' stroke-linecap='round'/><path d='M440 285 Q520 250 575 260' stroke='#ff7a1a' stroke-width='7' fill='none' stroke-linecap='round'/><ellipse cx='500' cy='300' rx='30' ry='14' fill='#ffb347' stroke='#17324d' stroke-width='5' transform='rotate(-20 500 300)'/></g><g class='flap' data-cx='430' data-cy='370'><path d='M430 370 Q500 360 505 420 Q470 470 440 440' stroke='#17324d' stroke-width='6' fill='#ff5a5f' stroke-linejoin='round'/><ellipse cx='488' cy='428' rx='26' ry='22' fill='#ff8a3d' stroke='#17324d' stroke-width='6'/><circle cx='480' cy='420' r='7' fill='#ffe08a'/></g><path d='M390 270 L380 200 M440 275 L455 205' stroke='#33c27a' stroke-width='14' stroke-linecap='round'/><g class='blink' data-cx='375' data-cy='175'><ellipse cx='375' cy='175' rx='34' ry='38' fill='#fff' stroke='#17324d' stroke-width='6'/><rect x='343' y='170' width='64' height='10' fill='#ffd23f'/><circle cx='382' cy='178' r='17' fill='#1d2b36'/><circle cx='389' cy='169' r='6' fill='#fff'/></g><g class='blink' data-cx='462' data-cy='182'><ellipse cx='462' cy='182' rx='30' ry='34' fill='#fff' stroke='#17324d' stroke-width='6'/><rect x='434' y='177' width='56' height='9' fill='#ffd23f'/><circle cx='468' cy='185' r='15' fill='#1d2b36'/><circle cx='474' cy='177' r='5' fill='#fff'/></g><ellipse cx='395' cy='335' rx='18' ry='10' fill='#ff8fa3' opacity='.8'/><path d='M405 360 Q420 372 435 360' stroke='#17324d' stroke-width='5' fill='none' stroke-linecap='round'/>",
+  "scenes": [
+    {
+      "text": "¿Sabías que golpea a <span class='hl'>83 km/h</span> bajo el agua?",
+      "badge": "83 km/h",
+      "narration": "¿Sabías que el camarón mantis lanza golpes a ochenta y tres kilómetros por hora, ¡bajo el agua!?",
+      "anim": "shake"
+    },
+    {
+      "text": "Su brazo es un <span class='hl'>martillo</span>",
+      "sub": "así abre caracoles, cangrejos y almejas",
+      "narration": "Usa sus brazos como martillos para romper las conchas de caracoles y cangrejos.",
+      "anim": "left",
+      "prop": "<path d='M60 230 Q40 120 150 90 Q250 70 255 170 Q258 240 180 245 Z' fill='#f4a261' stroke='#6b3a1e' stroke-width='7' stroke-linejoin='round'/><path d='M150 120 Q210 125 205 175 Q195 215 150 205 Q115 195 125 160 Q135 140 160 150 Q178 160 168 178' stroke='#6b3a1e' stroke-width='7' fill='none' stroke-linecap='round'/><path d='M90 70 L120 40 M200 60 L215 25 M245 110 L285 95' stroke='#ffd23f' stroke-width='8' stroke-linecap='round'/>",
+      "propPos": "right"
+    },
+    {
+      "text": "El secreto: un <span class='hl'>resorte</span> con forma de papa frita",
+      "sub": "guarda energía y la suelta de golpe",
+      "narration": "El secreto es un resorte en su brazo, con forma de papa frita, que guarda energía y la suelta de golpe.",
+      "anim": "left",
+      "prop": "<path d='M40 160 Q100 90 150 150 Q200 210 260 140 Q250 230 150 230 Q60 230 40 160 Z' fill='#ffd23f' stroke='#a06a00' stroke-width='7' stroke-linejoin='round'/><path d='M70 175 Q150 120 230 165' stroke='#a06a00' stroke-width='5' fill='none' stroke-dasharray='10 10'/><path d='M150 40 Q130 60 150 80 Q170 100 150 120' stroke='#ff7a1a' stroke-width='8' fill='none' stroke-linecap='round'/>",
+      "propPos": "right"
+    },
+    {
+      "text": "Golpea con <span class='hl'>2.500 veces</span> su peso",
+      "badge": "2.500×",
+      "sub": "¡rompe hasta vidrio de acuario!",
+      "narration": "Su golpe tiene más de dos mil quinientas veces la fuerza de su propio peso, ¡y puede romper el vidrio de un acuario!",
+      "anim": "pop"
+    },
+    {
+      "text": "¡Pega <span class='hl'>dos veces</span> con un solo golpe!",
+      "sub": "burbujas que estallan con luz y calor, en menos de 1 milisegundo",
+      "narration": "Y lo más loco: es tan rápido que forma burbujas que estallan con luz y calor, ¡y la presa recibe un segundo golpe! ¿Lo sabías?",
+      "anim": "left",
+      "prop": "<circle cx='150' cy='150' r='70' fill='#bfe9ff' stroke='#2f8fd8' stroke-width='7' opacity='.9'/><circle cx='125' cy='125' r='18' fill='#fff'/><circle cx='60' cy='70' r='28' fill='#bfe9ff' stroke='#2f8fd8' stroke-width='6'/><circle cx='245' cy='240' r='30' fill='#bfe9ff' stroke='#2f8fd8' stroke-width='6'/><path d='M150 20 L150 55 M150 245 L150 280 M20 150 L55 150 M245 150 L280 150 M60 245 L85 220 M240 60 L215 85' stroke='#ffd23f' stroke-width='9' stroke-linecap='round'/>",
+      "propPos": "right"
+    },
+    {
+      "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+      "narration": "Síguenos para más curiosidades animales.",
+      "cta": true
+    }
+  ]
+}

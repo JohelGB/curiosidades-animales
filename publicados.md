@@ -8,4 +8,4 @@
 | 2026-11-03 | tarde | rana de bosque | se congela 60%, corazón se detiene y revive tras 7 meses | https://tiktok.com/@filarmonadeltarod/video/7704096025014799637 | https://www.youtube.com/watch?v=8rPZ_m-3k9o |
 | 2026-11-03 | noche | perro | nariz única como huella, 300 M receptores, aire en dos caminos (estilo plano azul) | | |
 | 2026-11-04 | manana | pájaro carpintero | 20 golpes por segundo, lengua que rodea el cráneo, cabeza-martillo | https://tiktok.com/@filarmonadeltarod/video/7704282025217330440 | https://www.youtube.com/watch?v=nCL7M3XA0_o |
-| 2026-11-04 | mediodia | (en proceso) | | | |
+| 2026-11-04 | mediodia | camarón mantis | golpe a 83 km/h bajo el agua, resorte, 2.500× su peso, doble impacto con burbujas | | |
