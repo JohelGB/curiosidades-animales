@@ -23,17 +23,18 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    de un pavo), nunca como personajes de películas. En `publicados.md` escribe el nombre común (p. ej. `megalodón`).
 4. Elige **una curiosidad sorprendente** con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
-5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal>.json` (formato abajo). `slug` = mismo nombre sin `.json`.
-6. `python3 engine/build.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
+5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal>.json` en **ESTILO CANCIÓN** (sección "Estilo canción", es el formato
+   de TODOS los videos desde el 4 nov 2026). `slug` = mismo nombre sin `.json`.
+6. `python3 engine/build_cancion.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
    Revisa: el animal se reconoce y se ve bonito, nada tapa el texto, ningún texto se sale, props bien ubicados. Corrige y repite.
-7. `python3 engine/build.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 20–45 s).
+7. `python3 engine/build_cancion.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 25–45 s).
 8. Agrega una línea a `publicados.md`, luego `git add specs videos publicados.md && git commit && git push origin main`.
 9. Publica con Buffer `create_post` en **los dos canales** (dos llamadas), ambos con `schedulingType: "automatic"`, `mode: "shareNow"`
    y `assets: [{video:{url:<URL raw>, metadata:{title, thumbnailOffset:1500}}}]`:
    - **TikTok** (`6ae8ff41e29c69a1713efa8f`): `text` = `caption` del spec; `metadata: {tiktok: {title, isAiGenerated: true}}`.
    - **YouTube Shorts** (`6ae91564e29c69a171401081`): `text` = 2–3 frases que resuman la curiosidad + línea "Síguenos para más
      curiosidades animales." + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
-     categoryId: "15", privacy: "public", madeForKids: false, isAiGenerated: true, notifySubscribers: true}}`.
+     categoryId: "15", privacy: "public", madeForKids: true, isAiGenerated: true, notifySubscribers: true}}`.
 10. Espera ~1–2 min y verifica con `get_post` que ambos queden `sent`; anota los dos `externalLink` en la línea de `publicados.md`
     (commit + push). Si uno queda en `error`, reporta el mensaje; no reintentes más de una vez. Que falle uno no impide el otro.
 
@@ -55,7 +56,43 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 - **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
 - Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
 
-## Formato del spec
+## Estilo canción (formato actual de todos los videos)
+Canción corta y pegajosa con datos REALES y verificados: rima, estribillo que se repite, aplausos, una adivinanza y karaoke.
+Muestra aprobada por Johel: `specs/_muestra-cancion-pulpo.json` (úsala de modelo). El motor es `engine/build_cancion.py`
+(cada frase empieza en un compás; la voz dice la frase normal, NO palabra por palabra).
+```json
+{
+  "slug": "2026-11-05-manana-koala", "style": "cancion", "animal": "koala",
+  "habitat": "ocean | jungle | savanna | arctic | desert | sky | night | farm", "bpm": 104,
+  "songTitle": "La canción del <span class='hl'>koala</span> 🐨",
+  "caption": "...", "title": "...",
+  "animalSvg": "<SVG para viewBox 0 0 600 600: tierno, plano, ojos grandes; partes 'wiggle'/'tail'/'flap'/'blink'>",
+  "lines": [
+    {"text": "Frase 1 con rima", "kind": "verse"},
+    {"text": "¡Frase 2 con el *dato fuerte*!", "kind": "verse", "badge": "opcional: cifra corta"},
+    {"text": "¡Estribillo corto y repetible!", "kind": "chorus"},
+    {"text": "¡Uno, dos y tres, *aplaude* conmigo!", "kind": "chorus"},
+    {"text": "Dato 2 que explica el porqué,", "kind": "verse"},
+    {"text": "y dato 3 que rima.", "kind": "verse"},
+    {"text": "¿Pregunta para adivinar? ¡Adivina!", "kind": "quiz"},
+    {"text": "¡*Respuesta*! ¡Frase que rima!", "kind": "answer", "bigText": "RESPUESTA EN 1-2 PALABRAS", "bigColor": "#ffe066"},
+    {"text": "(estribillo otra vez, idéntico)", "kind": "chorus"},
+    {"text": "(segunda línea del estribillo, idéntica)", "kind": "chorus"},
+    {"text": "¡Síguenos para más *curiosidades animales*!", "kind": "cta", "cta": true}
+  ]
+}
+```
+- 9–12 líneas; cada línea **máx. ~8 palabras** (cabe en un compás). Rima simple, palabras fáciles para niños.
+- El **estribillo** (2 líneas `chorus`) aparece 2 veces, idéntico; debe nombrar al animal o su superpoder y pedir una acción
+  ("aplaude", "salta", "di ¡guau!"). Las palabras entre `*asteriscos*` salen resaltadas.
+- La **adivinanza** (`quiz` + `answer`) es sobre un dato real del video; `bigText` muestra la respuesta grande con confeti.
+- Todo dato debe ser verdadero y verificado (paso 4); la rima nunca justifica exagerar.
+- YouTube: como es contenido infantil, `madeForKids: true` (lo exige YouTube). Título YouTube: "La canción del <animal> 🎵 <dato> #Shorts".
+- TikTok caption: "🎵 ¡La canción del <animal>! <dato> ¿Adivinaste? 👇" + hashtags (#cancionesinfantiles #animales #<animal> #curiosidades #aprendiendo #fyp).
+
+## Estilo clásico (anterior, ya no se usa por defecto)
+
+## Formato del spec (estilo clásico, engine/build.py)
 ```json
 {
   "slug": "2026-11-03-manana-ajolote",
