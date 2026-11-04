@@ -34,7 +34,7 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    - **TikTok** (`6ae8ff41e29c69a1713efa8f`): `text` = `caption` del spec; `metadata: {tiktok: {title, isAiGenerated: true}}`.
    - **YouTube Shorts** (`6ae91564e29c69a171401081`): `text` = 2–3 frases que resuman la curiosidad + línea "Síguenos para más
      curiosidades animales." + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
-     categoryId: "15", privacy: "public", madeForKids: true, isAiGenerated: true, notifySubscribers: true}}`.
+     categoryId: "15", privacy: "public", madeForKids: false, isAiGenerated: true, notifySubscribers: true}}`.
 10. Espera ~1–2 min y verifica con `get_post` que ambos queden `sent`; anota los dos `externalLink` en la línea de `publicados.md`
     (commit + push). Si uno queda en `error`, reporta el mensaje; no reintentes más de una vez. Que falle uno no impide el otro.
 
@@ -82,13 +82,14 @@ Muestra aprobada por Johel: `specs/_muestra-cancion-pulpo.json` (úsala de model
   ]
 }
 ```
-- 9–12 líneas; cada línea **máx. ~8 palabras** (cabe en un compás). Rima simple, palabras fáciles para niños.
+- **El canal es para TODO PÚBLICO (no infantil)**: canción divertida y curiosa que disfruten adultos y niños; humor ingenioso,
+  nada de lenguaje de bebé ni frases tipo "amiguitos". 9–12 líneas; cada línea **máx. ~8 palabras** (cabe en un compás). Rima simple.
 - El **estribillo** (2 líneas `chorus`) aparece 2 veces, idéntico; debe nombrar al animal o su superpoder y pedir una acción
   ("aplaude", "salta", "di ¡guau!"). Las palabras entre `*asteriscos*` salen resaltadas.
 - La **adivinanza** (`quiz` + `answer`) es sobre un dato real del video; `bigText` muestra la respuesta grande con confeti.
 - Todo dato debe ser verdadero y verificado (paso 4); la rima nunca justifica exagerar.
-- YouTube: como es contenido infantil, `madeForKids: true` (lo exige YouTube). Título YouTube: "La canción del <animal> 🎵 <dato> #Shorts".
-- TikTok caption: "🎵 ¡La canción del <animal>! <dato> ¿Adivinaste? 👇" + hashtags (#cancionesinfantiles #animales #<animal> #curiosidades #aprendiendo #fyp).
+- YouTube: `madeForKids: false` (canal para todo público, decisión de Johel). Título YouTube: "<dato sorprendente del animal> 🎵 #Shorts" (debe incluir el nombre del animal).
+- TikTok caption: "🎵 <dato sorprendente> ¿Adivinaste? 👇" + hashtags (#curiosidades #animales #<animal> #sabiasque #datoscuriosos #fyp).
 
 ## Estilo clásico (anterior, ya no se usa por defecto)
 
