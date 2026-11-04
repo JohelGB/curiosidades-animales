@@ -1,0 +1,62 @@
+{
+ "slug": "2026-11-04-tarde-mamut-lanudo",
+ "style": "cancion",
+ "animal": "mamut lanudo",
+ "habitat": "arctic",
+ "bpm": 104,
+ "songTitle": "La canción del <span class='hl'>mamut</span> 🦣",
+ "caption": "🎵 ¡Los últimos mamuts lanudos seguían vivos cuando Egipto ya tenía pirámides! Vivieron en la isla Wrangel hasta hace unos 4.000 años. ¿Adivinaste? 👇 #curiosidades #animales #mamut #prehistoria #sabiasque #datoscuriosos #fyp",
+ "title": "¿Mamuts y pirámides al mismo tiempo? 🦣",
+ "animalSvg": "<defs><radialGradient id='mg' cx='40%' cy='30%' r='80%'><stop offset='0%' stop-color='#c98a52'/><stop offset='60%' stop-color='#a0633a'/><stop offset='100%' stop-color='#7a4626'/></radialGradient></defs><g class='tail' data-cx='495' data-cy='300'><path d='M492 300 Q535 330 528 380' stroke='#7a4626' stroke-width='14' fill='none' stroke-linecap='round'/><ellipse cx='528' cy='388' rx='14' ry='18' fill='#5e3519'/></g><rect x='400' y='380' width='70' height='130' rx='30' fill='#8a5230'/><rect x='300' y='390' width='70' height='125' rx='30' fill='#8a5230'/><ellipse cx='435' cy='512' rx='40' ry='14' fill='#e9d3b0'/><ellipse cx='335' cy='515' rx='40' ry='14' fill='#e9d3b0'/><path d='M180 250 C 200 150, 360 140, 450 190 C 520 230, 520 360, 470 410 C 420 450, 260 455, 210 420 C 160 380, 165 300, 180 250 Z' fill='url(#mg)'/><path d='M220 420 l-8 40 M250 432 l-4 44 M285 440 l0 40 M390 440 l2 40 M425 432 l6 38 M460 412 l10 36' stroke='#7a4626' stroke-width='12' stroke-linecap='round'/><rect x='190' y='370' width='72' height='145' rx='30' fill='#99603a'/><rect x='270' y='385' width='70' height='130' rx='30' fill='#99603a'/><ellipse cx='226' cy='515' rx='42' ry='14' fill='#e9d3b0'/><ellipse cx='305' cy='515' rx='40' ry='14' fill='#e9d3b0'/><path d='M110 250 C 100 140, 170 70, 240 80 C 300 88, 330 150, 320 230 C 312 300, 270 340, 210 345 C 150 348, 115 310, 110 250 Z' fill='url(#mg)'/><path d='M170 92 Q200 60 245 78' stroke='#5e3519' stroke-width='14' fill='none' stroke-linecap='round'/><ellipse cx='190' cy='140' rx='40' ry='18' fill='#fff' opacity='.25' transform='rotate(-25 190 140)'/><g class='wiggle' data-cx='300' data-cy='200'><ellipse cx='305' cy='205' rx='30' ry='38' fill='#7a4626'/><ellipse cx='305' cy='208' rx='16' ry='22' fill='#c47c6a'/></g><g class='wiggle' data-cx='170' data-cy='310'><path d='M175 300 C 160 380, 120 420, 95 455 C 80 478, 100 498, 118 480' stroke='#99603a' stroke-width='46' fill='none' stroke-linecap='round'/></g><path d='M140 320 C 90 360, 60 420, 105 455 C 120 466, 135 450, 122 440 C 95 420, 115 380, 160 345 Z' fill='#fff6e3' stroke='#d9c7a2' stroke-width='4'/><path d='M225 330 C 250 390, 230 440, 180 452 C 166 455, 160 440, 175 436 C 210 425, 220 390, 200 342 Z' fill='#fff6e3' stroke='#d9c7a2' stroke-width='4'/><g class='blink' data-cy='215'><ellipse cx='170' cy='215' rx='24' ry='28' fill='#fff'/><circle cx='166' cy='220' r='14' fill='#1d2b36'/><circle cx='162' cy='212' r='5' fill='#fff'/></g><g class='blink' data-cy='212'><ellipse cx='250' cy='212' rx='24' ry='28' fill='#fff'/><circle cx='246' cy='217' r='14' fill='#1d2b36'/><circle cx='242' cy='209' r='5' fill='#fff'/></g><ellipse cx='140' cy='268' rx='16' ry='9' fill='#ff8fa0' opacity='.7'/><ellipse cx='278' cy='262' rx='16' ry='9' fill='#ff8fa0' opacity='.7'/>",
+ "lines": [
+  {
+   "text": "Pirámides en Egipto, ¡qué construcción!",
+   "kind": "verse"
+  },
+  {
+   "text": "¡Y aún vivía el mamut *lanudo*, campeón!",
+   "kind": "verse",
+   "badge": "hace ~4.000 años"
+  },
+  {
+   "text": "¡Mamut, mamut, *lana y colmillo*!",
+   "kind": "chorus"
+  },
+  {
+   "text": "¡Uno, dos y tres, *pisa fuerte* conmigo!",
+   "kind": "chorus"
+  },
+  {
+   "text": "Pelo de *casi un metro*, ¡qué abrigo!",
+   "kind": "verse",
+   "badge": "hasta 90 cm"
+  },
+  {
+   "text": "orejas chiquitas contra el *frío* enemigo.",
+   "kind": "verse"
+  },
+  {
+   "text": "¿Dónde vivieron los últimos? ¡Adivina!",
+   "kind": "quiz"
+  },
+  {
+   "text": "¡En una *isla*: Wrangel, de hielo y neblina!",
+   "kind": "answer",
+   "bigText": "ISLA",
+   "bigColor": "#9be3ff"
+  },
+  {
+   "text": "¡Mamut, mamut, *lana y colmillo*!",
+   "kind": "chorus"
+  },
+  {
+   "text": "¡Uno, dos y tres, *pisa fuerte* conmigo!",
+   "kind": "chorus"
+  },
+  {
+   "text": "¡Síguenos para más *curiosidades animales*!",
+   "kind": "cta",
+   "cta": true
+  }
+ ]
+}
