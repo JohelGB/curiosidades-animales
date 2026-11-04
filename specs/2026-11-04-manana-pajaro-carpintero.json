@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-04-manana-pajaro-carpintero",
+  "animal": "pájaro carpintero",
+  "habitat": "jungle",
+  "caption": "¿Sabías que el pájaro carpintero golpea los árboles hasta 20 veces por segundo… y no se lastima? 🐦🌳 ¿Cuál dato te sorprendió más? 👇 #curiosidades #animales #pajarocarpintero #aves #sabiasque #datoscuriosos #fyp",
+  "title": "¿20 golpes por segundo sin dolor de cabeza?",
+  "animalSvg": "<g class='tail' data-cx='250' data-cy='440'><path d='M255 430 L170 545 L205 552 L230 520 L240 560 L275 548 L285 445 Z' fill='#2b2b33' stroke='#15151a' stroke-width='6' stroke-linejoin='round'/></g><ellipse cx='290' cy='370' rx='120' ry='145' fill='#2b2b33' stroke='#15151a' stroke-width='6'/><ellipse cx='310' cy='395' rx='72' ry='105' fill='#fff4e0'/><g class='flap' data-cx='215' data-cy='330'><path d='M220 300 Q150 340 165 450 Q215 430 250 360 Z' fill='#1f1f26' stroke='#15151a' stroke-width='6' stroke-linejoin='round'/><circle cx='195' cy='370' r='8' fill='#fff'/><circle cx='190' cy='400' r='8' fill='#fff'/><circle cx='205' cy='425' r='7' fill='#fff'/></g><path d='M265 500 l-10 45 M325 500 l10 45' stroke='#6b5a4a' stroke-width='10' stroke-linecap='round'/><path d='M255 545 l-22 8 M255 545 l-6 20 M335 545 l22 8 M335 545 l6 20' stroke='#6b5a4a' stroke-width='7' stroke-linecap='round'/><circle cx='300' cy='200' r='95' fill='#fff4e0' stroke='#15151a' stroke-width='6'/><path d='M210 185 Q215 105 300 100 Q380 102 392 175 Q330 150 270 160 Q235 165 210 185 Z' fill='#e63946' stroke='#15151a' stroke-width='6' stroke-linejoin='round'/><path d='M300 100 Q330 70 360 85 Q345 100 340 120 Z' fill='#e63946' stroke='#15151a' stroke-width='5' stroke-linejoin='round'/><path d='M215 225 Q260 250 300 238' stroke='#2b2b33' stroke-width='10' fill='none' stroke-linecap='round'/><path d='M372 200 L500 222 L372 240 Z' fill='#9aa3ad' stroke='#4d555e' stroke-width='6' stroke-linejoin='round'/><path d='M375 221 L470 222' stroke='#4d555e' stroke-width='4'/><g class='blink' data-cx='275' data-cy='195'><circle cx='275' cy='195' r='30' fill='#fff'/><circle cx='282' cy='198' r='19' fill='#1d2b36'/><circle cx='290' cy='189' r='7' fill='#fff'/></g><g class='blink' data-cx='350' data-cy='192'><circle cx='350' cy='192' r='24' fill='#fff'/><circle cx='355' cy='195' r='15' fill='#1d2b36'/><circle cx='361' cy='187' r='5' fill='#fff'/></g><ellipse cx='250' cy='245' rx='20' ry='11' fill='#ff8fa3' opacity='.75'/><ellipse cx='365' cy='248' rx='15' ry='9' fill='#ff8fa3' opacity='.75'/>",
+  "scenes": [
+    {
+      "text": "¿Sabías que golpea <span class='hl'>20 veces</span> por segundo?",
+      "badge": "20 por segundo",
+      "narration": "¿Sabías que el pájaro carpintero golpea los árboles hasta veinte veces por segundo?",
+      "anim": "shake"
+    },
+    {
+      "text": "¡Hasta <span class='hl'>12.000</span> picotazos al día!",
+      "sub": "para buscar insectos y hacer su nido",
+      "narration": "Puede dar hasta doce mil picotazos al día, para buscar insectos y hacer su nido.",
+      "anim": "left",
+      "prop": "<rect x='95' y='10' width='110' height='285' rx='18' fill='#9c6b3f' stroke='#5b3a1e' stroke-width='7'/><path d='M120 40 Q130 80 118 120 M180 150 Q170 200 182 250' stroke='#5b3a1e' stroke-width='5' fill='none' stroke-linecap='round'/><ellipse cx='150' cy='105' rx='22' ry='28' fill='#3a2412'/><circle cx='135' cy='200' r='9' fill='#3a2412'/><circle cx='165' cy='225' r='7' fill='#3a2412'/><circle cx='150' cy='175' r='6' fill='#3a2412'/>",
+      "propPos": "right"
+    },
+    {
+      "text": "Su lengua <span class='hl'>rodea su cráneo</span>",
+      "sub": "pasa por detrás y por encima de la cabeza",
+      "narration": "Su lengua es tan larga que, guardada, le da la vuelta al cráneo por detrás y por encima de la cabeza.",
+      "anim": "bob"
+    },
+    {
+      "text": "Su cabeza no amortigua: es un <span class='hl'>martillo</span>",
+      "sub": "estudio de 2022 con cámaras de alta velocidad",
+      "narration": "Se creía que su cabeza amortiguaba los golpes, pero en dos mil veintidós descubrieron que funciona como un martillo rígido.",
+      "anim": "left",
+      "prop": "<g transform='rotate(-30 150 150)'><rect x='138' y='110' width='24' height='170' rx='10' fill='#c98a4b' stroke='#6b4220' stroke-width='6'/><rect x='70' y='60' width='160' height='60' rx='12' fill='#9aa3ad' stroke='#4d555e' stroke-width='7'/><rect x='80' y='70' width='40' height='14' rx='6' fill='#d5dbe1'/></g>",
+      "propPos": "right"
+    },
+    {
+      "text": "¿Por qué no se lastima? Su <span class='hl'>cerebro diminuto</span>",
+      "badge": "700 veces menor",
+      "sub": "que el nuestro",
+      "narration": "¿Y por qué no se lastima? Su cerebro es unas setecientas veces más pequeño que el nuestro, y aguanta golpes que a nosotros nos darían una conmoción.",
+      "anim": "pop"
+    },
+    {
+      "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+      "narration": "Síguenos para más curiosidades animales.",
+      "cta": true
+    }
+  ]
+}
