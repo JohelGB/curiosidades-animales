@@ -10,4 +10,4 @@
 | 2026-11-04 | manana | pájaro carpintero | 20 golpes por segundo, lengua que rodea el cráneo, cabeza-martillo | https://tiktok.com/@filarmonadeltarod/video/7704282025217330440 | https://www.youtube.com/watch?v=nCL7M3XA0_o |
 | 2026-11-04 | mediodia | camarón mantis | golpe a 83 km/h bajo el agua, resorte, 2.500× su peso, doble impacto con burbujas | https://tiktok.com/@filarmonadeltarod/video/7704408605260320006 | https://www.youtube.com/watch?v=VLvWSdVZlTE |
 | 2026-11-04 | tarde | mamut lanudo | vivía cuando ya había pirámides en Egipto (hace ~4.000 años), pelo de 90 cm, últimos en isla Wrangel (canción) | https://tiktok.com/@filarmonadeltarod/video/7704468718935444742 | https://www.youtube.com/watch?v=E-cnztACa_A |
-| 2026-11-05 | manana | (en proceso) | | | |
+| 2026-11-05 | manana | hipopótamo | sudor rojo = protector solar y antibacteriano, no nada (camina en el fondo), pariente de la ballena (canción) | | |
