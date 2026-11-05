@@ -1,0 +1,69 @@
+{
+ "slug": "2026-11-05-tarde-colibri-vs-avestruz",
+ "style": "classic",
+ "animal": "colibrí",
+ "animal2": "avestruz",
+ "habitat": "savanna",
+ "rate": "+15%",
+ "caption": "🐦 La ave más pequeña contra la más grande… y una tiene el ojo más grande que su cerebro. Colibrí vs avestruz: dos extremos increíbles. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #colibri #avestruz #aves #sabiasque #datoscuriosos #fyp",
+ "title": "Colibrí vs avestruz: ¿cuál tiene el ojo más grande que su cerebro? 👁️",
+ "ytTitle": "Colibrí vs avestruz: ¿cuál tiene el ojo más grande que su cerebro? 👁️ #Shorts",
+ "animalSvg": "<defs><radialGradient id='gcol' cx='40%' cy='30%' r='80%'><stop offset='0%' stop-color='#4fe3a0'/><stop offset='100%' stop-color='#1f9e6a'/></radialGradient></defs><g class='tail' data-cx='210' data-cy='360'><path d='M215 345 L95 420 L120 440 L105 470 L230 385 Z' fill='#17795a'/></g><g class='flap' data-cx='290' data-cy='300'><path d='M290 300 Q200 120 120 110 Q190 210 270 320 Z' fill='#bfefff' opacity='.9'/><path d='M285 300 Q215 170 160 140' stroke='#7cc9e0' stroke-width='5' fill='none'/></g><ellipse cx='290' cy='340' rx='105' ry='72' fill='url(#gcol)' transform='rotate(-15 290 340)'/><ellipse cx='300' cy='370' rx='70' ry='38' fill='#f4fff6' transform='rotate(-15 300 370)'/><circle cx='385' cy='265' r='68' fill='url(#gcol)'/><path d='M345 300 Q385 335 430 300 Q420 340 380 345 Q350 335 345 300Z' fill='#ff3d7f'/><path d='M445 255 L590 240 L448 278 Z' fill='#2b2b2b'/><g class='blink' data-cy='255'><ellipse cx='400' cy='252' rx='24' ry='27' fill='#fff'/><circle cx='407' cy='257' r='14' fill='#1d2b36'/><circle cx='402' cy='250' r='5' fill='#fff'/></g><ellipse cx='392' cy='300' rx='14' ry='8' fill='#ff9ab8' opacity='.7'/><g class='flap' data-cx='300' data-cy='310'><path d='M300 310 Q240 160 175 175 Q215 250 285 330 Z' fill='#e6fbff'/></g><path d='M270 400 l-8 35 M300 400 l-4 35' stroke='#2b2b2b' stroke-width='6' stroke-linecap='round'/>",
+ "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><path d='M235 430 L215 560 M285 430 L300 560' stroke='#f1a07a' stroke-width='18' stroke-linecap='round'/><path d='M200 560 h35 M290 560 h40' stroke='#e38a62' stroke-width='16' stroke-linecap='round'/><g class='tail' data-cx='160' data-cy='360'><path d='M165 330 Q90 300 80 360 Q110 350 100 395 Q140 370 170 400Z' fill='#fdf6ea'/></g><ellipse cx='255' cy='370' rx='120' ry='85' fill='#3a2f2f'/><g class='flap' data-cx='240' data-cy='360'><path d='M180 350 Q240 300 320 345 Q290 420 200 410 Z' fill='#4d4040'/><path d='M200 410 q10 20 30 10 q10 20 30 5 q15 15 30 -5' fill='#fdf6ea'/></g><path d='M330 330 Q360 250 360 130' stroke='#f1b39a' stroke-width='34' fill='none' stroke-linecap='round'/><ellipse cx='372' cy='110' rx='58' ry='48' fill='#f1b39a'/><path d='M420 105 Q475 112 480 125 Q470 138 420 132 Z' fill='#e8875f'/><path d='M422 120 L476 124' stroke='#b9603e' stroke-width='3'/><g class='blink' data-cy='100'><ellipse cx='388' cy='98' rx='30' ry='33' fill='#fff'/><circle cx='398' cy='104' r='19' fill='#1d2b36'/><circle cx='391' cy='94' r='7' fill='#fff'/><path d='M360 70 q25 -14 52 0' stroke='#3a2f2f' stroke-width='4' fill='none'/></g><ellipse cx='392' cy='140' rx='14' ry='8' fill='#ff7f9a' opacity='.7'/><path d='M355 65 q-6 -20 10 -25 M372 62 q2 -22 18 -20' stroke='#7a6a66' stroke-width='5' fill='none' stroke-linecap='round'/></g>",
+ "scenes": [
+  {
+   "text": "Una tiene el ojo <span class='hl'>más grande que su cerebro</span>",
+   "narration": "La ave más chica y la más grande… pero una tiene el ojo más grande que su cerebro.",
+   "anim": "pop"
+  },
+  {
+   "text": "Zunzuncito: <span class='hl'>menos de 2 gramos</span>",
+   "badge": "≈ 2 g",
+   "narration": "Fíjate en el zunzuncito de Cuba: pesa menos de dos gramos.",
+   "anim": "hover",
+   "focus": 1
+  },
+  {
+   "text": "Corazón a <span class='hl'>+1.000 latidos</span> por minuto",
+   "narration": "Su corazón puede latir más de mil veces por minuto.",
+   "anim": "shake",
+   "focus": 1
+  },
+  {
+   "text": "¡Vuela <span class='hl'>hacia atrás</span>!",
+   "narration": "Y aletea tan rápido que puede volar hacia atrás.",
+   "anim": "fly",
+   "focus": 1
+  },
+  {
+   "text": "Avestruz: <span class='hl'>2,7 m</span> y 150 kg",
+   "narration": "Ahora mira al avestruz: hasta dos metros setenta y ciento cincuenta kilos.",
+   "anim": "zoom",
+   "focus": 2
+  },
+  {
+   "text": "No vuela… ¡corre a <span class='hl'>70 km/h</span>!",
+   "badge": "70 km/h",
+   "narration": "No vuela, pero corre a setenta kilómetros por hora.",
+   "anim": "walk",
+   "focus": 2
+  },
+  {
+   "text": "Su huevo pesa como <span class='hl'>cientos</span> de colibríes",
+   "badge": "≈ 1,4 kg",
+   "narration": "Su huevo pesa como cientos de zunzuncitos juntos.",
+   "anim": "bob"
+  },
+  {
+   "text": "¿El ojo gigante? <span class='hl'>¡El avestruz!</span> 👇",
+   "sub": "ojo de ~5 cm, mayor que su cerebro",
+   "narration": "¿El del ojo gigante? El avestruz: así ve a sus depredadores de lejos. ¿Lo sabías?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
