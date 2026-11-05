@@ -1,81 +1,68 @@
 {
- "slug": "2026-11-05-mediodia-cocodrilo-vs-caiman",
- "style": "cancion",
+ "slug": "2026-11-05-mediodia-cocodrilo-vs-caiman-historia",
+ "style": "classic",
  "animal": "cocodrilo",
  "animal2": "caimán",
  "habitat": "jungle",
- "bpm": 104,
- "songTitle": "<span class='hl'>Cocodrilo</span> vs <span class='hl'>caimán</span> 🐊",
- "caption": "🎵 Cocodrilo vs caimán: el cocodrilo tiene hocico en V, muestra los dientes con la boca cerrada y tiene la mordida más fuerte jamás medida; el caimán tiene hocico en U y “anteojos” de hueso. ¿Ya sabes distinguirlos? 👇 #curiosidades #animales #cocodrilo #caiman #reptiles #sabiasque #datoscuriosos #fyp",
+ "caption": "🐊 Parecen gemelos, pero uno te enseña los dientes aunque tenga la boca cerrada. Cocodrilo vs caimán: así se distinguen. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #cocodrilo #caiman #reptiles #sabiasque #datoscuriosos #fyp",
  "title": "Cocodrilo vs caimán: ¿cómo distinguirlos? 🐊",
- "ytTitle": "Cocodrilo vs caimán: ¿quién muestra los dientes con la boca cerrada? 🎵 #Shorts",
+ "ytTitle": "Cocodrilo vs caimán: ¿cuál te enseña los dientes con la boca cerrada? 🐊 #Shorts",
  "animalSvg": "<defs><radialGradient id='g3f8f3c' cx='40%' cy='30%' r='80%'><stop offset='0%' stop-color='#7fd36f'/><stop offset='100%' stop-color='#3f8f3c'/></radialGradient></defs><g class='tail' data-cx='150' data-cy='390'><path d='M160 350 Q70 330 30 250 Q60 360 150 430 Z' fill='#3f8f3c'/><path d='M60 300 l12 -18 l8 22 M90 330 l12 -18 l8 22 M120 352 l12 -18 l8 22' fill='#2e6b2c'/></g><rect x='170' y='420' width='55' height='95' rx='24' fill='#2e6b2c'/><rect x='320' y='420' width='55' height='95' rx='24' fill='#2e6b2c'/><ellipse cx='265' cy='385' rx='150' ry='90' fill='url(#g3f8f3c)'/><ellipse cx='275' cy='430' rx='120' ry='40' fill='#d9eaa0'/><path d='M150 318 l16 -26 l16 26 M195 305 l16 -28 l16 28 M240 300 l16 -28 l16 28 M285 303 l16 -28 l16 28 M330 312 l16 -26 l16 26' fill='#2e6b2c'/><rect x='205' y='430' width='55' height='95' rx='24' fill='#3f8f3c'/><rect x='350' y='430' width='55' height='95' rx='24' fill='#3f8f3c'/><ellipse cx='232' cy='522' rx='34' ry='12' fill='#2e6b2c'/><ellipse cx='378' cy='522' rx='34' ry='12' fill='#2e6b2c'/><path d='M440 285 L575 318 Q590 328 575 336 L445 352 Z' fill='#4f9e4b'/><path d='M445 352 L572 340 Q582 350 568 358 L450 382 Z' fill='#468f43'/><path d='M450 350 L572 337' stroke='#2e6b2c' stroke-width='5'/><g fill='#fffaf0'><path d='M470 348 l6 14 l6 -14z M500 345 l6 14 l6 -14z M530 342 l6 14 l6 -14z M555 339 l5 12 l5 -12z'/><path d='M485 349 l6 -14 l6 14z M515 346 l6 -14 l6 14z M545 343 l6 -14 l6 14z'/></g><circle cx='568' cy='318' r='7' fill='#2e6b2c'/><ellipse cx='410' cy='320' rx='90' ry='80' fill='url(#g3f8f3c)'/><ellipse cx='395' cy='250' rx='52' ry='48' fill='#3f8f3c'/><g class='blink' data-cy='250'><ellipse cx='398' cy='248' rx='34' ry='38' fill='#fff'/><circle cx='408' cy='255' r='19' fill='#1d2b36'/><circle cx='401' cy='245' r='7' fill='#fff'/></g><ellipse cx='430' cy='345' rx='22' ry='12' fill='#ff7f9a' opacity='.6'/>",
  "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><defs><radialGradient id='g7d7d3e' cx='40%' cy='30%' r='80%'><stop offset='0%' stop-color='#c9c77a'/><stop offset='100%' stop-color='#7d7d3e'/></radialGradient></defs><g class='tail' data-cx='150' data-cy='390'><path d='M160 350 Q70 330 30 250 Q60 360 150 430 Z' fill='#7d7d3e'/><path d='M60 300 l12 -18 l8 22 M90 330 l12 -18 l8 22 M120 352 l12 -18 l8 22' fill='#5e5e2c'/></g><rect x='170' y='420' width='55' height='95' rx='24' fill='#5e5e2c'/><rect x='320' y='420' width='55' height='95' rx='24' fill='#5e5e2c'/><ellipse cx='265' cy='385' rx='150' ry='90' fill='url(#g7d7d3e)'/><ellipse cx='275' cy='430' rx='120' ry='40' fill='#efe7b5'/><path d='M150 318 l16 -26 l16 26 M195 305 l16 -28 l16 28 M240 300 l16 -28 l16 28 M285 303 l16 -28 l16 28 M330 312 l16 -26 l16 26' fill='#5e5e2c'/><rect x='205' y='430' width='55' height='95' rx='24' fill='#7d7d3e'/><rect x='350' y='430' width='55' height='95' rx='24' fill='#7d7d3e'/><ellipse cx='232' cy='522' rx='34' ry='12' fill='#5e5e2c'/><ellipse cx='378' cy='522' rx='34' ry='12' fill='#5e5e2c'/><path d='M440 280 L530 290 Q580 315 535 368 L445 375 Z' fill='#9a9a52'/><path d='M450 330 Q530 335 548 330' stroke='#5e5e2c' stroke-width='5' fill='none' stroke-linecap='round'/><circle cx='540' cy='300' r='7' fill='#5e5e2c'/><ellipse cx='410' cy='320' rx='90' ry='80' fill='url(#g7d7d3e)'/><ellipse cx='395' cy='250' rx='52' ry='48' fill='#7d7d3e'/><ellipse cx='398' cy='248' rx='46' ry='50' fill='none' stroke='#5e5e2c' stroke-width='10'/><path d='M444 250 Q470 262 500 288' stroke='#5e5e2c' stroke-width='10' fill='none' stroke-linecap='round'/><g class='blink' data-cy='250'><ellipse cx='398' cy='248' rx='34' ry='38' fill='#fff'/><circle cx='408' cy='255' r='19' fill='#1d2b36'/><circle cx='401' cy='245' r='7' fill='#fff'/></g><ellipse cx='430' cy='345' rx='22' ry='12' fill='#ff7f9a' opacity='.6'/></g>",
- "lines": [
+ "scenes": [
   {
-   "text": "¿Cocodrilo o caimán? ¡Parecen *gemelos*!",
-   "kind": "verse",
-   "vs": true
+   "text": "Parecen <span class='hl'>gemelos</span>… pero no lo son",
+   "narration": "Parecen gemelos… pero uno te enseña los dientes con la boca cerrada.",
+   "anim": "pop"
   },
   {
-   "text": "El cocodrilo: hocico en *V* afilada,",
-   "kind": "verse",
+   "text": "El <span class='hl'>cocodrilo</span>: hocico en V",
+   "narration": "Este es el cocodrilo: hocico largo y afilado, en forma de V.",
+   "anim": "zoom",
    "focus": 1
   },
   {
-   "text": "¡y la mordida *más fuerte* jamás medida!",
-   "kind": "verse",
-   "focus": 1,
-   "badge": "≈1.700 kg de fuerza"
-  },
-  {
-   "text": "Con la lengua *saca la sal* del mar.",
-   "kind": "verse",
+   "text": "Dientes afuera con la boca <span class='hl'>cerrada</span>",
+   "narration": "Al cerrar la boca, su cuarto diente de abajo queda por fuera.",
+   "anim": "bob",
    "focus": 1
   },
   {
-   "text": "¡Cocodrilo, caimán, *¿quién es quién?*!",
-   "kind": "chorus"
+   "text": "La mordida más fuerte <span class='hl'>jamás medida</span>",
+   "badge": "≈1.700 kg",
+   "narration": "Y tiene la mordida más fuerte jamás medida: casi mil setecientos kilos.",
+   "anim": "shake",
+   "focus": 1
   },
   {
-   "text": "¡Uno, dos y tres, *aplaude* también!",
-   "kind": "chorus"
-  },
-  {
-   "text": "El caimán: hocico ancho en *U*,",
-   "kind": "verse",
+   "text": "El <span class='hl'>caimán</span>: hocico en U",
+   "narration": "El caimán, en cambio, tiene el hocico ancho, en U, y esconde los dientes.",
+   "anim": "zoom",
    "focus": 2
   },
   {
-   "text": "y lleva *anteojos* de hueso, ¿lo viste tú?",
-   "kind": "verse",
-   "focus": 2,
-   "badge": "caimán de anteojos"
+   "text": "¡Lleva <span class='hl'>anteojos</span> de hueso!",
+   "sub": "caimán de anteojos · Centroamérica",
+   "narration": "Y el caimán de anteojos, de Centroamérica, tiene una cresta de hueso que parece gafas.",
+   "anim": "bob",
+   "focus": 2
   },
   {
-   "text": "¿Quién enseña los dientes con la boca cerrada?",
-   "kind": "quiz",
-   "vs": true
+   "text": "Solo uno se atreve con el <span class='hl'>mar</span>",
+   "narration": "Solo el cocodrilo aguanta el mar: saca la sal por la lengua.",
+   "anim": "bob",
+   "focus": 1
   },
   {
-   "text": "¡El *cocodrilo*! ¡Sonrisa dentada!",
-   "kind": "answer",
-   "focus": 1,
-   "bigText": "COCODRILO",
-   "bigColor": "#7dff8a"
+   "text": "¿Dientes afuera? Es <span class='hl'>cocodrilo</span> 👇",
+   "narration": "¿Dientes afuera? Es cocodrilo. ¿Cuál te sorprendió más?",
+   "anim": "pop"
   },
   {
-   "text": "¡Cocodrilo, caimán, *¿quién es quién?*!",
-   "kind": "chorus"
-  },
-  {
-   "text": "¡Uno, dos y tres, *aplaude* también!",
-   "kind": "chorus"
-  },
-  {
-   "text": "¡Síguenos para más *curiosidades animales*!",
-   "kind": "cta",
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
    "cta": true
   }
- ]
+ ],
+ "rate": "+15%"
 }

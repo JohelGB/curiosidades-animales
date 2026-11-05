@@ -14,7 +14,7 @@
     font-weight:700;font-size:48px;color:#f4fdff;opacity:0;text-shadow:0 3px 0 rgba(0,30,50,.55)}
   #tag{position:absolute;left:0;right:0;top:110px;text-align:center;font-family:'Inter',sans-serif;font-weight:800;
     font-size:40px;color:#ffe066;letter-spacing:2px;text-shadow:0 3px 0 rgba(0,30,50,.4)}
-  #animal{position:absolute;left:150px;top:760px;width:780px;height:780px;transform-origin:390px 390px}
+  #animal,#animal2{position:absolute;left:150px;top:760px;width:780px;height:780px;transform-origin:390px 390px}
   #prop{position:absolute;width:300px;height:300px;opacity:0;transform-origin:150px 150px}
   #badge{position:absolute;left:0;right:0;top:0;text-align:center;opacity:0}
   #badge span{display:inline-block;background:#ffe066;color:#1d2b36;font-family:'Inter Display','Inter',sans-serif;
@@ -31,6 +31,7 @@
   <div id="text"></div>
   <div id="sub"></div>
   <div id="badge"><span></span></div>
+  <svg id="animal2" viewBox="0 0 600 600"></svg>
   <svg id="animal" viewBox="0 0 600 600"></svg>
   <svg id="prop" viewBox="0 0 300 300"></svg>
   <div id="zzz">z z</div>
@@ -79,6 +80,7 @@ const HAB={
 const S=window.SPEC;const H=HAB[S.habitat]||HAB.ocean;
 const $=id=>document.getElementById(id);
 $('bg').style.background=H.bg;$('deco').innerHTML=H.deco;$('animal').innerHTML=S.animalSvg;
+const DUO=!!S.animalSvg2;if(DUO)$('animal2').innerHTML=S.animalSvg2;else $('animal2').style.display='none';
 // particles
 const NS='http://www.w3.org/2000/svg';const P=[];
 for(let i=0;i<24;i++){const k=H.parts;let el;
@@ -130,13 +132,21 @@ function render(t){
   if(anim==='ghost'){a=0.35+0.3*Math.sin(t*3);y+=bob;}
   if(anim==='left'){x=lerp(540,380,ease(clamp(lt/0.5,0,1)));y+=bob;}
   if(isCTA){a=0;}
-  const an=$('animal');an.style.opacity=a;an.style.filter=f;
-  an.style.transform=`translate(${x-540}px,${y-1150}px) scale(${s*flip},${s}) rotate(${r}deg)`;
-  // inner parts with class "wiggle" / "flap" / "blink"
-  an.querySelectorAll('.flap').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(t*(anim==='hover'?60:14))*25} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
-  an.querySelectorAll('.wiggle').forEach((e,i)=>e.setAttribute('transform',`rotate(${Math.sin(t*3+i)*8} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
-  an.querySelectorAll('.blink').forEach(e=>{const b=((t+0.3)%3.2)<0.12||anim==='sleep';e.setAttribute('transform',`translate(0 ${e.dataset.cy||300}) scale(1 ${b?0.1:1}) translate(0 ${-(e.dataset.cy||300)})`)});
-  an.querySelectorAll('.tail').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(t*6)*15} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+  // dúo: focus 1|2 -> ese animal al centro con su anim; el otro pequeño en la esquina. Sin focus -> los dos lado a lado.
+  const fo=sc.focus?String(sc.focus):'both';
+  (DUO?['animal','animal2']:['animal']).forEach((id,ix)=>{
+    let X=x,Y=y,Sc=s,A=a,R=r,Fl=flip;
+    if(DUO){
+      if(fo==='both'){X=(ix?800:280)+(x-540)*0.4;Sc=s*0.72;Y=y+40+(ix?Math.sin(t*2.2+1.5)*14-bob:0);}
+      else if(fo!==String(ix+1)){X=ix?915:165;Y=1440+Math.sin(t*2+ix)*8;Sc=0.4;A=a*0.75;R=0;Fl=1;}
+    }
+    const an=$(id);an.style.opacity=A;an.style.filter=f;an.style.zIndex=(DUO&&fo===String(ix+1))?3:2;
+    an.style.transform=`translate(${X-540}px,${Y-1150}px) scale(${Sc*Fl},${Sc}) rotate(${R}deg)`;
+    an.querySelectorAll('.flap').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(t*(anim==='hover'?60:14))*25} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+    an.querySelectorAll('.wiggle').forEach((e,i)=>e.setAttribute('transform',`rotate(${Math.sin(t*3+i)*8} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+    an.querySelectorAll('.blink').forEach(e=>{const b=((t+0.3+ix*1.3)%3.2)<0.12||(anim==='sleep'&&(!DUO||fo===String(ix+1)));e.setAttribute('transform',`translate(0 ${e.dataset.cy||300}) scale(1 ${b?0.1:1}) translate(0 ${-(e.dataset.cy||300)})`)});
+    an.querySelectorAll('.tail').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(t*6+ix)*15} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+  });
   // prop
   const pr=$('prop');if(sc.prop){const pp=POS[sc.propPos||'right'];const pk=easeOutBack(clamp((lt-0.4)/0.5,0,1));
     pr.style.left=pp[0]+'px';pr.style.top=pp[1]+'px';pr.style.opacity=clamp((lt-0.4)/0.2,0,1);pr.style.transform=`scale(${pk}) translateY(${Math.sin(t*3)*10}px)`;}else pr.style.opacity=0;

@@ -11,4 +11,4 @@
 | 2026-11-04 | mediodia | camarón mantis | golpe a 83 km/h bajo el agua, resorte, 2.500× su peso, doble impacto con burbujas | https://tiktok.com/@filarmonadeltarod/video/7704408605260320006 | https://www.youtube.com/watch?v=VLvWSdVZlTE |
 | 2026-11-04 | tarde | mamut lanudo | vivía cuando ya había pirámides en Egipto (hace ~4.000 años), pelo de 90 cm, últimos en isla Wrangel (canción) | https://tiktok.com/@filarmonadeltarod/video/7704468718935444742 | https://www.youtube.com/watch?v=E-cnztACa_A |
 | 2026-11-05 | manana | hipopótamo | sudor rojo = protector solar y antibacteriano, no nada (camina en el fondo), pariente de la ballena (canción) | https://tiktok.com/@filarmonadeltarod/video/7704655073523043604 | https://www.youtube.com/watch?v=7hSLgHTR1sU |
-| 2026-11-05 | mediodia | cocodrilo y caimán | dúo: hocico V vs U, dientes visibles con boca cerrada, mordida récord, sal por la lengua, caimán de anteojos (canción, programado 12:00) | | |
+| 2026-11-05 | mediodia | cocodrilo y caimán | dúo HISTORIA: hocico V vs U, diente visible con boca cerrada, mordida récord, sal por la lengua, caimán de anteojos (programado 12:00) | | |
