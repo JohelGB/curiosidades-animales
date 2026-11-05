@@ -127,8 +127,8 @@ function render(t){
     if(l&&l.anim==='spin')r=(lt/(l.e-l.s))*360;
     if(DUO){
       const f=l&&l.focus?String(l.focus):'both';
-      x=ix?790:290;s*=0.6;y+=40;
-      if(f!=='both'){ if(f===String(ix+1)){s*=1.3;x=ix?720:360;y+=10;} else {s*=0.75;a=0.5;x=ix?900:180;y+=40;} }
+      x=ix?815:265;s*=0.72;y-=30;
+      if(f!=='both'){ if(f===String(ix+1)){s*=1.25;x=ix?700:380;} else {s*=0.7;a=0.5;x=ix?930:150;y+=50;} }
     } else if(l&&l.anim==='left')x=380;
     if(l&&(l.kind==='quiz'))s*=0.8,y+=60;
     if(l&&l.cta)a=0;
