@@ -24,11 +24,12 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    de un pavo), nunca como personajes de películas. En `publicados.md` escribe el nombre común (p. ej. `megalodón`).
 4. Elige **una curiosidad sorprendente de cada animal** (que se contrasten o compitan) con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
-5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal1>-vs-<animal2>.json` en **ESTILO CANCIÓN + FORMATO DÚO** (sección "Estilo canción", es el formato
-   de TODOS los videos desde el 4 nov 2026). `slug` = mismo nombre sin `.json`.
-6. `python3 engine/build_cancion.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
+5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal1>-vs-<animal2>.json` en **FORMATO HISTORIA + DÚO** (secciones "Formato historia"
+   y "Formato dúo"; es el formato de TODOS los videos desde el 5 nov 2026). `slug` = mismo nombre sin `.json`.
+   **NO uses el estilo canción** (Johel lo eliminó porque las vistas bajaron mucho).
+6. `python3 engine/build.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
    Revisa: los dos animales se reconocen y se ve bonito, nada tapa el texto, ningún texto se sale, props bien ubicados. Corrige y repite.
-7. `python3 engine/build_cancion.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 25–45 s).
+7. `python3 engine/build.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 30–45 s; si pasa de 45 s, acorta narraciones y repite).
 8. Agrega una línea a `publicados.md`, luego `git add specs videos publicados.md && git commit && git push origin main`.
 9. Publica con Buffer `create_post` en **los dos canales** (dos llamadas), ambos con `schedulingType: "automatic"`, `mode: "shareNow"`
    y `assets: [{video:{url:<URL raw>, metadata:{title, thumbnailOffset:1500}}}]`:
@@ -57,26 +58,34 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 - **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
 - Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
 
+## Formato historia (desde el 5 nov 2026; reemplaza a la canción)
+El video **cuenta una historia** sobre la curiosidad con un narrador (voz normal, sin rimas ni canto, sin estribillos ni aplausos).
+Motor: `engine/build.py` con `template.html` (spec con `scenes`, ver "Formato del spec (estilo clásico)"). Usa `"rate": "+15%"`.
+- **Arco narrativo**: gancho que crea misterio (1 frase) → presenta al animal 1 y su rasgo → giro/dato fuerte → presenta al animal 2
+  y su contraste → dato que los enfrenta → resolución que responde el gancho + pregunta al público → CTA. 8–9 escenas.
+- Narración en segunda persona y presente ("Fíjate en…", "Ahora mira al…"), **una oración corta por escena** (máx. ~14 palabras);
+  el texto en pantalla resume la idea en ≤ 7 palabras. Duración total 30–45 s.
+- El gancho debe prometer algo que se resuelve al final ("…pero uno te enseña los dientes con la boca cerrada" → al final se dice cuál).
+- Ejemplo aprobado: `specs/2026-11-05-mediodia-cocodrilo-vs-caiman-historia.json`.
+
 ## Formato dúo: dos animales por video (pedido de Johel, desde el 5 nov 2026)
-Todos los videos nuevos muestran **dos animales** en pantalla, en plan "duelo" o comparación. El motor lo activa solo si el spec
-trae `animalSvg2`:
+Todos los videos nuevos muestran **dos animales** en plan "duelo" o comparación. El motor lo activa si el spec trae `animalSvg2`:
 - Campos extra: `"animal2": "<nombre común>"` y `"animalSvg2": "<SVG del segundo animal, mismas reglas que animalSvg>"`.
-- `songTitle`: "<span class='hl'>Animal 1</span> vs <span class='hl'>animal 2</span> <emoji1><emoji2>".
-- Cada línea puede llevar `"focus": 1` o `"focus": 2` (ese animal se agranda al frente y el otro se atenúa) o nada (los dos iguales).
-  Usa `focus` en cada verso que hable de un solo animal; los coros van sin `focus`. `"vs": true` muestra "VS" entre los dos
-  (úsalo en la `quiz`). En la intro el "VS" sale solo.
+  Si el animal mira hacia un lado, dibuja el 1 mirando a la derecha y el 2 a la izquierda (puedes envolver el 2 en
+  `<g transform='translate(600 0) scale(-1 1)'>`).
+- Cada escena puede llevar `"focus": 1` o `"focus": 2`: ese animal ocupa el centro con su `anim` y el otro queda pequeño en una
+  esquina. Sin `focus`, los dos aparecen lado a lado (úsalo en el gancho, el dato que los enfrenta y la resolución).
 - **Cómo elegir la pareja**: que tenga sentido y dé juego: rivales del mismo hábitat (león vs hiena), extremos opuestos (el más
   rápido vs el más lento), parecidos que se confunden (cocodrilo vs caimán, foca vs lobo marino), o un actual vs su pariente
   prehistórico (elefante vs mamut). Ambos del mismo `habitat` o uno que sirva para los dos.
-- **Estructura**: 2–3 versos del animal 1 (`focus: 1`), estribillo, 2–3 versos del animal 2 (`focus: 2`), adivinanza
-  "¿Cuál de los dos…?" (`quiz` con `vs: true`) y `answer` con `focus` del ganador y su nombre en `bigText`, estribillo, CTA.
-  12–14 líneas en total (≤ 45 s). El estribillo nombra a los dos o el duelo ("¡Hipo contra pulpo, ¿quién ganará?!").
 - La regla de prehistóricos (≈1 de cada 4 videos) se cumple si al menos uno de los dos lo es.
-- `publicados.md`: en la columna animal escribe los dos: `hipopótamo y pulpo`. Ninguno de los dos puede repetirse.
-- Caption TikTok: "🎵 <animal 1> vs <animal 2>: <dato de cada uno> ¿Quién ganó? 👇" + hashtags de ambos animales y los generales.
-  Título YouTube: "<Animal 1> vs <animal 2>: <dato sorprendente> 🎵 #Shorts" (máx. 100 caracteres).
+- `publicados.md`: en la columna animal escribe los dos: `cocodrilo y caimán`. Ninguno de los dos puede repetirse.
+- Caption TikTok: "<emoji> <gancho> <Animal 1> vs <animal 2>: <resumen>. ¿Cuál te sorprendió más? 👇" + hashtags de ambos y los generales.
+  Título TikTok: "<Animal 1> vs <animal 2>: <pregunta corta> <emoji>". Título YouTube: "<Animal 1> vs <animal 2>: <pregunta o dato> <emoji> #Shorts"
+  (máx. 100 caracteres); descripción YouTube: 2–3 frases que resuman la historia + "Síguenos para más curiosidades animales." + `#Shorts` y hashtags.
+- YouTube: `madeForKids: false` (canal para todo público).
 
-## Estilo canción (formato actual de todos los videos)
+## Estilo canción (ELIMINADO el 5 nov 2026: no usar; se deja solo como referencia)
 Canción corta y pegajosa con datos REALES y verificados: rima, estribillo que se repite, aplausos, una adivinanza y karaoke.
 Muestra aprobada por Johel: `specs/_muestra-cancion-pulpo.json` (úsala de modelo). El motor es `engine/build_cancion.py`
 (cada frase empieza en un compás; la voz dice la frase normal, NO palabra por palabra).
@@ -111,7 +120,7 @@ Muestra aprobada por Johel: `specs/_muestra-cancion-pulpo.json` (úsala de model
 - YouTube: `madeForKids: false` (canal para todo público, decisión de Johel). Título YouTube: "<dato sorprendente del animal> 🎵 #Shorts" (debe incluir el nombre del animal).
 - TikTok caption: "🎵 <dato sorprendente> ¿Adivinaste? 👇" + hashtags (#curiosidades #animales #<animal> #sabiasque #datoscuriosos #fyp).
 
-## Estilo clásico (anterior, ya no se usa por defecto)
+
 
 ## Formato del spec (estilo clásico, engine/build.py)
 ```json
