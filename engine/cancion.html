@@ -18,7 +18,9 @@
   #lyr span.hl.on{color:#ff4fb3}
   #badge{position:absolute;left:0;right:0;top:0;text-align:center;opacity:0;font-family:'Inter',sans-serif;font-weight:900}
   #badge span{display:inline-block;background:#ffe066;color:#2a1458;font-size:64px;padding:14px 40px;border-radius:40px;box-shadow:0 8px 0 rgba(0,0,0,.2)}
-  #animal{position:absolute;left:150px;top:820px;width:780px;height:780px;transform-origin:390px 700px}
+  #animal,#animal2{position:absolute;left:150px;top:820px;width:780px;height:780px;transform-origin:390px 700px}
+  #vs{position:absolute;left:0;right:0;top:1080px;text-align:center;font-family:'Inter Display',sans-serif;font-weight:900;
+    font-size:130px;color:#ff4fb3;-webkit-text-stroke:14px #2a1458;paint-order:stroke fill;opacity:0}
   #big{position:absolute;left:0;right:0;top:640px;text-align:center;font-family:'Inter Display',sans-serif;font-weight:900;
     font-size:300px;color:#ffe066;-webkit-text-stroke:20px #2a1458;paint-order:stroke fill;opacity:0}
   #clapL,#clapR{position:absolute;top:1150px;font-size:150px;opacity:0;font-family:'Noto Color Emoji',sans-serif}
@@ -37,7 +39,9 @@
   <div id="title"></div>
   <div id="lyr"></div>
   <div id="badge"><span></span></div>
+  <svg id="animal2" viewBox="0 0 600 600"></svg>
   <svg id="animal" viewBox="0 0 600 600"></svg>
+  <div id="vs">VS</div>
   <div id="big"></div>
   <div id="clapL">👏</div><div id="clapR">👏</div>
   <div id="beatbar"><div></div><div></div><div></div><div></div></div>
@@ -84,6 +88,7 @@ const HAB={
 };
 const S=window.SPEC;const H=HAB[S.habitat]||HAB.ocean;const $=id=>document.getElementById(id);
 $('bg').style.background=H.bg;$('deco').innerHTML=H.deco;$('animal').innerHTML=S.animalSvg;
+const DUO=!!S.animalSvg2;if(DUO)$('animal2').innerHTML=S.animalSvg2;else $('animal2').style.display='none';
 $('title').innerHTML=S.songTitle||'';
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));const lerp=(a,b,k)=>a+(b-a)*k;
 const easeOutBack=k=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(k-1,3)+c1*Math.pow(k-1,2)};
@@ -110,21 +115,32 @@ function render(t){
     ly.style.opacity=1;}
   else if(l&&l.cta){if(li!==lastLine){ly.innerHTML=l.words.map(w=>`<span class="${w.hl?'hl':''}">${w.w}</span>`).join(' ');lastLine=li;}[...ly.children].forEach((s,i)=>{s.classList.toggle('on',t>=l.words[i].s)});ly.style.opacity=1;}
   else ly.style.opacity=0;
-  // animal dance
-  const an=$('animal');let x=540,y=1210,s=1,r=0,a=1;
+  // animal dance (1 o 2 animales; en dúo cada línea puede tener focus: 1 | 2 | "both")
   const hop=Math.abs(Math.sin(Math.PI*bph));
-  if(!intro||t>0){y-=hop*50;s=1+0.05*(1-hop);r=((bi%2)?1:-1)*8*Math.sin(Math.PI*bph);}
-  if(intro)s*=easeOutBack(clamp(t/0.6,0,1));
-  if(l&&l.kind==='chorus'){r*=1.8;y-=hop*30;}
-  if(l&&l.anim==='spin')r=(lt/(l.e-l.s))*360;
-  if(l&&l.anim==='left')x=380;
-  if(l&&(l.kind==='quiz'))s*=0.8,y+=60;
-  if(l&&l.cta)a=0;
-  an.style.opacity=a;an.style.transform=`translate(${x-540}px,${y-1210}px) scale(${s},${s*(1-0.06*hop)}) rotate(${r}deg)`;
-  an.querySelectorAll('.flap').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(t*14)*25} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
-  an.querySelectorAll('.wiggle').forEach((e,i)=>e.setAttribute('transform',`rotate(${Math.sin(beat*Math.PI+i)*12} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
-  an.querySelectorAll('.tail').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(beat*Math.PI*2)*18} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
-  an.querySelectorAll('.blink').forEach(e=>{const b=((t+0.3)%3.2)<0.12;e.setAttribute('transform',`translate(0 ${e.dataset.cy||300}) scale(1 ${b?0.1:1}) translate(0 ${-(e.dataset.cy||300)})`)});
+  const ids=DUO?['animal','animal2']:['animal'];
+  ids.forEach((id,ix)=>{
+    const an=$(id);let x=540,y=1210,s=1,r=0,a=1;
+    const h=DUO&&ix===1?Math.abs(Math.sin(Math.PI*((bph+0.5)%1))):hop;
+    if(!intro||t>0){y-=h*50;s=1+0.05*(1-h);r=((bi%2)?1:-1)*(ix?-8:8)*Math.sin(Math.PI*bph);}
+    if(intro)s*=easeOutBack(clamp((t-ix*0.25)/0.6,0,1));
+    if(l&&l.kind==='chorus'){r*=1.8;y-=h*30;}
+    if(l&&l.anim==='spin')r=(lt/(l.e-l.s))*360;
+    if(DUO){
+      const f=l&&l.focus?String(l.focus):'both';
+      x=ix?790:290;s*=0.6;y+=40;
+      if(f!=='both'){ if(f===String(ix+1)){s*=1.3;x=ix?720:360;y+=10;} else {s*=0.75;a=0.5;x=ix?900:180;y+=40;} }
+    } else if(l&&l.anim==='left')x=380;
+    if(l&&(l.kind==='quiz'))s*=0.8,y+=60;
+    if(l&&l.cta)a=0;
+    an.style.opacity=a;an.style.zIndex=DUO&&l&&String(l.focus)===String(ix+1)?3:2;
+    an.style.transform=`translate(${x-540}px,${y-1210}px) scale(${s},${s*(1-0.06*h)}) rotate(${r}deg)`;
+    an.querySelectorAll('.flap').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(t*14)*25} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+    an.querySelectorAll('.wiggle').forEach((e,i)=>e.setAttribute('transform',`rotate(${Math.sin(beat*Math.PI+i)*12} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+    an.querySelectorAll('.tail').forEach(e=>e.setAttribute('transform',`rotate(${Math.sin(beat*Math.PI*2)*18} ${e.dataset.cx||300} ${e.dataset.cy||300})`));
+    an.querySelectorAll('.blink').forEach(e=>{const b=((t+0.3+ix*1.1)%3.2)<0.12;e.setAttribute('transform',`translate(0 ${e.dataset.cy||300}) scale(1 ${b?0.1:1}) translate(0 ${-(e.dataset.cy||300)})`)});
+  });
+  // "VS" entre los dos animales en la intro y cuando ambos están en pantalla con foco 'both' en versos
+  const vs=$('vs');if(DUO&&(intro||(l&&l.vs))){vs.style.opacity=1;vs.style.transform=`scale(${easeOutBack(clamp((intro?t-0.3:lt)/0.5,0,1))*(1+0.08*(1-bph))})`;}else vs.style.opacity=0;
   // claps on beats 2 and 4 in chorus
   const clapOn=l&&l.kind==='chorus'&&(bi%2===1);const ck=clapOn?(1-bph):0;
   ['clapL','clapR'].forEach((id,i)=>{const e=$(id);e.style.opacity=ck>0?1:0;e.style.transform=`scale(${0.6+0.6*ck}) rotate(${(i?1:-1)*15*ck}deg)`;});

@@ -13,7 +13,8 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
 ## Procedimiento de una publicación (tarea programada)
 1. `cd` al clon del repo y `git pull --rebase origin main`.
 2. `bash engine/setup.sh` (instala edge-tts y confía en el proxy). Debe imprimir `setup ok`.
-3. Lee `publicados.md`. Elige un **animal que no aparezca ahí** (nunca repetir animal). Varía el hábitat y el tipo
+3. Lee `publicados.md`. Desde el 5 nov 2026 **cada video lleva DOS animales** (ver "Formato dúo"). Elige **dos animales que no
+   aparezcan ahí** (nunca repetir animal). Varía el hábitat y el tipo
    de animal respecto a los últimos 3 (mamífero, ave, insecto, pez, reptil, anfibio, marino, prehistórico…).
    **Animales prehistóricos**: también valen (dinosaurios, mamut, megalodón, tigre dientes de sable, pterosaurios,
    reptiles marinos, artrópodos gigantes, etc.). Incluye uno más o menos cada 4 videos (si en los últimos 4 de
@@ -21,12 +22,12 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    científicas) y di cuándo vivió ("hace 66 millones de años"); si un dato es estimado o debatido, dilo así
    ("se cree que…"). Dibújalo como en las reconstrucciones actuales (p. ej. velociraptor con plumas y del tamaño
    de un pavo), nunca como personajes de películas. En `publicados.md` escribe el nombre común (p. ej. `megalodón`).
-4. Elige **una curiosidad sorprendente** con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
+4. Elige **una curiosidad sorprendente de cada animal** (que se contrasten o compitan) con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
-5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal>.json` en **ESTILO CANCIÓN** (sección "Estilo canción", es el formato
+5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal1>-vs-<animal2>.json` en **ESTILO CANCIÓN + FORMATO DÚO** (sección "Estilo canción", es el formato
    de TODOS los videos desde el 4 nov 2026). `slug` = mismo nombre sin `.json`.
 6. `python3 engine/build_cancion.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
-   Revisa: el animal se reconoce y se ve bonito, nada tapa el texto, ningún texto se sale, props bien ubicados. Corrige y repite.
+   Revisa: los dos animales se reconocen y se ve bonito, nada tapa el texto, ningún texto se sale, props bien ubicados. Corrige y repite.
 7. `python3 engine/build_cancion.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 25–45 s).
 8. Agrega una línea a `publicados.md`, luego `git add specs videos publicados.md && git commit && git push origin main`.
 9. Publica con Buffer `create_post` en **los dos canales** (dos llamadas), ambos con `schedulingType: "automatic"`, `mode: "shareNow"`
@@ -55,6 +56,25 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 - **Hashtags**: 1–2 del animal y su grupo (#pulpo #animalesmarinos) además de los generales. Para prehistóricos agrega #dinosaurios o #prehistoria.
 - **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
 - Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
+
+## Formato dúo: dos animales por video (pedido de Johel, desde el 5 nov 2026)
+Todos los videos nuevos muestran **dos animales** en pantalla, en plan "duelo" o comparación. El motor lo activa solo si el spec
+trae `animalSvg2`:
+- Campos extra: `"animal2": "<nombre común>"` y `"animalSvg2": "<SVG del segundo animal, mismas reglas que animalSvg>"`.
+- `songTitle`: "<span class='hl'>Animal 1</span> vs <span class='hl'>animal 2</span> <emoji1><emoji2>".
+- Cada línea puede llevar `"focus": 1` o `"focus": 2` (ese animal se agranda al frente y el otro se atenúa) o nada (los dos iguales).
+  Usa `focus` en cada verso que hable de un solo animal; los coros van sin `focus`. `"vs": true` muestra "VS" entre los dos
+  (úsalo en la `quiz`). En la intro el "VS" sale solo.
+- **Cómo elegir la pareja**: que tenga sentido y dé juego: rivales del mismo hábitat (león vs hiena), extremos opuestos (el más
+  rápido vs el más lento), parecidos que se confunden (cocodrilo vs caimán, foca vs lobo marino), o un actual vs su pariente
+  prehistórico (elefante vs mamut). Ambos del mismo `habitat` o uno que sirva para los dos.
+- **Estructura**: 2–3 versos del animal 1 (`focus: 1`), estribillo, 2–3 versos del animal 2 (`focus: 2`), adivinanza
+  "¿Cuál de los dos…?" (`quiz` con `vs: true`) y `answer` con `focus` del ganador y su nombre en `bigText`, estribillo, CTA.
+  12–14 líneas en total (≤ 45 s). El estribillo nombra a los dos o el duelo ("¡Hipo contra pulpo, ¿quién ganará?!").
+- La regla de prehistóricos (≈1 de cada 4 videos) se cumple si al menos uno de los dos lo es.
+- `publicados.md`: en la columna animal escribe los dos: `hipopótamo y pulpo`. Ninguno de los dos puede repetirse.
+- Caption TikTok: "🎵 <animal 1> vs <animal 2>: <dato de cada uno> ¿Quién ganó? 👇" + hashtags de ambos animales y los generales.
+  Título YouTube: "<Animal 1> vs <animal 2>: <dato sorprendente> 🎵 #Shorts" (máx. 100 caracteres).
 
 ## Estilo canción (formato actual de todos los videos)
 Canción corta y pegajosa con datos REALES y verificados: rima, estribillo que se repite, aplausos, una adivinanza y karaoke.
