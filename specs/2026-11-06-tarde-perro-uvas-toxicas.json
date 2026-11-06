@@ -1,0 +1,72 @@
+{
+ "slug": "2026-11-06-tarde-perro-uvas-toxicas",
+ "style": "classic",
+ "animal": "perro",
+ "habitat": "farm",
+ "rate": "+15%",
+ "caption": "¿Le das uvas a tu perro como premio? 🍇 Para ti son fruta sana; para él pueden dañar los riñones. El probable culpable es el ácido tartárico, y también está en pasas y tamarindo. ➡️ Envíaselo a alguien que le comparte fruta a su perro. ¿Lo sabías? 👇 #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #fyp",
+ "title": "¿Le das uvas a tu perro?",
+ "ytTitle": "¿Le das uvas a tu perro? 🐶 #Shorts",
+ "ytText": "Sabías que las uvas, las pasas y el tamarindo pueden dañar los riñones de un perro: el probable culpable es el ácido tartárico, que su riñón no logra expulsar. Cada uva trae una cantidad distinta, por eso nadie sabe cuántas son seguras; el vómito puede aparecer en horas y el riñón fallar en uno a tres días. Si tu perro comió alguna, llama a tu veterinario de inmediato.\n\nSíguenos para más curiosidades animales.\n\n#Shorts #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #curiosidades",
+ "animalSvg": "<g class='tail' data-cx='385' data-cy='470'><path d='M380 470 Q450 460 455 400 Q458 380 470 388 Q478 470 392 492 Z' fill='#d9a86c'/></g><ellipse cx='300' cy='470' rx='100' ry='80' fill='#e8c39e'/><ellipse cx='300' cy='485' rx='52' ry='58' fill='#fff7ea'/><rect x='238' y='515' width='28' height='55' rx='13' fill='#e8c39e'/><rect x='334' y='515' width='28' height='55' rx='13' fill='#e8c39e'/><ellipse cx='252' cy='568' rx='22' ry='12' fill='#fff7ea'/><ellipse cx='348' cy='568' rx='22' ry='12' fill='#fff7ea'/><path d='M240 385 Q300 402 360 385 L354 404 Q300 420 246 404 Z' fill='#4361ee'/><circle cx='300' cy='414' r='10' fill='#ffd166'/><g class='wiggle' data-cx='215' data-cy='200'><path d='M235 195 L120 55 Q110 45 112 62 L170 250 Z' fill='#e8c39e'/><path d='M218 200 L135 85 L178 230 Z' fill='#ffb3c1'/></g><g class='wiggle' data-cx='385' data-cy='200'><path d='M365 195 L480 55 Q490 45 488 62 L430 250 Z' fill='#e8c39e'/><path d='M382 200 L465 85 L422 230 Z' fill='#ffb3c1'/></g><ellipse cx='300' cy='275' rx='125' ry='112' fill='#e8c39e'/><path d='M300 170 Q285 220 288 260 L312 260 Q315 220 300 170 Z' fill='#fff7ea'/><ellipse cx='300' cy='325' rx='62' ry='45' fill='#fff7ea'/><g class='blink' data-cx='248' data-cy='262'><ellipse cx='248' cy='262' rx='30' ry='32' fill='#2b1d16'/><circle cx='258' cy='250' r='11' fill='#fff'/><circle cx='240' cy='274' r='4.5' fill='#fff'/></g><g class='blink' data-cx='352' data-cy='262'><ellipse cx='352' cy='262' rx='30' ry='32' fill='#2b1d16'/><circle cx='362' cy='250' r='11' fill='#fff'/><circle cx='344' cy='274' r='4.5' fill='#fff'/></g><path d='M282 305 Q300 297 318 305 Q316 322 300 326 Q284 322 282 305 Z' fill='#2b1d16'/><ellipse cx='294' cy='307' rx='5' ry='3' fill='#fff' opacity='.6'/><path d='M300 326 L300 336 M300 336 Q288 347 276 339 M300 336 Q312 347 324 339' stroke='#2b1d16' stroke-width='5' fill='none' stroke-linecap='round'/><ellipse cx='212' cy='315' rx='18' ry='11' fill='#ff8fab' opacity='.7'/><ellipse cx='388' cy='315' rx='18' ry='11' fill='#ff8fab' opacity='.7'/>",
+ "scenes": [
+  {
+   "text": "¿Le das <span class='hl'>uvas</span> a tu perro? 🍇",
+   "narration": "¿Le das uvas a tu perro como premio?",
+   "anim": "pop",
+   "prop": "<path d='M150 40 Q155 20 170 15' stroke='#6b4226' stroke-width='10' fill='none' stroke-linecap='round'/><path d='M158 40 Q210 10 245 45 Q200 70 158 40 Z' fill='#52b788'/><circle cx='115' cy='75' r='30' fill='#7b2cbf'/><circle cx='106' cy='65' r='8' fill='#fff' opacity='.45'/><circle cx='175' cy='75' r='30' fill='#7b2cbf'/><circle cx='166' cy='65' r='8' fill='#fff' opacity='.45'/><circle cx='85' cy='130' r='30' fill='#7b2cbf'/><circle cx='76' cy='120' r='8' fill='#fff' opacity='.45'/><circle cx='145' cy='130' r='30' fill='#7b2cbf'/><circle cx='136' cy='120' r='8' fill='#fff' opacity='.45'/><circle cx='205' cy='130' r='30' fill='#7b2cbf'/><circle cx='196' cy='120' r='8' fill='#fff' opacity='.45'/><circle cx='115' cy='185' r='30' fill='#7b2cbf'/><circle cx='106' cy='175' r='8' fill='#fff' opacity='.45'/><circle cx='175' cy='185' r='30' fill='#7b2cbf'/><circle cx='166' cy='175' r='8' fill='#fff' opacity='.45'/><circle cx='145' cy='240' r='30' fill='#7b2cbf'/><circle cx='136' cy='230' r='8' fill='#fff' opacity='.45'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Para ti, fruta sana. <span class='hl'>Para él, peligro</span>",
+   "narration": "Para ti son fruta sana; para él, pueden dañar los riñones.",
+   "anim": "left",
+   "prop": "<path d='M150 40 C60 30 40 120 60 190 C80 260 170 270 190 220 C200 195 175 175 175 150 C175 125 200 110 200 85 C200 55 180 42 150 40 Z' fill='#e5677a' stroke='#1d2b36' stroke-width='8'/><path d='M95 90 Q85 120 95 150' stroke='#fff' stroke-width='9' fill='none' stroke-linecap='round' opacity='.6'/><g stroke='#e63946' stroke-width='14' stroke-linecap='round'><line x1='215' y1='190' x2='275' y2='250'/><line x1='275' y1='190' x2='215' y2='250'/></g>",
+   "propPos": "right"
+  },
+  {
+   "text": "El probable culpable: <span class='hl'>ácido tartárico</span>",
+   "sub": "identificado en 2022 por la ASPCA",
+   "narration": "El probable culpable es el ácido tartárico, y su riñón no logra expulsarlo.",
+   "anim": "zoom"
+  },
+  {
+   "text": "Cada uva trae <span class='hl'>distinta cantidad</span>",
+   "badge": "0,35 % – 2 %",
+   "sub": "nadie sabe cuántas son seguras",
+   "narration": "Cada uva trae distinta cantidad; por eso, nadie sabe cuántas son seguras.",
+   "anim": "shake"
+  },
+  {
+   "text": "Ojo: <span class='hl'>pasas y tamarindo</span> también",
+   "narration": "Ojo: las pasas y el tamarindo también son peligrosos.",
+   "anim": "left",
+   "prop": "<path d='M30 120 Q60 80 100 110 Q140 70 180 110 Q215 80 245 120 Q235 160 200 150 Q160 175 120 150 Q80 175 45 150 Q25 145 30 120 Z' fill='#9c6644' stroke='#5e3b22' stroke-width='6'/><path d='M245 118 L272 100' stroke='#5e3b22' stroke-width='7' stroke-linecap='round'/><ellipse cx='70' cy='225' rx='24' ry='18' fill='#4a2c2a'/><path d='M58 221 q8 -6 18 0 M60 231 q8 -6 18 0' stroke='#2b1716' stroke-width='3' fill='none'/><ellipse cx='125' cy='240' rx='24' ry='18' fill='#4a2c2a'/><path d='M113 236 q8 -6 18 0 M115 246 q8 -6 18 0' stroke='#2b1716' stroke-width='3' fill='none'/><ellipse cx='180' cy='225' rx='24' ry='18' fill='#4a2c2a'/><path d='M168 221 q8 -6 18 0 M170 231 q8 -6 18 0' stroke='#2b1716' stroke-width='3' fill='none'/><ellipse cx='235' cy='240' rx='24' ry='18' fill='#4a2c2a'/><path d='M223 236 q8 -6 18 0 M225 246 q8 -6 18 0' stroke='#2b1716' stroke-width='3' fill='none'/><ellipse cx='150' cy='200' rx='24' ry='18' fill='#4a2c2a'/><path d='M138 196 q8 -6 18 0 M140 206 q8 -6 18 0' stroke='#2b1716' stroke-width='3' fill='none'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Vómito en horas, <span class='hl'>riñón en 1 a 3 días</span>",
+   "badge": "6–12 h ➜ 24–72 h",
+   "narration": "Puede vomitar en horas, y el riñón fallar en uno a tres días.",
+   "anim": "sleep"
+  },
+  {
+   "text": "¿Comió una? <span class='hl'>Llama al veterinario ya</span> 📞",
+   "sub": "no esperes a que tenga síntomas",
+   "narration": "Si comió alguna, llama al veterinario ya; no esperes síntomas.",
+   "anim": "left",
+   "prop": "<rect x='85' y='30' width='130' height='240' rx='22' fill='#1d2b36'/><rect x='97' y='55' width='106' height='190' rx='8' fill='#e9f5f2'/><rect x='133' y='85' width='34' height='100' rx='6' fill='#e63946'/><rect x='100' y='118' width='100' height='34' rx='6' fill='#e63946'/><circle cx='150' cy='215' r='20' fill='#2d6a4f'/><path d='M141 207 q2 14 18 18 l4 -5 l-6 -4 l-3 3 q-6 -3 -8 -9 l3 -3 l-4 -6 Z' fill='#fff'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "¿Lo sabías? <span class='hl'>Envíaselo</span> a quien comparte fruta 👇",
+   "narration": "Envíaselo a alguien que le comparte fruta a su perro. ¿Lo sabías?",
+   "anim": "jump"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
