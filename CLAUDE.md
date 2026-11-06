@@ -13,7 +13,7 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
 ## Procedimiento de una publicación (tarea programada)
 1. `cd` al clon del repo y `git pull --rebase origin main`.
 2. `bash engine/setup.sh` (instala edge-tts y confía en el proxy). Debe imprimir `setup ok`.
-3. Lee `publicados.md`. Desde el 5 nov 2026 **cada video lleva DOS animales** (ver "Formato dúo"). Elige **dos animales que no
+3. **Primero revisa la sección "SEMANA DE PERROS"**: si la fecha cae ahí, sigue esa sección. Si no: lee `publicados.md`. Desde el 5 nov 2026 **cada video lleva DOS animales** (ver "Formato dúo"). Elige **dos animales que no
    aparezcan ahí** (nunca repetir animal). Varía el hábitat y el tipo
    de animal respecto a los últimos 3 (mamífero, ave, insecto, pez, reptil, anfibio, marino, prehistórico…).
    **Animales prehistóricos**: también valen (dinosaurios, mamut, megalodón, tigre dientes de sable, pterosaurios,
@@ -57,6 +57,35 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 - **Hashtags**: 1–2 del animal y su grupo (#pulpo #animalesmarinos) además de los generales. Para prehistóricos agrega #dinosaurios o #prehistoria.
 - **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
 - Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
+
+## ⚠️ SEMANA DE PERROS: del 2026-11-06 (mediodía) al 2026-11-09 (tarde) inclusive — tiene prioridad sobre todo lo demás
+Pedido de Johel: en esas fechas **TODOS los videos son de perros**, con temas que **enseñan algo importante para cuidar al perro**
+(referencia que le gustó: TikTok de @laperritopedia sobre "¿es suficiente sacar a pasear a tu perro 10 minutos?").
+Durante esas fechas se ignoran la regla de "nunca repetir animal", la de prehistóricos y el formato dúo obligatorio.
+Desde el 2026-11-10 se vuelve al formato normal (historia + dúo de animales distintos).
+- **Tema**: un consejo útil y verificado para dueños de perros, que no se repita entre videos (revisa la columna tema de
+  `publicados.md`). Ideas: el paseo y el olfato (oler = leer las noticias del barrio), alimentos tóxicos (chocolate, uvas/pasas,
+  xilitol, cebolla/ajo), golpe de calor y perro encerrado en el carro, pavimento caliente (prueba del dorso de la mano 7 s),
+  huesos cocidos que se astillan, garrapatas y ehrlichiosis, vacunas y rabia, desparasitación, dientes y sarro, señales de calma
+  (bostezo, lamerse el hocico), la cola que se mueve no siempre es alegría, el mito de "1 año = 7 años humanos", agua fresca
+  siempre, perro amarrado todo el día, castración, por qué come pasto, edad en que se separa a un cachorro, etc.
+- **Fuentes**: verifica con WebSearch en fuentes veterinarias serias (AVMA, ASPCA, AKC, WSAVA, universidades, colegios de
+  veterinarios). Nunca des dosis de medicamentos ni diagnósticos; cuando aplique, termina con "ante la duda, consulta a tu veterinario".
+- **Guion (estilo de la referencia)**, 7–9 escenas, 30–45 s, narrador que le habla AL DUEÑO:
+  1. Gancho con pregunta directa al dueño ("¿Es suficiente sacar a tu perro diez minutos?").
+  2. Contraste "para ti… / para él…" (lo que el dueño cree vs lo que vive el perro).
+  3–5. El porqué científico, con una comparación humana cotidiana ("como tú cuando revisas el celular") y una cifra si existe.
+  6. Qué hacer: 1–2 consejos concretos y fáciles.
+  7. Cierre que invite a compartir: "Envíaselo a alguien que…" + pregunta para comentarios ("¿Cuánto dura el paseo de tu perro?").
+  8. CTA: "Síguenos para más curiosidades animales."
+- **Dibujos**: un perro protagonista tierno (cambia raza/color en cada video: zaguate/criollo, labrador, chihuahua, pastor alemán,
+  salchicha…). Puedes usar el formato dúo con un segundo perro (p. ej. cachorro vs adulto, perro grande vs chico) o con un
+  `prop` (comida tóxica, correa, termómetro, sol…) cuando ayude a contar la historia. Hábitat: `farm` (barrio/patio), `savanna`
+  (calor), `night`, etc.
+- `publicados.md`: animal = `perro` (o `perro y cachorro`); en tema pon el consejo (p. ej. "paseo y olfato").
+- Caption TikTok (estilo referencia): "<pregunta gancho> <emoji> <1–2 frases con el dato> ➡️ Envíaselo a alguien que <…>. <pregunta> 👇"
+  + #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #fyp. Título TikTok y YouTube con la pregunta gancho
+  (YouTube: "<pregunta> 🐶 #Shorts", máx. 100 caracteres). `madeForKids: false`.
 
 ## Formato historia (desde el 5 nov 2026; reemplaza a la canción)
 El video **cuenta una historia** sobre la curiosidad con un narrador (voz normal, sin rimas ni canto, sin estribillos ni aplausos).
