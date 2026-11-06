@@ -1,0 +1,83 @@
+{
+ "slug": "2026-11-06-mediodia-perro-paseo-olfato",
+ "style": "classic",
+ "animal": "perro",
+ "habitat": "farm",
+ "rate": "+15%",
+ "caption": "¿Es suficiente sacar a tu perro 10 minutos? 🐶 Para ti es una vuelta; para él es leer las noticias del barrio con hasta 300 millones de receptores de olor. Olfatear lo relaja y lo deja más optimista. ➡️ Envíaselo a quien pasea con prisa. ¿Cuánto dura el paseo del tuyo? 👇 #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #fyp",
+ "title": "¿Es suficiente sacar a tu perro 10 minutos?",
+ "ytTitle": "¿Es suficiente sacar a tu perro 10 minutos? 🐶 #Shorts",
+ "ytText": "Para ti, el paseo es una vuelta a la cuadra; para tu perro es leer las noticias del barrio con una nariz de hasta 300 millones de receptores de olor (tú tienes unos 6 millones). Un estudio de 2019 encontró que olfatear deja a los perros más optimistas, y la mayoría necesita de 30 minutos a 2 horas de actividad al día según su raza, edad y salud. Sabías que dejarlo oler es parte del ejercicio: ante la duda, consulta a tu veterinario.\n\nSíguenos para más curiosidades animales.\n\n#Shorts #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #curiosidades",
+ "animalSvg": "<g transform='translate(300 310) scale(1.05) translate(-300 -310)'><g class='tail' data-cx='395' data-cy='470'><path d='M390 470 Q470 450 480 370 Q488 350 500 360 Q505 445 400 495 Z' fill='#d4904a'/></g><ellipse cx='300' cy='455' rx='120' ry='95' fill='#e0a35c'/><ellipse cx='300' cy='475' rx='65' ry='65' fill='#f6e3c4'/><ellipse cx='240' cy='540' rx='38' ry='22' fill='#e0a35c'/><ellipse cx='360' cy='540' rx='38' ry='22' fill='#e0a35c'/><ellipse cx='240' cy='548' rx='26' ry='12' fill='#f6e3c4'/><ellipse cx='360' cy='548' rx='26' ry='12' fill='#f6e3c4'/><path d='M232 372 Q300 392 368 372 L360 392 Q300 410 240 392 Z' fill='#e63946'/><circle cx='300' cy='402' r='11' fill='#ffd166'/><g class='wiggle' data-cx='205' data-cy='200'><path d='M215 180 Q150 170 140 250 Q135 310 175 320 Q200 290 222 230 Z' fill='#9c5b2a'/></g><g class='wiggle' data-cx='395' data-cy='200'><path d='M385 180 Q450 170 460 250 Q465 310 425 320 Q400 290 378 230 Z' fill='#9c5b2a'/></g><ellipse cx='300' cy='260' rx='118' ry='108' fill='#e0a35c'/><path d='M300 160 Q280 200 285 240 L315 240 Q320 200 300 160 Z' fill='#f6e3c4' opacity='.9'/><ellipse cx='300' cy='310' rx='70' ry='52' fill='#f6e3c4'/><g class='blink' data-cx='255' data-cy='250'><ellipse cx='255' cy='250' rx='22' ry='25' fill='#2b1d16'/><circle cx='262' cy='241' r='8' fill='#fff'/><circle cx='249' cy='259' r='3.5' fill='#fff'/></g><g class='blink' data-cx='345' data-cy='250'><ellipse cx='345' cy='250' rx='22' ry='25' fill='#2b1d16'/><circle cx='352' cy='241' r='8' fill='#fff'/><circle cx='339' cy='259' r='3.5' fill='#fff'/></g><path d='M275 290 Q300 280 325 290 Q322 312 300 318 Q278 312 275 290 Z' fill='#2b1d16'/><ellipse cx='292' cy='292' rx='7' ry='4' fill='#fff' opacity='.6'/><path d='M300 318 L300 332 M300 332 Q285 345 270 335 M300 332 Q315 345 330 335' stroke='#2b1d16' stroke-width='5' fill='none' stroke-linecap='round'/><path d='M288 340 Q300 372 312 340 Z' fill='#ff6f91'/><ellipse cx='222' cy='300' rx='18' ry='11' fill='#ff8fab' opacity='.7'/><ellipse cx='378' cy='300' rx='18' ry='11' fill='#ff8fab' opacity='.7'/></g>",
+ "scenes": [
+  {
+   "text": "¿<span class='hl'>10 minutos</span> de paseo le bastan?",
+   "narration": "¿Basta con sacar a tu perro diez minutos?",
+   "anim": "pop",
+   "prop": "<circle cx='150' cy='165' r='105' fill='#fff' stroke='#1d2b36' stroke-width='12'/><rect x='130' y='35' width='40' height='28' rx='6' fill='#1d2b36'/><path d='M150 165 L150 165 A95 95 0 0 1 232 118 Z' fill='#ffd166'/><line x1='150' y1='165' x2='150' y2='88' stroke='#e63946' stroke-width='10' stroke-linecap='round'/><line x1='150' y1='165' x2='200' y2='190' stroke='#1d2b36' stroke-width='10' stroke-linecap='round'/><circle cx='150' cy='165' r='12' fill='#1d2b36'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Para ti, una vuelta. <span class='hl'>Para él, las noticias</span> 📰",
+   "narration": "Para ti es una vuelta; para él, leer las noticias del barrio.",
+   "anim": "left",
+   "prop": "<rect x='40' y='60' width='220' height='180' rx='10' fill='#fff' stroke='#1d2b36' stroke-width='8' transform='rotate(-6 150 150)'/><g transform='rotate(-6 150 150)'><rect x='60' y='80' width='180' height='26' rx='4' fill='#457b9d'/><rect x='60' y='120' width='80' height='70' rx='4' fill='#ffd166'/><rect x='155' y='122' width='85' height='10' rx='4' fill='#adb5bd'/><rect x='155' y='142' width='85' height='10' rx='4' fill='#adb5bd'/><rect x='155' y='162' width='85' height='10' rx='4' fill='#adb5bd'/><rect x='60' y='205' width='180' height='10' rx='4' fill='#adb5bd'/></g>",
+   "propPos": "right"
+  },
+  {
+   "text": "Su nariz: <span class='hl'>hasta 300 millones</span> de receptores",
+   "badge": "300 M vs 6 M",
+   "sub": "tú tienes unos 6 millones",
+   "narration": "Su nariz tiene hasta trescientos millones de receptores de olor; la tuya, unos seis millones.",
+   "anim": "zoom"
+  },
+  {
+   "text": "Cada poste es un <span class='hl'>mensaje</span>",
+   "sub": "quién pasó, cuándo y cómo estaba",
+   "narration": "Cada poste le cuenta quién pasó.",
+   "anim": "left",
+   "prop": "<rect x='125' y='40' width='34' height='240' rx='10' fill='#6c757d'/><ellipse cx='142' cy='285' rx='70' ry='12' fill='#2d6a4f' opacity='.5'/><path d='M100 40 Q142 0 190 40 Z' fill='#495057'/><circle cx='145' cy='42' r='16' fill='#ffd166'/><g fill='none' stroke='#9b5de5' stroke-width='9' stroke-linecap='round' opacity='.85'><path d='M190 230 q20 -20 0 -40 q-20 -20 0 -40'/><path d='M225 245 q20 -20 0 -40 q-20 -20 0 -40'/><path d='M90 235 q-20 -20 0 -40 q20 -20 0 -40'/></g>",
+   "propPos": "right"
+  },
+  {
+   "text": "Como tú <span class='hl'>revisando el celular</span> 📱",
+   "narration": "Como tú revisando el celular.",
+   "anim": "bob",
+   "prop": "<rect x='85' y='30' width='130' height='240' rx='22' fill='#1d2b36'/><rect x='97' y='55' width='106' height='190' rx='8' fill='#a8dadc'/><rect x='108' y='70' width='84' height='34' rx='10' fill='#fff'/><rect x='108' y='115' width='70' height='34' rx='10' fill='#ffd166'/><rect x='108' y='160' width='84' height='34' rx='10' fill='#fff'/><circle cx='205' cy='45' r='22' fill='#e63946'/><circle cx='205' cy='45' r='8' fill='#fff'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Olfatear lo deja <span class='hl'>más optimista</span>",
+   "sub": "estudio de Duranton y Horowitz, 2019",
+   "narration": "Un estudio encontró que olfatear deja a los perros más optimistas.",
+   "anim": "jump",
+   "prop": "<path d='M150 260 C40 180 30 90 95 75 C130 68 148 95 150 110 C152 95 170 68 205 75 C270 90 260 180 150 260 Z' fill='#ff6f91' stroke='#1d2b36' stroke-width='8'/><path d='M100 110 Q110 95 125 100' stroke='#fff' stroke-width='9' fill='none' stroke-linecap='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Necesita <span class='hl'>de 30 min a 2 horas</span> de actividad",
+   "badge": "30 min – 2 h al día",
+   "sub": "según raza, edad y salud",
+   "narration": "Casi todos necesitan de treinta minutos a dos horas diarias.",
+   "anim": "walk"
+  },
+  {
+   "text": "Alarga el paseo y <span class='hl'>déjalo oler</span> 👃",
+   "sub": "ante la duda, consulta a tu veterinario",
+   "narration": "Alarga el paseo y déjalo oler; ante la duda, consulta al veterinario.",
+   "anim": "left",
+   "prop": "<path d='M60 250 Q120 60 240 70' stroke='#e63946' stroke-width='16' fill='none' stroke-linecap='round'/><rect x='225' y='40' width='45' height='70' rx='18' fill='#1d2b36'/><circle cx='60' cy='255' r='16' fill='none' stroke='#adb5bd' stroke-width='9'/><g fill='#2d6a4f'><circle cx='90' cy='120' r='12'/><circle cx='170' cy='200' r='9'/><circle cx='230' cy='170' r='11'/></g>",
+   "propPos": "right"
+  },
+  {
+   "text": "¿Cuánto dura <span class='hl'>el paseo de tu perro</span>? 👇",
+   "narration": "Envíaselo a quien pasea con prisa. ¿Cuánto dura el paseo del tuyo?",
+   "anim": "bob"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
