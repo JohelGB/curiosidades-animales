@@ -13,3 +13,4 @@
 | 2026-11-05 | manana | hipopótamo | sudor rojo = protector solar y antibacteriano, no nada (camina en el fondo), pariente de la ballena (canción) | https://tiktok.com/@filarmonadeltarod/video/7704655073523043604 | https://www.youtube.com/watch?v=7hSLgHTR1sU |
 | 2026-11-05 | mediodia | cocodrilo y caimán | dúo HISTORIA: hocico V vs U, diente visible con boca cerrada, mordida récord, sal por la lengua, caimán de anteojos (programado 12:00) | | |
 | 2026-11-05 | tarde | colibrí y avestruz | dúo HISTORIA: zunzuncito <2 g, corazón +1.000 lpm, vuela hacia atrás vs avestruz 2,7 m, 70 km/h, huevo 1,4 kg, ojo más grande que su cerebro | https://tiktok.com/@filarmonadeltarod/video/7704841469693070600 | https://www.youtube.com/watch?v=JgIlpIbpZcQ |
+| 2026-11-06 | manana | (en proceso) | | | |
