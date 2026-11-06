@@ -1,0 +1,71 @@
+{
+ "slug": "2026-11-06-manana-megalodon-vs-tiburon-blanco",
+ "style": "classic",
+ "animal": "megalodón",
+ "animal2": "tiburón blanco",
+ "habitat": "ocean",
+ "rate": "+15%",
+ "caption": "🦈 Dos tiburones gigantes… y se cree que uno ayudó a extinguir al otro. Megalodón vs tiburón blanco: el monstruo prehistórico y su rival. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #megalodon #tiburonblanco #tiburones #prehistoria #sabiasque #datoscuriosos #fyp",
+ "title": "Megalodón vs tiburón blanco: ¿quién ganó? 🦈",
+ "ytTitle": "Megalodón vs tiburón blanco: ¿uno ayudó a extinguir al otro? 🦈 #Shorts",
+ "animalSvg": "<g transform='translate(300 300) scale(1.08) translate(-300 -300)'><g class='tail' data-cx='130' data-cy='300'><path d='M135 300 L45 190 Q70 260 85 300 Q70 345 50 405 Z' fill='#3e546d'/></g><path d='M280 232 Q300 170 335 135 Q340 190 365 228 Z' fill='#3e546d'/><path d='M80 300 Q200 215 385 222 Q505 228 548 292 Q525 330 440 345 Q300 372 160 332 Q110 318 80 300Z' fill='#56708c'/><path d='M175 330 Q320 365 450 343 Q515 330 546 296 Q520 338 440 352 Q300 378 175 330Z' fill='#dfe8f0'/><path d='M170 330 Q300 300 470 318 Q520 318 546 296 Q522 335 445 350 Q300 375 170 330Z' fill='#dfe8f0'/><path d='M395 262 q-8 25 0 50 M410 262 q-8 25 0 50 M425 264 q-8 22 0 45' stroke='#3e546d' stroke-width='4' fill='none' stroke-linecap='round'/><path d='M455 316 Q492 336 530 312 Q495 326 455 316Z' fill='#7a1f2b'/><path d='M462 318 l6 14 l6 -14 Z' fill='#fff'/><path d='M474 318 l6 14 l6 -14 Z' fill='#fff'/><path d='M486 318 l6 14 l6 -14 Z' fill='#fff'/><path d='M498 318 l6 14 l6 -14 Z' fill='#fff'/><path d='M510 318 l6 14 l6 -14 Z' fill='#fff'/><g class='blink' data-cy='268'><ellipse cx='478' cy='268' rx='19' ry='21' fill='#fff'/><circle cx='484' cy='272' r='12' fill='#1d2b36'/><circle cx='480' cy='265' r='4.5' fill='#fff'/></g><ellipse cx='500' cy='298' rx='13' ry='7' fill='#ff8fab' opacity='.7'/><g class='flap' data-cx='330' data-cy='342'><path d='M305 345 Q285 400 255 438 Q330 410 375 350 Z' fill='#3e546d'/></g><path d='M200 330 L180 360 L230 338 Z' fill='#3e546d'/></g>",
+ "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><g class='tail' data-cx='130' data-cy='300'><path d='M135 300 L45 190 Q70 260 85 300 Q70 345 50 405 Z' fill='#7d93a6'/></g><path d='M280 232 Q300 170 335 135 Q340 190 365 228 Z' fill='#7d93a6'/><path d='M80 300 Q200 215 385 222 Q505 228 548 292 Q525 330 440 345 Q300 372 160 332 Q110 318 80 300Z' fill='#9fb3c4'/><path d='M175 330 Q320 365 450 343 Q515 330 546 296 Q520 338 440 352 Q300 378 175 330Z' fill='#ffffff'/><path d='M170 330 Q300 300 470 318 Q520 318 546 296 Q522 335 445 350 Q300 375 170 330Z' fill='#ffffff'/><path d='M395 262 q-8 25 0 50 M410 262 q-8 25 0 50 M425 264 q-8 22 0 45' stroke='#7d93a6' stroke-width='4' fill='none' stroke-linecap='round'/><path d='M455 316 Q492 336 530 312 Q495 326 455 316Z' fill='#7a1f2b'/><path d='M470 318 l5 9 l5 -9 Z' fill='#fff'/><path d='M480 318 l5 9 l5 -9 Z' fill='#fff'/><path d='M490 318 l5 9 l5 -9 Z' fill='#fff'/><path d='M500 318 l5 9 l5 -9 Z' fill='#fff'/><path d='M510 318 l5 9 l5 -9 Z' fill='#fff'/><g class='blink' data-cy='268'><ellipse cx='478' cy='268' rx='19' ry='21' fill='#fff'/><circle cx='484' cy='272' r='12' fill='#1d2b36'/><circle cx='480' cy='265' r='4.5' fill='#fff'/></g><ellipse cx='500' cy='298' rx='13' ry='7' fill='#ff8fab' opacity='.7'/><g class='flap' data-cx='330' data-cy='342'><path d='M305 345 Q285 400 255 438 Q330 410 375 350 Z' fill='#7d93a6'/></g><path d='M200 330 L180 360 L230 338 Z' fill='#7d93a6'/></g>",
+ "scenes": [
+  {
+   "text": "¿Uno ayudó a <span class='hl'>extinguir</span> al otro?",
+   "narration": "Dos tiburones gigantes… y se cree que uno ayudó a extinguir al otro.",
+   "anim": "pop"
+  },
+  {
+   "text": "Megalodón: <span class='hl'>hasta ~18 m</span>",
+   "badge": "≈ 18 m",
+   "sub": "se extinguió hace ~3,6 millones de años",
+   "narration": "Fíjate en el megalodón: se estima que medía hasta dieciocho metros.",
+   "anim": "walk",
+   "focus": 1
+  },
+  {
+   "text": "Dientes de <span class='hl'>18 cm</span>",
+   "badge": "18 cm",
+   "narration": "Sus dientes medían hasta dieciocho centímetros.",
+   "anim": "shake",
+   "focus": 1
+  },
+  {
+   "text": "Tenía la sangre <span class='hl'>más caliente</span> que el mar",
+   "narration": "Y se cree que su cuerpo era más caliente que el agua.",
+   "anim": "zoom",
+   "focus": 1
+  },
+  {
+   "text": "Tiburón blanco: <span class='hl'>unos 6 m</span>",
+   "badge": "≈ 6 m",
+   "narration": "Ahora mira al tiburón blanco: unos seis metros.",
+   "anim": "walk",
+   "focus": 2
+  },
+  {
+   "text": "Cambia sus dientes <span class='hl'>toda la vida</span>",
+   "sub": "pierde miles de dientes",
+   "narration": "Pierde y renueva miles de dientes a lo largo de su vida.",
+   "anim": "bob",
+   "focus": 2
+  },
+  {
+   "text": "Comían <span class='hl'>lo mismo</span>",
+   "narration": "Hace millones de años, los dos cazaban presas parecidas.",
+   "anim": "bob"
+  },
+  {
+   "text": "¿El culpable? <span class='hl'>¡El tiburón blanco!</span> 👇",
+   "sub": "se cree que le quitó la comida",
+   "narration": "Se cree que el tiburón blanco le ganó la comida al megalodón. ¿Lo sabías?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
