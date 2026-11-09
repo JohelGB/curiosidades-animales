@@ -21,3 +21,4 @@
 | 2026-11-07 | tarde | (en proceso) | | | |
 | 2026-11-09 | manana | perro | SEMANA PERROS: chocolate tóxico, teobromina del cacao, vida media ≈ 17 h en perros vs pocas horas en humanos (WSU), más oscuro = más peligroso (cacao en polvo el peor), vómito/temblores/corazón acelerado hasta 72 h, llama al veterinario aunque se vea bien (criollo negro) | https://tiktok.com/@filarmonadeltarod/video/7706139416716201236 | https://www.youtube.com/watch?v=XKaniWcJNnQ |
 | 2026-11-09 | mediodia | perro | SEMANA PERROS: pavimento caliente, aire 25 °C → asfalto 52 °C y piel se quema en ~1 min (Vets Now, Four Paws), prueba del dorso de la mano 7 s, pasea temprano, de noche o en pasto, si cojea consulta al veterinario (pastor alemán) | https://tiktok.com/@filarmonadeltarod/video/7706232900265512213 | https://www.youtube.com/watch?v=8fkeGUMYzLc |
+| 2026-11-09 | tarde | (en proceso) | | | |
