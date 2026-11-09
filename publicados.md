@@ -20,3 +20,4 @@
 | 2026-11-07 | mediodia | perro | SEMANA PERROS: perro encerrado en el carro, 21 °C afuera → ~32 °C en 10 min y ~40 °C en 30 min (AVMA), ventana entreabierta casi no ayuda, solo suda por las patas y jadear con aire caliente no lo enfría, déjalo en casa (labrador dorado) | https://tiktok.com/@filarmonadeltarod/video/7705492077022317844 | https://www.youtube.com/watch?v=4YEr0XaMGHo |
 | 2026-11-07 | tarde | (en proceso) | | | |
 | 2026-11-09 | manana | perro | SEMANA PERROS: chocolate tóxico, teobromina del cacao, vida media ≈ 17 h en perros vs pocas horas en humanos (WSU), más oscuro = más peligroso (cacao en polvo el peor), vómito/temblores/corazón acelerado hasta 72 h, llama al veterinario aunque se vea bien (criollo negro) | https://tiktok.com/@filarmonadeltarod/video/7706139416716201236 | https://www.youtube.com/watch?v=XKaniWcJNnQ |
+| 2026-11-09 | mediodia | (en proceso) | | | |
