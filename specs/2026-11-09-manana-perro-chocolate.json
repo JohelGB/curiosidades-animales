@@ -1,0 +1,77 @@
+{
+ "slug": "2026-11-09-manana-perro-chocolate",
+ "style": "classic",
+ "animal": "perro",
+ "habitat": "farm",
+ "rate": "+15%",
+ "caption": "¿Le darías a tu perro un pedacito de chocolate? 🍫⚠️ El cacao trae teobromina, un estimulante que tu perro elimina muy lento: tarda unas 17 horas en sacar solo la mitad. Mientras más oscuro el chocolate, más peligroso, y si comió, llama al veterinario aunque se vea bien. ➡️ Envíaselo a alguien que comparte su postre con el perro. ¿Tú lo sabías? 👇 #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #fyp",
+ "title": "¿Le darías chocolate a tu perro?",
+ "ytTitle": "¿Le darías chocolate a tu perro? 🐶 #Shorts",
+ "ytText": "Sabías que el chocolate es tóxico para los perros por la teobromina del cacao: su cuerpo la elimina tan lento que tarda unas 17 horas en sacar solo la mitad. Mientras más oscuro el chocolate, más peligroso (el cacao en polvo es el peor), y puede causar vómito, temblores y el corazón acelerado; si tu perro comió chocolate, llama a tu veterinario aunque se vea bien.\n\nSíguenos para más curiosidades animales.\n\n#Shorts #perros #perro #cuidadoanimal #mascotas #consejosparaperros #sabiasque #curiosidades",
+ "animalSvg": "<g class='tail' data-cx='385' data-cy='470'><path d='M380 470 Q455 455 462 395 Q466 375 478 385 Q482 470 392 494 Z' fill='#3a3a44'/></g><ellipse cx='300' cy='470' rx='108' ry='84' fill='#2d2d35'/><ellipse cx='300' cy='488' rx='55' ry='60' fill='#f7f7f2'/><rect x='234' y='515' width='30' height='57' rx='14' fill='#2d2d35'/><rect x='336' y='515' width='30' height='57' rx='14' fill='#2d2d35'/><ellipse cx='249' cy='570' rx='23' ry='12' fill='#f7f7f2'/><ellipse cx='351' cy='570' rx='23' ry='12' fill='#f7f7f2'/><path d='M240 385 Q300 402 360 385 L354 404 Q300 420 246 404 Z' fill='#e63946'/><circle cx='300' cy='415' r='10' fill='#ffd166'/><ellipse cx='300' cy='272' rx='128' ry='115' fill='#2d2d35'/><g class='wiggle' data-cx='190' data-cy='215'><path d='M200 195 Q140 190 135 260 Q132 330 170 345 Q195 340 205 290 Z' fill='#3a3a44'/></g><g class='wiggle' data-cx='410' data-cy='215'><path d='M400 195 Q460 190 465 260 Q468 330 430 345 Q405 340 395 290 Z' fill='#3a3a44'/></g><ellipse cx='300' cy='328' rx='66' ry='48' fill='#f7f7f2'/><circle cx='250' cy='262' r='37' fill='#f7f7f2'/><g class='blink' data-cx='250' data-cy='262'><ellipse cx='250' cy='262' rx='29' ry='31' fill='#2b1d16'/><circle cx='260' cy='250' r='11' fill='#fff'/><circle cx='242' cy='274' r='4.5' fill='#fff'/></g><circle cx='350' cy='262' r='37' fill='#f7f7f2'/><g class='blink' data-cx='350' data-cy='262'><ellipse cx='350' cy='262' rx='29' ry='31' fill='#2b1d16'/><circle cx='360' cy='250' r='11' fill='#fff'/><circle cx='342' cy='274' r='4.5' fill='#fff'/></g><path d='M280 305 Q300 296 320 305 Q318 324 300 328 Q282 324 280 305 Z' fill='#2b1d16'/><ellipse cx='293' cy='307' rx='5' ry='3' fill='#fff' opacity='.6'/><path d='M282 344 Q284 392 300 394 Q316 392 318 344 Z' fill='#ff6b81'/><path d='M300 350 L300 380' stroke='#e04f68' stroke-width='4' stroke-linecap='round'/><path d='M300 328 L300 338 M300 338 Q286 350 272 340 M300 338 Q314 350 328 340' stroke='#2b1d16' stroke-width='5' fill='none' stroke-linecap='round'/><ellipse cx='214' cy='318' rx='18' ry='11' fill='#ff8fab' opacity='.6'/><ellipse cx='386' cy='318' rx='18' ry='11' fill='#ff8fab' opacity='.6'/>",
+ "scenes": [
+  {
+   "text": "¿Un <span class='hl'>trocito</span> de chocolate? 🍫",
+   "narration": "¿Le darías a tu perro un pedacito de chocolate?",
+   "anim": "left",
+   "prop": "<g transform='rotate(-12 150 150)'><rect x='60' y='70' width='180' height='170' rx='12' fill='#5a3220' stroke='#2b1d16' stroke-width='7'/><g fill='#7a4a2e' stroke='#2b1d16' stroke-width='4'><rect x='75' y='85' width='65' height='40' rx='6'/><rect x='160' y='85' width='65' height='40' rx='6'/><rect x='75' y='135' width='65' height='40' rx='6'/><rect x='160' y='135' width='65' height='40' rx='6'/></g><path d='M55 185 L245 185 L245 245 Q245 255 235 255 L65 255 Q55 255 55 245 Z' fill='#e63946' stroke='#2b1d16' stroke-width='7'/><path d='M55 185 L245 185' stroke='#ffd166' stroke-width='8'/></g>",
+   "propPos": "right"
+  },
+  {
+   "text": "Para ti, un dulce. <span class='hl'>Para él, un veneno</span>",
+   "narration": "Para ti es un dulce; para él, puede ser un veneno.",
+   "anim": "shake",
+   "prop": "<path d='M150 30 L270 250 L30 250 Z' fill='#ffd166' stroke='#2b1d16' stroke-width='12' stroke-linejoin='round'/><rect x='138' y='100' width='24' height='90' rx='12' fill='#2b1d16'/><circle cx='150' cy='218' r='15' fill='#2b1d16'/>",
+   "propPos": "top"
+  },
+  {
+   "text": "La culpa: la <span class='hl'>teobromina</span> del cacao",
+   "narration": "La culpa es de la teobromina, un estimulante que viene del cacao.",
+   "anim": "left",
+   "prop": "<ellipse cx='150' cy='150' rx='75' ry='120' fill='#c8553d' stroke='#2b1d16' stroke-width='7' transform='rotate(20 150 150)'/><g stroke='#8f3a25' stroke-width='6' fill='none' transform='rotate(20 150 150)'><path d='M150 35 L150 265'/><path d='M115 45 Q105 150 115 255'/><path d='M185 45 Q195 150 185 255'/></g><path d='M120 30 Q150 0 180 25' stroke='#2a9d8f' stroke-width='10' fill='none' stroke-linecap='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Su cuerpo la elimina <span class='hl'>muy lento</span>",
+   "badge": "≈ 17 horas",
+   "sub": "para eliminar solo la mitad",
+   "narration": "Tú la eliminas en pocas horas; tu perro tarda unas diecisiete en sacar solo la mitad.",
+   "anim": "left",
+   "prop": "<circle cx='150' cy='150' r='110' fill='#fff' stroke='#2b1d16' stroke-width='10'/><path d='M150 150 L150 75 M150 150 L205 180' stroke='#2b1d16' stroke-width='12' stroke-linecap='round'/><circle cx='150' cy='150' r='10' fill='#e63946'/><path d='M150 40 L150 58 M260 150 L242 150 M150 260 L150 242 M40 150 L58 150' stroke='#2b1d16' stroke-width='8' stroke-linecap='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Más oscuro = <span class='hl'>más peligroso</span>",
+   "narration": "Mientras más oscuro el chocolate, más peligroso; el cacao en polvo es el peor.",
+   "anim": "left",
+   "prop": "<g stroke='#2b1d16' stroke-width='6'><rect x='25' y='40' width='70' height='220' rx='10' fill='#2b1a12'/><rect x='115' y='80' width='70' height='180' rx='10' fill='#6b3d22'/><rect x='205' y='120' width='70' height='140' rx='10' fill='#f3e9d2'/></g><path d='M60 15 L60 30 M50 22 L70 22' stroke='#e63946' stroke-width='8' stroke-linecap='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Vómito, temblores y <span class='hl'>corazón acelerado</span>",
+   "badge": "hasta 72 h",
+   "narration": "Puede darle vómito, temblores y el corazón acelerado, hasta por tres días.",
+   "anim": "shake",
+   "prop": "<path d='M150 255 Q40 180 45 105 Q55 45 115 50 Q140 55 150 85 Q160 55 185 50 Q245 45 255 105 Q260 180 150 255 Z' fill='#e63946' stroke='#2b1d16' stroke-width='8'/><path d='M60 150 L110 150 L130 110 L155 190 L175 135 L190 150 L240 150' stroke='#fff' stroke-width='10' fill='none' stroke-linejoin='round' stroke-linecap='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "¿Comió chocolate? <span class='hl'>Llama al veterinario ya</span>",
+   "sub": "aunque se vea bien",
+   "narration": "Si comió chocolate, llama a tu veterinario ya, aunque se vea bien.",
+   "anim": "left",
+   "prop": "<rect x='85' y='25' width='130' height='250' rx='22' fill='#1d3557' stroke='#2b1d16' stroke-width='7'/><rect x='100' y='50' width='100' height='180' rx='8' fill='#a8dadc'/><path d='M150 95 L150 185 M105 140 L195 140' stroke='#e63946' stroke-width='22' stroke-linecap='round'/><circle cx='150' cy='252' r='10' fill='#a8dadc'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "¿Tú le has dado <span class='hl'>chocolate</span>? 👇",
+   "narration": "Envíaselo a alguien que comparte su postre con el perro. ¿Tú lo sabías?",
+   "anim": "jump"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
