@@ -1,0 +1,73 @@
+{
+ "slug": "2026-11-10-manana-perezoso-vs-megaterio",
+ "style": "classic",
+ "animal": "perezoso",
+ "animal2": "megaterio",
+ "habitat": "jungle",
+ "rate": "+15%",
+ "caption": "🦥 Uno es de los animales más lentos del mundo… y el otro pesaba como un elefante. Perezoso vs megaterio: ¡son familia! ¿Cuál te sorprendió más? 👇 #curiosidades #animales #perezoso #megaterio #prehistoria #sabiasque #datoscuriosos #fyp",
+ "title": "Perezoso vs megaterio: ¿qué los une? 🦥",
+ "ytTitle": "Perezoso vs megaterio: el perezoso gigante de 4 toneladas 🦥 #Shorts",
+ "ytText": "El perezoso avanza a medio kilómetro por hora y baja de su árbol una vez por semana para hacer popó. El megaterio, un perezoso gigante de Sudamérica, medía 6 metros, pesaba como un elefante y se extinguió hace unos 12.000 años. ¡Y el perezoso de tres dedos es su pariente vivo más cercano! Síguenos para más curiosidades animales.\n#Shorts #perezoso #megaterio #prehistoria #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<rect x='60' y='108' width='480' height='30' rx='15' fill='#6b4a2b'/><path d='M210 300 L200 130 M390 300 L400 130' stroke='#8d7356' stroke-width='52' stroke-linecap='round' fill='none'/><path d='M180 118 q-6 22 6 38 M198 114 q-6 24 6 40 M216 116 q-6 22 6 38 M384 116 q6 22 -6 38 M402 114 q6 24 -6 40 M420 118 q6 22 -6 38' stroke='#efe2c4' stroke-width='9' stroke-linecap='round' fill='none'/><ellipse cx='300' cy='390' rx='145' ry='150' fill='#a08566'/><ellipse cx='300' cy='410' rx='90' ry='105' fill='#bfa585'/><ellipse cx='235' cy='520' rx='45' ry='32' fill='#8d7356'/><ellipse cx='365' cy='520' rx='45' ry='32' fill='#8d7356'/><circle cx='300' cy='265' r='108' fill='#b89c7a'/><ellipse cx='300' cy='282' rx='84' ry='66' fill='#f1e4cc'/><ellipse cx='255' cy='272' rx='34' ry='17' fill='#4a3628' transform='rotate(-18 255 272)'/><ellipse cx='345' cy='272' rx='34' ry='17' fill='#4a3628' transform='rotate(18 345 272)'/><g class='blink' data-cx='255' data-cy='270'><circle cx='255' cy='270' r='13' fill='#1d2b36'/><circle cx='251' cy='265' r='5' fill='#fff'/></g><g class='blink' data-cx='345' data-cy='270'><circle cx='345' cy='270' r='13' fill='#1d2b36'/><circle cx='341' cy='265' r='5' fill='#fff'/></g><ellipse cx='300' cy='305' rx='17' ry='11' fill='#3a2a20'/><path d='M272 325 Q300 348 328 325' stroke='#3a2a20' stroke-width='6' fill='none' stroke-linecap='round'/><ellipse cx='232' cy='315' rx='15' ry='9' fill='#ff8fab' opacity='.7'/><ellipse cx='368' cy='315' rx='15' ry='9' fill='#ff8fab' opacity='.7'/>",
+ "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><g class='tail' data-cx='200' data-cy='430'><path d='M215 395 Q120 470 70 545 Q150 520 240 455 Z' fill='#7a5b3d'/></g><ellipse cx='240' cy='495' rx='62' ry='75' fill='#7a5b3d'/><ellipse cx='262' cy='560' rx='60' ry='22' fill='#5e4530'/><ellipse cx='280' cy='340' rx='125' ry='175' fill='#8a6a4a' transform='rotate(-14 280 340)'/><ellipse cx='305' cy='360' rx='70' ry='120' fill='#a88a66' transform='rotate(-14 305 360)'/><path d='M355 395 Q395 440 405 470' stroke='#7a5b3d' stroke-width='42' stroke-linecap='round' fill='none'/><path d='M398 470 q4 22 -10 36 M412 468 q8 22 -2 40 M424 462 q10 20 4 38' stroke='#efe2c4' stroke-width='8' stroke-linecap='round' fill='none'/><g class='wiggle' data-cx='360' data-cy='250'><path d='M360 250 Q410 180 445 110' stroke='#7a5b3d' stroke-width='46' stroke-linecap='round' fill='none'/><path d='M432 98 q-4 -26 12 -40 M448 102 q0 -28 20 -38 M462 110 q6 -24 26 -30' stroke='#efe2c4' stroke-width='9' stroke-linecap='round' fill='none'/></g><ellipse cx='365' cy='170' rx='75' ry='60' fill='#9c7b58'/><ellipse cx='432' cy='192' rx='42' ry='32' fill='#b8956c'/><ellipse cx='462' cy='186' rx='12' ry='9' fill='#3a2a20'/><path d='M420 214 Q440 224 458 212' stroke='#3a2a20' stroke-width='5' fill='none' stroke-linecap='round'/><ellipse cx='330' cy='128' rx='18' ry='14' fill='#7a5b3d'/><g class='blink' data-cx='390' data-cy='158'><ellipse cx='390' cy='158' rx='17' ry='19' fill='#fff'/><circle cx='395' cy='161' r='11' fill='#1d2b36'/><circle cx='391' cy='155' r='4.5' fill='#fff'/></g><ellipse cx='402' cy='194' rx='13' ry='8' fill='#ff8fab' opacity='.7'/></g>",
+ "scenes": [
+  {
+   "text": "¿Qué une al <span class='hl'>más lento</span> con un <span class='hl'>gigante</span>?",
+   "narration": "Uno es de los más lentos del mundo… y el otro pesaba como un elefante.",
+   "anim": "pop"
+  },
+  {
+   "text": "Perezoso: <span class='hl'>medio km por hora</span>",
+   "badge": "0,5 km/h",
+   "narration": "Fíjate en el perezoso: va a medio kilómetro por hora.",
+   "anim": "walk",
+   "focus": 1
+  },
+  {
+   "text": "Duerme <span class='hl'>15 horas</span> al día",
+   "sub": "gasta muy poca energía",
+   "narration": "Duerme unas quince horas al día: las hojas dan poca energía.",
+   "anim": "sleep",
+   "focus": 1
+  },
+  {
+   "text": "Baja del árbol <span class='hl'>1 vez por semana</span>",
+   "sub": "¡solo para hacer popó! 💩",
+   "narration": "Y baja del árbol una vez por semana… solo para hacer popó.",
+   "anim": "jump",
+   "focus": 1
+  },
+  {
+   "text": "Megaterio: <span class='hl'>6 m y 4 toneladas</span>",
+   "badge": "≈ 4 t",
+   "sub": "Sudamérica, hasta hace ~12.000 años",
+   "narration": "Ahora mira al megaterio: seis metros y unas cuatro toneladas.",
+   "anim": "walk",
+   "focus": 2
+  },
+  {
+   "text": "Se paraba en <span class='hl'>dos patas</span>",
+   "narration": "Se cree que se paraba en dos patas para comer de los árboles.",
+   "anim": "jump",
+   "focus": 2
+  },
+  {
+   "text": "Garras <span class='hl'>enormes</span>",
+   "narration": "Y que usaba sus garras para defenderse.",
+   "anim": "shake",
+   "focus": 2
+  },
+  {
+   "text": "¡Son <span class='hl'>familia</span>! 👇",
+   "sub": "el perezoso de tres dedos es su pariente vivo más cercano",
+   "narration": "¡Son familia! El perezoso de tres dedos es su pariente vivo más cercano. ¿Lo sabías?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
