@@ -1,0 +1,75 @@
+{
+ "slug": "2026-11-11-manana-oso-polar-vs-pinguino-emperador",
+ "style": "classic",
+ "animal": "oso polar",
+ "animal2": "pingüino emperador",
+ "habitat": "arctic",
+ "rate": "+15%",
+ "caption": "🐻‍❄️ Dos campeones del frío… que nunca se han visto. Oso polar vs pingüino emperador: piel negra bajo pelo transparente vs papá que cuida el huevo 4 meses sin comer. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #osopolar #pinguino #animalesdelartico #sabiasque #datoscuriosos #fyp",
+ "title": "Oso polar vs pingüino emperador: ¿por qué nunca se ven? 🐧",
+ "ytTitle": "Oso polar vs pingüino emperador: ¿por qué nunca se encuentran? 🐧 #Shorts",
+ "ytText": "¿Sabías que el oso polar tiene la piel negra y su pelo es transparente y hueco? El papá pingüino emperador carga el huevo sobre sus patas hasta 75 días de invierno y pasa 4 meses sin comer. Y nunca se encuentran: uno vive en el Ártico y el otro en la Antártida. Síguenos para más curiosidades animales.\n#Shorts #osopolar #pinguino #pinguinoemperador #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<g class='tail' data-cx='120' data-cy='380'><ellipse cx='112' cy='372' rx='22' ry='18' fill='#f3efe4'/></g><ellipse cx='270' cy='390' rx='170' ry='118' fill='#f7f3ea' stroke='#b9ae98' stroke-width='5'/><rect x='150' y='430' width='58' height='110' rx='28' fill='#f2ede2' stroke='#b9ae98' stroke-width='5'/><rect x='225' y='445' width='58' height='100' rx='28' fill='#f2ede2' stroke='#b9ae98' stroke-width='5'/><rect x='310' y='445' width='58' height='100' rx='28' fill='#f2ede2' stroke='#b9ae98' stroke-width='5'/><ellipse cx='179' cy='540' rx='34' ry='14' fill='#e6dfcf'/><ellipse cx='254' cy='546' rx='34' ry='14' fill='#e6dfcf'/><ellipse cx='339' cy='546' rx='34' ry='14' fill='#e6dfcf'/><path d='M360 360 Q400 300 430 280' stroke='#f7f3ea' stroke-width='90' stroke-linecap='round' fill='none'/><g class='wiggle' data-cx='410' data-cy='220'><circle cx='395' cy='205' r='24' fill='#f7f3ea' stroke='#b9ae98' stroke-width='5'/><circle cx='395' cy='205' r='11' fill='#e8cfc6'/><circle cx='485' cy='215' r='24' fill='#f7f3ea' stroke='#b9ae98' stroke-width='5'/><circle cx='485' cy='215' r='11' fill='#e8cfc6'/></g><ellipse cx='445' cy='275' rx='85' ry='72' fill='#fbf8f1' stroke='#b9ae98' stroke-width='5'/><ellipse cx='498' cy='300' rx='44' ry='32' fill='#fffdf7' stroke='#b9ae98' stroke-width='4'/><ellipse cx='525' cy='290' rx='15' ry='11' fill='#1d2b36'/><path d='M500 318 Q512 326 526 316' stroke='#1d2b36' stroke-width='5' fill='none' stroke-linecap='round'/><g class='blink' data-cx='450' data-cy='255'><circle cx='450' cy='255' r='14' fill='#1d2b36'/><circle cx='446' cy='250' r='5' fill='#fff'/></g><ellipse cx='455' cy='300' rx='16' ry='9' fill='#ff8fab' opacity='.7'/>",
+ "animalSvg2": "<ellipse cx='300' cy='565' rx='120' ry='18' fill='#000' opacity='.08'/><g class='flap' data-cx='195' data-cy='300'><path d='M200 290 Q130 380 150 470 Q195 420 215 340 Z' fill='#22303f'/></g><g class='flap' data-cx='405' data-cy='300'><path d='M400 290 Q470 380 450 470 Q405 420 385 340 Z' fill='#22303f'/></g><ellipse cx='300' cy='370' rx='115' ry='185' fill='#22303f'/><ellipse cx='300' cy='405' rx='82' ry='145' fill='#fdfcf7'/><path d='M235 300 Q300 270 365 300 Q340 330 300 335 Q260 330 235 300Z' fill='#ffe07a' opacity='.9'/><circle cx='300' cy='210' r='95' fill='#22303f'/><ellipse cx='222' cy='238' rx='26' ry='38' fill='#ffb52e' transform='rotate(-20 222 238)'/><ellipse cx='378' cy='238' rx='26' ry='38' fill='#ffb52e' transform='rotate(20 378 238)'/><ellipse cx='300' cy='235' rx='62' ry='55' fill='#fdfcf7'/><g class='blink' data-cx='275' data-cy='220'><circle cx='275' cy='220' r='14' fill='#1d2b36'/><circle cx='271' cy='215' r='5' fill='#fff'/></g><g class='blink' data-cx='325' data-cy='220'><circle cx='325' cy='220' r='14' fill='#1d2b36'/><circle cx='321' cy='215' r='5' fill='#fff'/></g><path d='M284 245 L316 245 L300 272 Z' fill='#f2841b'/><ellipse cx='258' cy='258' rx='13' ry='8' fill='#ff8fab' opacity='.7'/><ellipse cx='342' cy='258' rx='13' ry='8' fill='#ff8fab' opacity='.7'/><ellipse cx='265' cy='555' rx='34' ry='13' fill='#f2841b'/><ellipse cx='335' cy='555' rx='34' ry='13' fill='#f2841b'/>",
+ "scenes": [
+  {
+   "text": "Dos <span class='hl'>campeones del frío</span>… que nunca se han visto",
+   "narration": "Dos campeones del frío… que nunca se han visto. ¿Por qué?",
+   "anim": "pop"
+  },
+  {
+   "text": "Oso polar: piel <span class='hl'>negra</span>",
+   "narration": "Fíjate en el oso polar: debajo de su pelo, su piel es negra.",
+   "anim": "walk",
+   "focus": 1
+  },
+  {
+   "text": "Su pelo es <span class='hl'>transparente</span>",
+   "sub": "y hueco por dentro",
+   "narration": "Y su pelo no es blanco: cada pelo es transparente y hueco.",
+   "anim": "bob",
+   "focus": 1
+  },
+  {
+   "text": "Se ve blanco por <span class='hl'>la luz</span>",
+   "sub": "cada pelo dispersa y refleja la luz",
+   "narration": "Se ve blanco porque dispersa y refleja la luz.",
+   "anim": "zoom",
+   "focus": 1
+  },
+  {
+   "text": "Papá emperador: huevo <span class='hl'>en sus patas</span>",
+   "narration": "Ahora mira al pingüino emperador: el papá carga el huevo sobre sus patas.",
+   "anim": "bob",
+   "focus": 2,
+   "prop": "<ellipse cx='150' cy='160' rx='70' ry='90' fill='#f8f4e8' stroke='#d8cfb8' stroke-width='6'/><ellipse cx='125' cy='125' rx='16' ry='24' fill='#fff' opacity='.9'/>",
+   "propPos": "bottomright"
+  },
+  {
+   "text": "Hasta <span class='hl'>75 días</span> de invierno",
+   "badge": "−35 °C",
+   "sub": "se abrazan para no congelarse",
+   "narration": "Hasta setenta y cinco días, con más de treinta y cinco bajo cero.",
+   "anim": "shake",
+   "focus": 2
+  },
+  {
+   "text": "¡<span class='hl'>4 meses</span> sin comer!",
+   "badge": "4 meses",
+   "narration": "Cuando nace el pollito, el papá lleva cuatro meses sin comer.",
+   "anim": "zoom",
+   "focus": 2
+  },
+  {
+   "text": "Uno en el <span class='hl'>Ártico</span>, otro en la <span class='hl'>Antártida</span> 👇",
+   "sub": "polos opuestos del planeta",
+   "narration": "El oso vive en el Ártico; el pingüino, en la Antártida. ¿Lo sabías?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
