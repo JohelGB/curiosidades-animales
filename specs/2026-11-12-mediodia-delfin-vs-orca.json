@@ -1,0 +1,74 @@
+{
+ "slug": "2026-11-12-mediodia-delfin-vs-orca",
+ "style": "classic",
+ "animal": "delfín",
+ "animal2": "orca",
+ "habitat": "ocean",
+ "rate": "+15%",
+ "caption": "🐬 Uno tiene nombre propio… y el otro lleva un nombre equivocado. Delfín vs orca: el delfín responde a su silbido-nombre y la orca no es ballena: ¡es el delfín más grande! ¿Cuál te sorprendió más? 👇 #curiosidades #animales #delfin #orca #animalesmarinos #sabiasque #datoscuriosos #fyp",
+ "title": "Delfín vs orca: ¿la orca es una ballena? 🐋",
+ "ytTitle": "Delfín vs orca: ¿la orca es una ballena? 🐬 #Shorts",
+ "ytText": "¿Sabías que cada delfín nariz de botella tiene un silbido propio que funciona como su nombre? Y la orca, la famosa \"ballena asesina\", en realidad no es ballena: es el delfín más grande del mundo, y en su familia guían las abuelas. Curiosidades y datos del océano.\nSíguenos para más curiosidades animales.\n#Shorts #delfin #orca #animalesmarinos #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<ellipse cx='300' cy='540' rx='170' ry='16' fill='#000' opacity='.10'/><g class='tail' data-cx='135' data-cy='320'><path d='M140 320 Q100 300 60 250 Q95 300 80 330 Q100 345 70 395 Q110 350 145 335 Z' fill='#6b93b8' stroke='#3d5f80' stroke-width='5' stroke-linejoin='round'/></g><path d='M300 222 Q300 160 255 135 Q335 155 355 225 Z' fill='#6b93b8' stroke='#3d5f80' stroke-width='5' stroke-linejoin='round'/><path d='M130 320 Q200 200 360 218 Q450 228 482 268 L545 283 Q552 300 532 306 L470 312 Q430 382 300 386 Q190 386 130 320 Z' fill='#7fa7c9' stroke='#3d5f80' stroke-width='5' stroke-linejoin='round'/><path d='M190 345 Q300 398 455 318 Q360 352 190 345 Z' fill='#e8f2fa'/><g class='flap' data-cx='335' data-cy='345'><path d='M325 342 Q305 405 268 418 Q335 410 360 352 Z' fill='#6b93b8' stroke='#3d5f80' stroke-width='5' stroke-linejoin='round'/></g><g class='blink' data-cx='438' data-cy='262'><circle cx='438' cy='262' r='16' fill='#1d1b2a'/><circle cx='433' cy='256' r='6' fill='#fff'/></g><ellipse cx='452' cy='296' rx='14' ry='8' fill='#ff9fb8' opacity='.8'/><path d='M488 300 Q512 308 532 302' stroke='#3d5f80' stroke-width='4' fill='none' stroke-linecap='round'/>",
+ "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><ellipse cx='300' cy='540' rx='180' ry='16' fill='#000' opacity='.10'/><g class='tail' data-cx='135' data-cy='320'><path d='M140 320 Q100 300 55 245 Q95 300 78 330 Q100 345 65 400 Q110 350 145 335 Z' fill='#1f2330' stroke='#0d0f16' stroke-width='5' stroke-linejoin='round'/></g><path d='M285 222 Q300 140 285 80 Q345 140 355 225 Z' fill='#1f2330' stroke='#0d0f16' stroke-width='5' stroke-linejoin='round'/><path d='M120 320 Q190 190 370 212 Q485 228 515 292 Q480 372 300 388 Q185 390 120 320 Z' fill='#1f2330' stroke='#0d0f16' stroke-width='5' stroke-linejoin='round'/><path d='M245 232 Q300 215 350 222 Q320 250 260 248 Z' fill='#8b93a8' opacity='.8'/><path d='M210 352 Q300 398 470 330 Q380 352 300 340 Q260 345 210 352 Z' fill='#fff'/><path d='M210 352 Q170 345 150 320 Q200 335 235 338 Z' fill='#fff'/><ellipse cx='400' cy='248' rx='36' ry='16' fill='#fff' transform='rotate(-12 400 248)'/><g class='flap' data-cx='335' data-cy='350'><path d='M322 345 Q300 420 255 432 Q340 425 365 355 Z' fill='#1f2330' stroke='#0d0f16' stroke-width='5' stroke-linejoin='round'/></g><g class='blink' data-cx='448' data-cy='268'><circle cx='448' cy='268' r='15' fill='#fff'/><circle cx='450' cy='268' r='11' fill='#0d0f16'/><circle cx='446' cy='263' r='4' fill='#fff'/></g><ellipse cx='470' cy='302' rx='13' ry='7' fill='#ff9fb8' opacity='.85'/><path d='M478 318 Q495 322 510 310' stroke='#0d0f16' stroke-width='4' fill='none' stroke-linecap='round'/></g>",
+ "scenes": [
+  {
+   "text": "Uno tiene <span class='hl'>nombre propio</span>… y el otro, uno equivocado",
+   "narration": "Uno de estos tiene nombre propio… y el otro lleva un nombre equivocado.",
+   "anim": "pop"
+  },
+  {
+   "text": "Delfín: inventa <span class='hl'>su propio silbido</span>",
+   "sub": "de cría crea un silbido único",
+   "narration": "Fíjate en el delfín: de cría inventa un silbido único, su firma.",
+   "anim": "bob",
+   "focus": 1
+  },
+  {
+   "text": "Si lo imitan, <span class='hl'>responde</span>",
+   "sub": "funciona como un nombre",
+   "narration": "Si otro delfín imita ese silbido, él contesta: funciona como un nombre.",
+   "anim": "jump",
+   "focus": 1
+  },
+  {
+   "text": "Orca: ¿la <span class='hl'>ballena asesina</span>?",
+   "narration": "Ahora mira a la orca, la famosa ballena asesina.",
+   "anim": "bob",
+   "focus": 2
+  },
+  {
+   "text": "Hasta <span class='hl'>9 metros</span> y 6 toneladas",
+   "badge": "9 m",
+   "narration": "Mide hasta nueve metros y pesa unas seis toneladas.",
+   "anim": "zoom",
+   "focus": 2
+  },
+  {
+   "text": "Las <span class='hl'>abuelas</span> guían al grupo",
+   "sub": "recuerdan dónde hay salmón",
+   "narration": "Y en su familia guían las abuelas: recuerdan dónde hay peces cuando escasean.",
+   "anim": "left",
+   "focus": 2,
+   "prop": "<ellipse cx='140' cy='150' rx='80' ry='42' fill='#ff9f68' stroke='#c2603a' stroke-width='5'/><path d='M215 150 L270 110 L265 190 Z' fill='#ff9f68' stroke='#c2603a' stroke-width='5' stroke-linejoin='round'/><circle cx='100' cy='138' r='10' fill='#1d1b2a'/><circle cx='97' cy='134' r='3' fill='#fff'/><path d='M130 120 Q145 150 130 180' stroke='#c2603a' stroke-width='4' fill='none'/>",
+   "propPos": "bottomright"
+  },
+  {
+   "text": "La orca <span class='hl'>no es ballena</span>",
+   "sub": "su nombre viene de \"asesina de ballenas\"",
+   "narration": "El nombre equivocado es el de la orca: no es ballena.",
+   "anim": "shake",
+   "focus": 2
+  },
+  {
+   "text": "¡Es el <span class='hl'>delfín más grande</span>! 👇",
+   "narration": "¡Es el delfín más grande del mundo, primo del delfín! ¿Cuál te sorprendió más?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
