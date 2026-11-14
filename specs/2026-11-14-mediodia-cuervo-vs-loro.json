@@ -1,0 +1,80 @@
+{
+ "slug": "2026-11-14-mediodia-cuervo-vs-loro",
+ "style": "classic",
+ "animal": "cuervo",
+ "animal2": "loro gris africano",
+ "habitat": "sky",
+ "rate": "+15%",
+ "caption": "🧠 Uno recuerda tu cara por años y el otro decía 'te quiero'. Cuervo vs loro: los cuervos se avisan de quién es peligroso y el loro Alex sabía más de 100 palabras y contaba hasta 6. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #cuervo #loro #aves #sabiasque #datoscuriosos #fyp",
+ "title": "Cuervo vs loro: ¿cuál es el ave más lista? 🧠",
+ "ytTitle": "Cuervo vs loro: ¿cuál es el ave más inteligente? 🧠 #Shorts",
+ "ytText": "¿Sabías que los cuervos recuerdan la cara de una persona durante años y hasta les avisan a otros cuervos? El loro gris africano Alex sabía más de 100 palabras, nombraba colores y formas y contaba hasta 6. Curiosidades y datos: sus cerebros tienen el doble de neuronas que un mono con un cerebro del mismo peso.\nSíguenos para más curiosidades animales.\n#Shorts #cuervo #loro #aves #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<ellipse cx='300' cy='560' rx='130' ry='16' fill='#000' opacity='.12'/><g class='tail' data-cx='190' data-cy='400'><path d='M200 380 L80 470 L105 490 L95 515 L215 430 Z' fill='#2b2f45' stroke='#151826' stroke-width='5' stroke-linejoin='round'/></g><ellipse cx='290' cy='380' rx='135' ry='110' fill='#3a3f5c' stroke='#151826' stroke-width='5'/><g class='flap' data-cx='290' data-cy='340'><path d='M220 340 Q300 300 360 360 Q330 450 210 440 Q170 400 220 340 Z' fill='#2b2f45' stroke='#151826' stroke-width='5'/><path d='M230 400 Q280 410 320 395 M225 420 Q270 430 300 420' stroke='#5a6290' stroke-width='4' fill='none'/></g><circle cx='380' cy='250' r='92' fill='#3a3f5c' stroke='#151826' stroke-width='5'/><path d='M455 225 Q545 245 560 270 Q520 290 455 285 Z' fill='#4a4f63' stroke='#151826' stroke-width='5' stroke-linejoin='round'/><path d='M458 268 L540 272' stroke='#151826' stroke-width='3'/><g class='blink' data-cx='405' data-cy='230'><circle cx='405' cy='230' r='26' fill='#fff'/><circle cx='410' cy='232' r='17' fill='#1d1b2a'/><circle cx='404' cy='224' r='6' fill='#fff'/></g><ellipse cx='395' cy='285' rx='16' ry='9' fill='#ff8fab' opacity='.75'/><path d='M330 335 Q360 330 380 320' stroke='#5a6290' stroke-width='4' fill='none'/><path d='M265 480 L255 545 M320 480 L330 545' stroke='#4a4f63' stroke-width='10' stroke-linecap='round'/><path d='M235 548 L275 548 M310 548 L350 548' stroke='#4a4f63' stroke-width='8' stroke-linecap='round'/>",
+ "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><ellipse cx='300' cy='560' rx='120' ry='16' fill='#000' opacity='.12'/><g class='tail' data-cx='210' data-cy='440'><path d='M215 420 L120 520 L150 540 L240 455 Z' fill='#e63946' stroke='#9b1d2a' stroke-width='5' stroke-linejoin='round'/></g><ellipse cx='300' cy='390' rx='120' ry='125' fill='#a7b0bc' stroke='#5c6470' stroke-width='5'/><path d='M250 330 q15 10 30 0 M230 370 q15 10 30 0 M280 360 q15 10 30 0 M250 410 q15 10 30 0' stroke='#8a939f' stroke-width='4' fill='none'/><g class='flap' data-cx='260' data-cy='360'><path d='M200 340 Q280 320 330 380 Q300 480 200 470 Q160 410 200 340 Z' fill='#7f8995' stroke='#4c535e' stroke-width='5'/><path d='M210 410 Q260 420 300 405 M210 440 Q250 450 285 440' stroke='#a7b0bc' stroke-width='4' fill='none'/></g><circle cx='370' cy='240' r='95' fill='#b9c1cc' stroke='#5c6470' stroke-width='5'/><ellipse cx='405' cy='235' rx='45' ry='40' fill='#f4f6f8'/><path d='M450 215 Q520 215 525 270 Q522 300 495 300 Q505 270 470 262 L450 262 Z' fill='#2b2b33' stroke='#111' stroke-width='5' stroke-linejoin='round'/><g class='blink' data-cx='408' data-cy='230'><circle cx='408' cy='230' r='22' fill='#fffbe6'/><circle cx='412' cy='231' r='15' fill='#1d1b2a'/><circle cx='406' cy='224' r='5' fill='#fff'/></g><ellipse cx='385' cy='285' rx='15' ry='8' fill='#ff8fab' opacity='.75'/><path d='M270 505 L262 548 M325 505 L333 548' stroke='#6b6b74' stroke-width='10' stroke-linecap='round'/><path d='M242 550 L282 550 M313 550 L353 550' stroke='#6b6b74' stroke-width='8' stroke-linecap='round'/></g>",
+ "scenes": [
+  {
+   "text": "¿Cuál es el ave <span class='hl'>más lista</span>?",
+   "narration": "Uno recuerda tu cara por años; el otro sabía contar.",
+   "anim": "pop"
+  },
+  {
+   "text": "El cuervo <span class='hl'>no olvida</span> una cara",
+   "sub": "Seattle, 2006: un científico con máscara",
+   "narration": "Fíjate en el cuervo: un científico los atrapó con una máscara.",
+   "anim": "left",
+   "focus": 1,
+   "prop": "<path d='M60 90 Q150 30 240 90 Q260 190 150 260 Q40 190 60 90 Z' fill='#c9a27a' stroke='#6b4a2e' stroke-width='6'/><path d='M70 100 Q150 70 230 100' stroke='#6b4a2e' stroke-width='16' fill='none'/><ellipse cx='110' cy='140' rx='22' ry='14' fill='#2b1d12'/><ellipse cx='190' cy='140' rx='22' ry='14' fill='#2b1d12'/><path d='M140 160 Q150 185 160 160' stroke='#6b4a2e' stroke-width='6' fill='none'/><path d='M110 205 Q150 190 190 205' stroke='#6b4a2e' stroke-width='7' fill='none' stroke-linecap='round'/>",
+   "propPos": "top"
+  },
+  {
+   "text": "Le gritaban <span class='hl'>por años</span>",
+   "narration": "Por años, le gritaban cada vez que la usaba.",
+   "anim": "shake",
+   "focus": 1
+  },
+  {
+   "text": "Hasta cuervos que <span class='hl'>nunca lo vieron</span>",
+   "sub": "se avisan entre ellos",
+   "narration": "Hasta cuervos que nunca lo vieron lo regañaban: se avisan.",
+   "anim": "bob",
+   "focus": 1
+  },
+  {
+   "text": "Alex, el loro <span class='hl'>que entendía</span>",
+   "badge": "100+ palabras",
+   "narration": "Ahora mira al loro gris: Alex sabía más de cien palabras.",
+   "anim": "bob",
+   "focus": 2
+  },
+  {
+   "text": "Colores, formas y <span class='hl'>números</span>",
+   "sub": "contaba hasta 6",
+   "narration": "Nombraba colores, formas y contaba hasta seis.",
+   "anim": "jump",
+   "focus": 2
+  },
+  {
+   "text": "Sus últimas palabras: <span class='hl'>te quiero</span>",
+   "narration": "Lo último que le dijo a su científica: pórtate bien, te quiero.",
+   "anim": "zoom",
+   "focus": 2
+  },
+  {
+   "text": "¡El <span class='hl'>doble de neuronas</span>!",
+   "badge": "x2",
+   "sub": "que un mono de cerebro igual",
+   "narration": "¿El secreto? El doble de neuronas que un mono con cerebro igual.",
+   "anim": "pop"
+  },
+  {
+   "text": "Los dos son <span class='hl'>genios</span>. ¿Cuál gana? 👇",
+   "narration": "Los dos son genios. ¿Tú cuál crees que gana?",
+   "anim": "bob"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
