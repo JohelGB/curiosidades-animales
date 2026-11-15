@@ -1,0 +1,85 @@
+{
+ "slug": "2026-11-15-mediodia-anguila-electrica-vs-raya-torpedo",
+ "style": "classic",
+ "animal": "anguila eléctrica",
+ "animal2": "raya torpedo",
+ "habitat": "ocean",
+ "rate": "+15%",
+ "caption": "⚡ Los dos dan descargas… pero uno tiene un nombre engañoso. Anguila eléctrica vs raya torpedo: la anguila suelta hasta 860 voltios y no es anguila (es pariente del bagre); la raya torpedo le dio su nombre al arma. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #anguilaelectrica #rayatorpedo #animalesmarinos #sabiasque #datoscuriosos #fyp",
+ "title": "Anguila eléctrica vs raya torpedo: ¿quién da más corriente? ⚡",
+ "ytTitle": "Anguila eléctrica vs raya torpedo: ¡860 voltios y no es anguila! ⚡ #Shorts",
+ "ytText": "¿Sabías que la anguila eléctrica suelta hasta 860 voltios, salta fuera del agua para pegar más fuerte y en realidad no es anguila, sino pariente del bagre? La raya torpedo paraliza a sus presas, los romanos la usaban contra el dolor de cabeza y el arma torpedo lleva su nombre. Curiosidades y datos de peces eléctricos.\nSíguenos para más curiosidades animales.\n#Shorts #anguilaelectrica #rayatorpedo #peces #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<g transform='translate(300 320) scale(1.12 1.6) translate(-300 -320)'><ellipse cx='300' cy='470' rx='210' ry='16' fill='#000' opacity='.10'/><g class='tail' data-cx='150' data-cy='320'><path d='M150 305 Q110 285 55 305 Q105 330 150 340 Z' fill='#6b6a3a' stroke='#3e3d1e' stroke-width='5' stroke-linejoin='round'/></g><path d='M150 345 Q170 375 190 352 Q210 385 232 360 Q255 392 280 363 Q305 390 330 360 Q355 382 380 350 Q405 368 430 340' fill='#c9a24a' stroke='#8a6a24' stroke-width='4' stroke-linejoin='round'/><path d='M530 268 Q430 248 335 298 Q240 345 145 300 L145 340 Q240 400 338 352 Q430 312 528 342 Q575 305 530 268 Z' fill='#7a7a44' stroke='#3e3d1e' stroke-width='5' stroke-linejoin='round'/><path d='M160 338 Q240 392 338 350 Q430 312 520 340 Q430 330 340 366 Q245 402 160 338 Z' fill='#f2a33a'/><circle cx='250' cy='325' r='7' fill='#5c5b30'/><circle cx='350' cy='305' r='6' fill='#5c5b30'/><circle cx='430' cy='285' r='6' fill='#5c5b30'/><g class='blink' data-cx='498' data-cy='290'><circle cx='498' cy='290' r='15' fill='#1d1b2a'/><circle cx='493' cy='284' r='5' fill='#fff'/></g><ellipse cx='512' cy='320' rx='12' ry='7' fill='#ff9fb8' opacity='.85'/><path d='M532 318 Q545 326 556 316' stroke='#3e3d1e' stroke-width='4' fill='none' stroke-linecap='round'/></g>",
+ "animalSvg2": "<ellipse cx='300' cy='540' rx='170' ry='16' fill='#000' opacity='.10'/><g class='tail' data-cx='300' data-cy='420'><path d='M285 400 L280 500 Q300 520 320 500 L315 400 Z' fill='#a8784a' stroke='#6b4626' stroke-width='5' stroke-linejoin='round'/><path d='M282 470 Q240 500 250 535 Q300 520 350 535 Q360 500 318 470 Z' fill='#a8784a' stroke='#6b4626' stroke-width='5' stroke-linejoin='round'/><path d='M300 420 Q330 430 322 455 L302 450 Z' fill='#946640' stroke='#6b4626' stroke-width='4'/></g><g class='flap' data-cx='300' data-cy='260'><path d='M240 390 Q200 420 215 450 Q260 440 280 400 Z M360 390 Q400 420 385 450 Q340 440 320 400 Z' fill='#a8784a' stroke='#6b4626' stroke-width='5' stroke-linejoin='round'/><ellipse cx='300' cy='270' rx='240' ry='135' fill='#c08d5a' stroke='#6b4626' stroke-width='5'/></g><circle cx='190' cy='250' r='14' fill='#9a6c40'/><circle cx='410' cy='250' r='14' fill='#9a6c40'/><circle cx='200' cy='340' r='10' fill='#9a6c40'/><circle cx='400' cy='340' r='10' fill='#9a6c40'/><circle cx='300' cy='370' r='9' fill='#9a6c40'/><g class='blink' data-cx='255' data-cy='225'><circle cx='255' cy='225' r='22' fill='#fff' stroke='#6b4626' stroke-width='4'/><circle cx='258' cy='228' r='13' fill='#1d1b2a'/><circle cx='253' cy='222' r='5' fill='#fff'/></g><g class='blink' data-cx='345' data-cy='225'><circle cx='345' cy='225' r='22' fill='#fff' stroke='#6b4626' stroke-width='4'/><circle cx='342' cy='228' r='13' fill='#1d1b2a'/><circle cx='337' cy='222' r='5' fill='#fff'/></g><ellipse cx='225' cy='280' rx='18' ry='10' fill='#ff9fb8' opacity='.85'/><ellipse cx='375' cy='280' rx='18' ry='10' fill='#ff9fb8' opacity='.85'/><path d='M275 290 Q300 310 325 290' stroke='#6b4626' stroke-width='5' fill='none' stroke-linecap='round'/>",
+ "scenes": [
+  {
+   "text": "Los dos dan <span class='hl'>descargas</span>… pero uno no es lo que dice su nombre",
+   "narration": "Los dos dan descargas… pero uno no es lo que dice su nombre.",
+   "anim": "pop"
+  },
+  {
+   "text": "Anguila eléctrica: ¡hasta <span class='hl'>860 voltios</span>!",
+   "badge": "860 V",
+   "sub": "más de 7 veces un enchufe de casa",
+   "narration": "La anguila eléctrica suelta hasta ochocientos sesenta voltios.",
+   "anim": "bob",
+   "focus": 1
+  },
+  {
+   "text": "Sale <span class='hl'>del agua</span> para pegar más fuerte",
+   "narration": "Si la acorralan, salta del agua para pegar más fuerte.",
+   "anim": "jump",
+   "focus": 1
+  },
+  {
+   "text": "Tiene que <span class='hl'>subir a respirar</span> aire",
+   "sub": "si no, se ahoga",
+   "narration": "Y respira aire: si no sube, se ahoga.",
+   "anim": "left",
+   "focus": 1,
+   "prop": "<circle cx='150' cy='70' r='40' fill='#bfe9ff' opacity='.85' stroke='#fff' stroke-width='5'/><circle cx='95' cy='160' r='26' fill='#bfe9ff' opacity='.85' stroke='#fff' stroke-width='5'/><circle cx='170' cy='225' r='18' fill='#bfe9ff' opacity='.85' stroke='#fff' stroke-width='4'/><circle cx='135' cy='60' r='10' fill='#fff'/>",
+   "propPos": "top"
+  },
+  {
+   "text": "Raya torpedo: <span class='hl'>escondida</span> en la arena",
+   "narration": "La raya torpedo se esconde en la arena.",
+   "anim": "bob",
+   "focus": 2
+  },
+  {
+   "text": "¡<span class='hl'>Paraliza</span> a sus presas!",
+   "narration": "Envuelve al pez y lo paraliza con una descarga.",
+   "anim": "shake",
+   "focus": 2,
+   "prop": "<path d='M170 20 L80 160 L145 160 L110 285 L230 120 L160 120 L210 20 Z' fill='#ffe066' stroke='#e0a800' stroke-width='8' stroke-linejoin='round'/>",
+   "propPos": "top"
+  },
+  {
+   "text": "Los romanos la usaban para el <span class='hl'>dolor de cabeza</span>",
+   "narration": "Los romanos la usaban contra el dolor de cabeza.",
+   "anim": "left",
+   "focus": 2,
+   "prop": "<rect x='70' y='40' width='160' height='30' rx='6' fill='#f3ead6' stroke='#a8946a' stroke-width='6'/><rect x='95' y='70' width='110' height='170' fill='#f3ead6' stroke='#a8946a' stroke-width='6'/><path d='M120 75 V235 M150 75 V235 M180 75 V235' stroke='#a8946a' stroke-width='5'/><rect x='70' y='240' width='160' height='30' rx='6' fill='#f3ead6' stroke='#a8946a' stroke-width='6'/>",
+   "propPos": "top"
+  },
+  {
+   "text": "El <span class='hl'>torpedo</span> se llama así por ella",
+   "narration": "Y el arma torpedo lleva su nombre.",
+   "anim": "left",
+   "focus": 2,
+   "prop": "<g transform='rotate(-20 150 150)'><path d='M40 130 H220 Q275 150 220 170 H40 Z' fill='#9aa5b1' stroke='#4f5a66' stroke-width='6' stroke-linejoin='round'/><path d='M40 130 L10 100 V200 L40 170 Z' fill='#6f7b88' stroke='#4f5a66' stroke-width='6' stroke-linejoin='round'/><rect x='150' y='130' width='14' height='40' fill='#e85d5d'/></g>",
+   "propPos": "top"
+  },
+  {
+   "text": "¡La anguila eléctrica <span class='hl'>no es anguila</span>! 👇",
+   "sub": "es pariente del bagre",
+   "narration": "La anguila eléctrica no es anguila: es pariente del bagre. ¿Cuál te sorprendió más?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
