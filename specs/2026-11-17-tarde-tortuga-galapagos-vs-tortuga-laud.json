@@ -1,0 +1,72 @@
+{
+ "slug": "2026-11-17-tarde-tortuga-galapagos-vs-tortuga-laud",
+ "style": "classic",
+ "animal": "tortuga de Galápagos",
+ "animal2": "tortuga laúd",
+ "habitat": "ocean",
+ "rate": "+15%",
+ "caption": "🐢 Las dos son tortugas gigantes… pero una no tiene caparazón duro. Tortuga de Galápagos vs tortuga laúd: una vive más de 100 años y aguanta hasta un año sin comer ni beber; la otra pesa hasta 900 kg, tiene la garganta llena de espinas para tragar medusas y baja a más de 1.000 m. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #tortuga #tortugamarina #reptiles #sabiasque #datoscuriosos #fyp",
+ "title": "Tortuga de Galápagos vs tortuga laúd: ¿cuál no tiene caparazón duro? 🐢",
+ "ytTitle": "Tortuga de Galápagos vs tortuga laúd: ¿cuál no tiene caparazón duro? 🐢 #Shorts",
+ "ytText": "¿Sabías que la tortuga gigante de Galápagos puede vivir más de 100 años y aguantar hasta un año sin comer ni beber? La tortuga laúd, la más grande del mundo, tiene un caparazón de piel como cuero, espinas en la garganta para tragar medusas y se sumerge a más de 1.000 metros. Curiosidades y datos de tortugas.\nSíguenos para más curiosidades animales.\n#Shorts #tortuga #tortugamarina #galapagos #reptiles #curiosidades #animales #sabiasque #datoscuriosos",
+ "scenes": [
+  {
+   "text": "Dos tortugas gigantes… pero una <span class='hl'>no tiene caparazón duro</span>",
+   "narration": "Dos tortugas gigantes, pero una no tiene caparazón duro.",
+   "anim": "pop"
+  },
+  {
+   "text": "Tortuga de Galápagos: vive <span class='hl'>más de 100 años</span>",
+   "badge": "+100 años",
+   "narration": "La tortuga de Galápagos vive más de cien años.",
+   "anim": "walk",
+   "focus": 1
+  },
+  {
+   "text": "Aguanta <span class='hl'>hasta 1 año</span> sin comer ni beber",
+   "sub": "gracias a su metabolismo lentísimo",
+   "narration": "Y aguanta hasta un año sin comer ni beber.",
+   "anim": "sleep",
+   "focus": 1
+  },
+  {
+   "text": "Tortuga laúd: ¡hasta <span class='hl'>900 kilos</span>!",
+   "badge": "900 kg",
+   "narration": "La tortuga laúd, la más grande del mundo, pesa hasta novecientos kilos.",
+   "anim": "zoom",
+   "focus": 2
+  },
+  {
+   "text": "Su garganta tiene <span class='hl'>espinas</span> para las medusas",
+   "narration": "Su garganta tiene espinas para que las medusas no se escapen.",
+   "anim": "left",
+   "focus": 2,
+   "prop": "<path d='M80 140 Q150 30 220 140 Z' fill='#f6b8e6' stroke='#a2559a' stroke-width='6' stroke-linejoin='round'/><path d='M100 140 q10 40 -5 80 M130 140 q12 50 -2 100 M160 140 q-10 45 6 95 M195 140 q-10 40 6 80' fill='none' stroke='#a2559a' stroke-width='6' stroke-linecap='round'/><circle cx='130' cy='105' r='8' fill='#fff' opacity='.7'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Bucea a <span class='hl'>más de 1.000 metros</span>",
+   "badge": "+1.000 m",
+   "narration": "Y baja a más de mil metros, más que cualquier tortuga.",
+   "anim": "hover",
+   "focus": 2
+  },
+  {
+   "text": "Una camina en su isla… la otra <span class='hl'>cruza océanos</span>",
+   "narration": "Una camina en su isla; la otra cruza océanos.",
+   "anim": "bob"
+  },
+  {
+   "text": "La laúd: su caparazón es <span class='hl'>piel como cuero</span> 👇",
+   "narration": "La sin caparazón duro es la laúd: el suyo es piel como cuero. ¿Lo sabías?",
+   "anim": "pop"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ],
+ "animalSvg": "<ellipse cx='290' cy='500' rx='210' ry='18' fill='#000' opacity='.12'/><g class='tail' data-cx='95' data-cy='400'><path d='M100 385 L50 420 L105 415 Z' fill='#9a9a82' stroke='#55553f' stroke-width='5' stroke-linejoin='round'/></g><rect x='120' y='370' width='62' height='118' rx='26' fill='#a3a38a' stroke='#55553f' stroke-width='6'/><path d='M130 478 h10 M146 480 h10 M162 478 h10' stroke='#f2ead2' stroke-width='6' stroke-linecap='round'/><rect x='200' y='370' width='62' height='118' rx='26' fill='#a3a38a' stroke='#55553f' stroke-width='6'/><path d='M210 478 h10 M226 480 h10 M242 478 h10' stroke='#f2ead2' stroke-width='6' stroke-linecap='round'/><rect x='330' y='370' width='62' height='118' rx='26' fill='#a3a38a' stroke='#55553f' stroke-width='6'/><path d='M340 478 h10 M356 480 h10 M372 478 h10' stroke='#f2ead2' stroke-width='6' stroke-linecap='round'/><rect x='400' y='370' width='62' height='118' rx='26' fill='#a3a38a' stroke='#55553f' stroke-width='6'/><path d='M410 478 h10 M426 480 h10 M442 478 h10' stroke='#f2ead2' stroke-width='6' stroke-linecap='round'/><path d='M425 380 Q470 330 480 270 Q485 235 515 230 L540 262 Q520 280 510 320 Q495 380 455 405 Z' fill='#a3a38a' stroke='#55553f' stroke-width='6' stroke-linejoin='round'/><path d='M85 405 Q85 175 270 160 Q455 175 460 405 Z' fill='#8b6b3d' stroke='#4e3a1f' stroke-width='7' stroke-linejoin='round'/><polygon points='318,225 294,258 246,258 222,225 246,192 294,192' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='215,300 192,331 148,331 125,300 148,269 192,269' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='320,320 295,355 245,355 220,320 245,285 295,285' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='415,300 392,331 348,331 325,300 348,269 392,269' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='150,375 135,396 105,396 90,375 105,354 135,354' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='450,375 435,396 405,396 390,375 405,354 435,354' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='235,385 220,406 190,406 175,385 190,364 220,364' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><polygon points='365,385 350,406 320,406 305,385 320,364 350,364' fill='#b58c52' stroke='#4e3a1f' stroke-width='5' stroke-linejoin='round'/><path d='M78 400 Q270 430 468 400 L468 418 Q270 448 78 418 Z' fill='#6e5430' stroke='#4e3a1f' stroke-width='5'/><ellipse cx='525' cy='225' rx='58' ry='44' fill='#a3a38a' stroke='#55553f' stroke-width='6'/><circle cx='520' cy='250' r='12' fill='#ff9aa2' opacity='.7'/><path d='M548 245 Q565 255 578 240' fill='none' stroke='#55553f' stroke-width='5' stroke-linecap='round'/><g class='blink' data-cx='540' data-cy='210'><circle cx='540' cy='210' r='22' fill='#fff' stroke='#2b2b2b' stroke-width='4'/><circle cx='544' cy='213' r='13' fill='#1f1f1f'/><circle cx='550' cy='204' r='6' fill='#fff'/></g>",
+ "animalSvg2": "<g transform='translate(600 0) scale(-1 1)'><ellipse cx='300' cy='520' rx='200' ry='16' fill='#000' opacity='.10'/><g class='flap' data-cx='380' data-cy='230'><path d='M390 235 Q330 120 200 70 Q250 160 330 250 Z' fill='#3d566e' stroke='#1c2a38' stroke-width='6' stroke-linejoin='round'/><circle cx='280' cy='130' r='8' fill='#dfe8ef'/><circle cx='320' cy='175' r='7' fill='#dfe8ef'/></g><g class='flap' data-cx='380' data-cy='370'><path d='M390 365 Q330 480 200 530 Q250 440 330 350 Z' fill='#3d566e' stroke='#1c2a38' stroke-width='6' stroke-linejoin='round'/><circle cx='280' cy='470' r='8' fill='#dfe8ef'/><circle cx='320' cy='425' r='7' fill='#dfe8ef'/></g><path d='M150 270 Q110 240 90 255 Q100 290 150 295 Z' fill='#3d566e' stroke='#1c2a38' stroke-width='5'/><path d='M150 330 Q110 360 90 345 Q100 310 150 305 Z' fill='#3d566e' stroke='#1c2a38' stroke-width='5'/><g class='tail' data-cx='95' data-cy='300'><path d='M100 300 Q140 265 230 220 Q330 185 430 230 Q470 300 430 370 Q330 415 230 380 Q140 335 100 300 Z' fill='#2f4559' stroke='#1c2a38' stroke-width='7' stroke-linejoin='round'/></g><path d='M110 300 Q270 225 440 255' fill='none' stroke='#5c7a96' stroke-width='6' stroke-linecap='round'/><path d='M110 300 Q270 262 450 280' fill='none' stroke='#5c7a96' stroke-width='6' stroke-linecap='round'/><path d='M110 300 L455 300' fill='none' stroke='#5c7a96' stroke-width='6' stroke-linecap='round'/><path d='M110 300 Q270 338 450 320' fill='none' stroke='#5c7a96' stroke-width='6' stroke-linecap='round'/><path d='M110 300 Q270 375 440 345' fill='none' stroke='#5c7a96' stroke-width='6' stroke-linecap='round'/><circle cx='200' cy='250' r='7' fill='#dfe8ef'/><circle cx='260' cy='240' r='7' fill='#dfe8ef'/><circle cx='330' cy='235' r='7' fill='#dfe8ef'/><circle cx='390' cy='250' r='7' fill='#dfe8ef'/><circle cx='220' cy='345' r='7' fill='#dfe8ef'/><circle cx='290' cy='360' r='7' fill='#dfe8ef'/><circle cx='360' cy='355' r='7' fill='#dfe8ef'/><circle cx='170' cy='300' r='7' fill='#dfe8ef'/><circle cx='300' cy='300' r='7' fill='#dfe8ef'/><circle cx='400' cy='300' r='7' fill='#dfe8ef'/><circle cx='490' cy='300' r='62' fill='#3d566e' stroke='#1c2a38' stroke-width='6'/><ellipse cx='480' cy='252' rx='16' ry='10' fill='#f7a8b8'/><circle cx='460' cy='325' r='6' fill='#dfe8ef'/><circle cx='445' cy='290' r='5' fill='#dfe8ef'/><circle cx='512' cy='335' r='12' fill='#ff9aa2' opacity='.6'/><g class='blink' data-cx='500' data-cy='285'><circle cx='500' cy='285' r='22' fill='#fff' stroke='#2b2b2b' stroke-width='4'/><circle cx='504' cy='288' r='13' fill='#1f1f1f'/><circle cx='510' cy='279' r='6' fill='#fff'/></g><g class='blink' data-cx='535' data-cy='300'><circle cx='535' cy='300' r='16' fill='#fff' stroke='#2b2b2b' stroke-width='4'/><circle cx='539' cy='303' r='10' fill='#1f1f1f'/><circle cx='545' cy='294' r='4' fill='#fff'/></g><path d='M510 330 Q530 340 545 325' fill='none' stroke='#dfe8ef' stroke-width='5' stroke-linecap='round'/></g>"
+}
