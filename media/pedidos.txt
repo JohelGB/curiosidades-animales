@@ -1,3 +1,5 @@
 # <carpeta>|<búsqueda (nombre científico o en inglés)>|<n fotos>|<n videos>
 perezoso|Bradypus variegatus|8|0
 guepardo|Acinonyx jubatus running|8|0
+flamenco|Phoenicopterus ruber|8|0
+espatula-rosada|Platalea ajaja|8|0
