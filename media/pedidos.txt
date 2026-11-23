@@ -1,0 +1,3 @@
+# <carpeta>|<búsqueda (nombre científico o en inglés)>|<n fotos>|<n videos>
+perezoso|Bradypus variegatus|8|3
+guepardo|Acinonyx jubatus running|8|3
