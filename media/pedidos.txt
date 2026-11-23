@@ -3,5 +3,3 @@ perezoso|Bradypus variegatus|8|0
 guepardo|Acinonyx jubatus running|8|0
 flamenco|Phoenicopterus ruber|8|0
 espatula-rosada|Platalea ajaja|8|0
-gavial|Gavialis gangeticus|6|0
-sarcosuchus|Sarcosuchus imperator|6|0
