@@ -1,0 +1,11 @@
+{"slug":"_prueba-real-guepardo-perezoso","style":"real","rate":"+12%",
+ "scenes":[
+  {"media":"media/guepardo/f02.jpg","move":"left","text":"El más rápido vs el más lento","narration":"Uno corre más rápido que un carro en la ciudad… y el otro tarda un minuto en avanzar cuatro metros."},
+  {"media":"media/guepardo/f04.jpg","move":"right","badge":"+90 km/h","narration":"El guepardo pasa de estar quieto a más de noventa kilómetros por hora en pocos segundos."},
+  {"media":"media/guepardo/f03.jpg","move":"in","narration":"Sus garras casi no se esconden: le sirven como los tacos de un futbolista."},
+  {"media":"media/perezoso/f03.jpg","move":"up","badge":"4 m/min","narration":"Ahora mira al perezoso: avanza unos cuatro metros por minuto."},
+  {"media":"media/perezoso/f02.jpg","move":"in","narration":"Es tan lento que en su pelo crecen algas que lo pintan de verde."},
+  {"media":"media/perezoso/f08.jpg","move":"out","narration":"Y baja del árbol más o menos una vez por semana… solo para ir al baño."},
+  {"media":"media/guepardo/f01.jpg","move":"left","narration":"¿Tú cuál serías: el veloz o el que vive sin prisa?"},
+  {"media":"media/perezoso/f04.jpg","cta":true,"narration":"Síguenos para más curiosidades animales."}
+ ]}

@@ -54,18 +54,29 @@ D=scenes[-1]['e'];NF=int(D*FPS)
 def cover(img,w=W,h=H,extra=1.0):
     s=max(w/img.width,h/img.height)*extra;return img.resize((max(1,round(img.width*s)),max(1,round(img.height*s))),Image.LANCZOS)
 class Photo:
-    def __init__(s,path,move,dur_):
-        im=Image.open(os.path.join(ROOT,path)).convert('RGB');s.big=cover(im,extra=1.22);s.move=move;s.d=dur_
+    """Foto vertical: llena la pantalla con movimiento. Foto horizontal: completa al centro sobre fondo desenfocado."""
+    def __init__(s,path,move,dur_,fit=None):
+        im=Image.open(os.path.join(ROOT,path)).convert('RGB');s.move=move;s.d=dur_
+        s.fit=fit if fit is not None else im.width/im.height>0.85
+        if s.fit:
+            bg=cover(im,extra=1.1).filter(ImageFilter.GaussianBlur(30))
+            l=(bg.width-W)//2;t=(bg.height-H)//2;bg=bg.crop((l,t,l+W,t+H))
+            s.bg=Image.blend(bg,Image.new('RGB',(W,H),(0,0,0)),0.35)
+            s.FW=W;s.FH=min(int(W/(im.width/im.height)),int(H*0.62));s.FY=int(H*0.40-s.FH/2)
+            s.big=cover(im,s.FW,s.FH,extra=1.22)
+            mask=Image.new('L',(s.FW,s.FH),0);ImageDraw.Draw(mask).rounded_rectangle((0,0,s.FW-1,s.FH-1),0,fill=255);s.mask=mask
+        else:
+            s.FW,s.FH=W,H;s.big=cover(im,extra=1.22)
     def frame(s,tt):
-        p=min(max(tt/s.d,0),1);p=p*p*(3-2*p)  # suave
+        p=min(max(tt/s.d,0),1);p=p*p*(3-2*p)
         bw,bh=s.big.size;z={'in':1+0.16*p,'out':1.16-0.16*p}.get(s.move,1.08)
-        cw,ch=bw/z,bh/z
-        cx,cy=bw/2,bh/2
+        cw,ch=s.FW*1.22/z,s.FH*1.22/z;cx,cy=bw/2,bh/2
         if s.move=='left':cx=bw/2+(bw-cw)/2*(0.9-1.8*p)
         if s.move=='right':cx=bw/2-(bw-cw)/2*(0.9-1.8*p)
         if s.move=='up':cy=bh/2+(bh-ch)/2*(0.9-1.8*p)
-        x0,y0=cx-cw/2,cy-ch/2;sx=cw/W
-        return np.asarray(s.big.transform((W,H),Image.AFFINE,(sx,0,x0,0,sx,y0),resample=Image.BICUBIC))
+        sx=cw/s.FW;fg=s.big.transform((s.FW,s.FH),Image.AFFINE,(sx,0,cx-cw/2,0,sx,cy-ch/2),resample=Image.BICUBIC)
+        if not s.fit:return np.asarray(fg)
+        out=s.bg.copy();out.paste(fg,(0,s.FY));return np.asarray(out)
 class Clip:
     def __init__(s,path,start,dur_):
         s.path=os.path.join(ROOT,path);s.start=start;s.d=dur_;s.p=None;s.n=0;s.last=None
@@ -90,7 +101,7 @@ logo=Image.open(os.path.join(ENG,'logo.png')).convert('RGBA')
 def src_for(i):
     sc=scenes[i];m=sc.get('media') or scenes[i-1].get('media');d=sc['e']-sc['s']+XF
     if m.endswith('.mp4'):return Clip(m,sc.get('start',0),d)
-    return Photo(m,sc.get('move',['in','left','out','right','up'][i%5]),d)
+    return Photo(m,sc.get('move',['in','left','out','right','up'][i%5]),d,sc.get('fit'))
 def cta_frame(base,tt):
     im=Image.fromarray(base).filter(ImageFilter.GaussianBlur(18));im=Image.blend(im,Image.new('RGB',(W,H),(0,0,0)),0.45)
     k=min(tt/0.5,1);k=1-(1-k)**3;s=int(620*(0.7+0.3*k));lg=logo.resize((s,s),Image.LANCZOS)
@@ -108,7 +119,7 @@ WrapStyle: 0
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Poppins,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1
 Style: Top,Poppins,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,22,0,8,70,70,190,1
-Style: Badge,Poppins,120,&H0000E1FF,&H0000E1FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,9,4,8,60,60,430,1
+Style: Badge,Poppins,120,&H0000E1FF,&H0000E1FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,9,4,8,60,60,285,1
 Style: Cred,Poppins,30,&H00DDDDDD,&H00DDDDDD,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,40,40,70,1
 
 [Events]

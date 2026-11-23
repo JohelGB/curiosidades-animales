@@ -3,7 +3,7 @@
 Lee media/pedidos.txt (una línea por búsqueda):  <carpeta>|<búsqueda fotos>|<n fotos>|<n videos>|<búsqueda videos (opcional, p. ej. 'sloth')>
 Guarda en media/<carpeta>/: f01.jpg… (fotos ≥1080 px), v01.mp4… (clips sin audio ≤8 s, 1080 px de alto) y creditos.json.
 Una carpeta que ya existe no se vuelve a descargar. Corre en GitHub Actions (tiene internet y ffmpeg)."""
-import json,os,re,subprocess,urllib.request,urllib.parse,sys,time
+import json,os,re,subprocess,urllib.request,urllib.error,urllib.parse,sys,time
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)));MED=os.path.join(ROOT,'media')
 UA={'User-Agent':'curiosidades-animales-bot/1.0 (github.com/JohelGB/curiosidades-animales)'}
 OK_LIC=re.compile(r'^(CC0|Public domain|PD|CC BY(-SA)? [0-9.]+|CC BY(-SA)?)',re.I)
@@ -13,7 +13,13 @@ def api(**p):
     u='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(p)
     return json.load(urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=60))
 def search(q,ftype,n):
-    r=api(generator='search',gsrnamespace=6,gsrsearch=f'{q} filetype:{ftype}',gsrlimit=50,prop='imageinfo',
+    if n<=0: return []
+    if ftype=='video':
+        r=api(generator='search',gsrnamespace=6,gsrsearch=f'{q} filetype:video',gsrlimit=50,prop='videoinfo',
+              viprop='url|size|mime|extmetadata|derivatives')
+        for p in (r.get('query') or {}).get('pages',{}).values(): p['imageinfo']=p.pop('videoinfo',[{}])
+    else:
+        r=api(generator='search',gsrnamespace=6,gsrsearch=f'{q} filetype:{ftype}',gsrlimit=50,prop='imageinfo',
           iiprop='url|size|mime|extmetadata',iiurlwidth=1440)
     pages=sorted((r.get('query') or {}).get('pages',{}).values(),key=lambda p:p.get('index',99))
     out=[]
@@ -23,14 +29,23 @@ def search(q,ftype,n):
         if not OK_LIC.match(lic) or BAD.search(t): continue
         if ftype=='bitmap' and (ii.get('width',0)<1000 or ii.get('height',0)<700): continue
         art=re.sub('<[^>]+>','',md.get('Artist',{}).get('value','')).strip()[:120]
-        out.append({'title':t,'url':ii.get('thumburl') if ftype=='bitmap' else ii['url'],'page':ii.get('descriptionurl'),'license':lic,'author':art,'duration':float(md.get('Duration',{}).get('value',0) or 0)})
+        url=ii.get('thumburl') if ftype=='bitmap' else None
+        if ftype=='video':
+            der=[x for x in ii.get('derivatives',[]) if 'webm' in x.get('type','') and x.get('height')]
+            der.sort(key=lambda x:abs(int(x['height'])-720))
+            if not der: continue
+            url=der[0]['src']
+        out.append({'title':t,'url':url,'page':ii.get('descriptionurl'),'license':lic,'author':art,'duration':float(md.get('Duration',{}).get('value',0) or 0)})
         if len(out)>=n: break
     return out
 def get(url,f):
-    for i in range(3):
+    for i in range(4):
+        time.sleep(2)  # respeta los límites de Wikimedia
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=120) as r,open(f,'wb') as fh: fh.write(r.read());return True
-        except Exception as e: print('  reintento',e);time.sleep(5)
+            with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=180) as r,open(f,'wb') as fh: fh.write(r.read());return True
+        except urllib.error.HTTPError as e:
+            ra=int(e.headers.get('Retry-After','0') or 0);print('  reintento',e.code,url[-60:]);time.sleep(max(ra,20*(i+1)))
+        except Exception as e: print('  reintento',e);time.sleep(10)
     return False
 def main():
     ped=os.path.join(MED,'pedidos.txt')

@@ -1,5 +1,5 @@
 # <carpeta>|<búsqueda (nombre científico o en inglés)>|<n fotos>|<n videos>
 perezoso|Bradypus variegatus|8|3
 guepardo|Acinonyx jubatus running|8|3
-perezoso-v|sloth|0|3|sloth
-guepardo-v|cheetah|0|3|cheetah
+perezoso-v2|sloth|0|3|sloth
+guepardo-v2|cheetah|0|3|cheetah
