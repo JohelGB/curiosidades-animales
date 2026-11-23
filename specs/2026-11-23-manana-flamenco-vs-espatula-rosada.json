@@ -1,0 +1,59 @@
+{
+ "slug": "2026-11-23-manana-flamenco-vs-espatula-rosada",
+ "style": "real",
+ "rate": "+12%",
+ "animal": "flamenco",
+ "animal2": "espátula rosada",
+ "caption": "🦩 Son rosados… pero ninguno nace así. Flamenco vs espátula rosada: los dos se pintan con lo que comen, y el flamenco hasta se destiñe al criar. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #flamenco #aves #sabiasque #datoscuriosos #fyp",
+ "title": "Flamenco vs espátula rosada: ¿por qué son rosados? 🦩",
+ "ytTitle": "Flamenco vs espátula rosada: ¿por qué son rosados? Curiosidades 🦩 #Shorts",
+ "scenes": [
+  {
+   "media": "media/flamenco/f01.jpg",
+   "move": "in",
+   "text": "Rosados… pero no nacen así",
+   "narration": "Estas dos aves son rosadas… pero ninguna nace así."
+  },
+  {
+   "media": "media/flamenco/f05.jpg",
+   "move": "left",
+   "badge": "≈ 2 años",
+   "narration": "El flamenco nace gris y tarda unos dos años en ponerse rosado."
+  },
+  {
+   "media": "media/flamenco/f06.jpg",
+   "move": "up",
+   "narration": "Come de cabeza, filtrando algas y camaroncitos llenos de pigmentos."
+  },
+  {
+   "media": "media/flamenco/f07.jpg",
+   "move": "right",
+   "narration": "Y al alimentar a su cría con leche de buche, se destiñe casi a blanco."
+  },
+  {
+   "media": "media/espatula-rosada/f06.jpg",
+   "move": "in",
+   "narration": "La espátula rosada no es su pariente, pero también se pinta comiendo."
+  },
+  {
+   "media": "media/espatula-rosada/f04.jpg",
+   "move": "left",
+   "narration": "Barre el agua con su pico de cuchara, de lado a lado."
+  },
+  {
+   "media": "media/espatula-rosada/f02.jpg",
+   "move": "right",
+   "narration": "Al tocar comida lo cierra de golpe: por eso caza hasta de noche."
+  },
+  {
+   "media": "media/espatula-rosada/f05.jpg",
+   "move": "out",
+   "narration": "Los dos son lo que comen. ¿Cuál te sorprendió más?"
+  },
+  {
+   "media": "media/flamenco/f08.jpg",
+   "cta": true,
+   "narration": "Síguenos para más curiosidades animales."
+  }
+ ]
+}
