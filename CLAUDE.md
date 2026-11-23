@@ -25,13 +25,14 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
 4. Elige **una curiosidad sorprendente de cada animal** (que se contrasten o compitan) con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
 5. **FOTOS Y VIDEOS REALES (estilo `real`, obligatorio desde el 22 nov 2026: Johel pidió que no se vea como dibujos).**
-   a. Para cada animal sin carpeta en `media/`, agrega a `media/pedidos.txt` una línea
-      `<carpeta>|<nombre científico>|8|0` y otra `<carpeta>-v|<nombre común en inglés>|0|3|<nombre común en inglés>`
-      (p. ej. `perezoso|Bradypus variegatus|8|0` y `perezoso-v|sloth|0|3|sloth`). Commit + push: la acción de GitHub
-      "Descargar fotos y videos reales" (`tools/fetch_media.py`) baja de Wikimedia Commons fotos y clips con licencia libre a
-      `media/<carpeta>/` con `creditos.json` y `hoja.jpg`. Espera con `git pull` cada 30 s (máx. 12 min) hasta que exista
-      `media/<carpeta>/creditos.json`; el estado se ve en `curl -s https://api.github.com/repos/JohelGB/curiosidades-animales/actions/runs?per_page=3`
-      y el registro en `media/_ultimo_log.txt`. Si una carpeta ya existe, reúsala (no la pidas de nuevo).
+   a. Para cada animal sin carpeta en `media/`, agrega a `media/pedidos.txt` la línea `<carpeta>|<nombre científico>|8|0`
+      (p. ej. `perezoso|Bradypus variegatus|8|0`; si es un perro de raza: `perro-labrador|Labrador Retriever|8|0`).
+      **Solo fotos** (`0` videos): Wikimedia limita la descarga de videos y tarda demasiado. Commit + push: la acción de GitHub
+      "Descargar fotos y videos reales" (`tools/fetch_media.py`) baja de Wikimedia Commons fotos con licencia libre a
+      `media/<carpeta>/` con `creditos.json` (y `hoja.jpg` si sale). Tarda ~3 min. Espera con `git pull` cada 30 s (máx. 12 min)
+      hasta que exista `media/<carpeta>/creditos.json`; el estado se ve en
+      `curl -s https://api.github.com/repos/JohelGB/curiosidades-animales/actions/runs?per_page=3` y el registro en
+      `media/_ultimo_log.txt`. Si la carpeta ya existe, reúsala. Si existe una carpeta `<carpeta>-v` con clips `.mp4`, puedes usarlos.
    b. **Mira** las fotos/clips (Read de `hoja.jpg` o de cada archivo) y elige las mejores: el animal correcto y bien visible,
       sin texto ni marcas de agua, **nada de sangre, presas muertas ni animales heridos**, ni mapas/esqueletos/museos.
       Si no hay suficientes buenas (mín. 3 por animal), pide otra búsqueda (otro nombre) o cambia de animal.
@@ -201,14 +202,14 @@ Una línea por video: `| fecha | franja | animal | tema | link TikTok | link You
 {"slug":"2026-11-23-manana-guepardo-vs-perezoso","style":"real","rate":"+12%","animal":"guepardo","animal2":"perezoso",
  "caption":"…","title":"…","ytTitle":"…",
  "scenes":[
-  {"media":"media/guepardo-v/v01.mp4","start":0,"text":"Gancho corto (≤ 7 palabras)","narration":"Gancho que crea misterio."},
+  {"media":"media/guepardo/f02.jpg","move":"left","text":"Gancho corto (≤ 7 palabras)","narration":"Gancho que crea misterio."},
   {"media":"media/guepardo/f04.jpg","move":"right","badge":"+90 km/h","narration":"Dato con cifra."},
   …,
   {"media":"media/perezoso/f04.jpg","cta":true,"narration":"Síguenos para más curiosidades animales."}]}
 ```
 - `media`: foto `.jpg` o clip `.mp4` de `media/`. Las fotos horizontales salen completas al centro con fondo desenfocado;
   las verticales llenan la pantalla. `move` (solo fotos): `in`, `out`, `left`, `right`, `up` (alterna para que se sienta fluido).
-  `start`: segundo del clip desde donde empieza. Usa **al menos 2 clips** si hay, y pon un clip o la foto más impactante en la escena 1.
+  `start`: segundo del clip desde donde empieza (solo si hay clips). Pon la foto más impactante en la escena 1 y no repitas foto.
 - `text` (opcional): titular arriba; úsalo solo en el gancho. `badge` (opcional): cifra grande amarilla.
 - Los subtítulos salen solos, palabra por palabra (de `narration`). Escribe números en palabras en `narration` y en cifra en `badge`.
 - 8–9 escenas alternando los dos animales; cada escena dura lo que dura su frase.
