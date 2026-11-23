@@ -24,18 +24,33 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    de un pavo), nunca como personajes de películas. En `publicados.md` escribe el nombre común (p. ej. `megalodón`).
 4. Elige **una curiosidad sorprendente de cada animal** (que se contrasten o compitan) con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
-5. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal1>-vs-<animal2>.json` en **FORMATO HISTORIA + DÚO** (secciones "Formato historia"
-   y "Formato dúo"; es el formato de TODOS los videos desde el 5 nov 2026). `slug` = mismo nombre sin `.json`.
-   **NO uses el estilo canción** (Johel lo eliminó porque las vistas bajaron mucho).
-6. `python3 engine/build.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
-   Revisa: los dos animales se reconocen y se ve bonito, nada tapa el texto, ningún texto se sale, props bien ubicados. Corrige y repite.
-7. `python3 engine/build.py specs/<slug>.json` → `videos/<slug>.mp4` (debe durar 30–45 s; si pasa de 45 s, acorta narraciones y repite).
-8. Agrega una línea a `publicados.md`, luego `git add specs videos publicados.md && git commit && git push origin main`.
+5. **FOTOS Y VIDEOS REALES (estilo `real`, obligatorio desde el 22 nov 2026: Johel pidió que no se vea como dibujos).**
+   a. Para cada animal sin carpeta en `media/`, agrega a `media/pedidos.txt` una línea
+      `<carpeta>|<nombre científico>|8|0` y otra `<carpeta>-v|<nombre común en inglés>|0|3|<nombre común en inglés>`
+      (p. ej. `perezoso|Bradypus variegatus|8|0` y `perezoso-v|sloth|0|3|sloth`). Commit + push: la acción de GitHub
+      "Descargar fotos y videos reales" (`tools/fetch_media.py`) baja de Wikimedia Commons fotos y clips con licencia libre a
+      `media/<carpeta>/` con `creditos.json` y `hoja.jpg`. Espera con `git pull` cada 30 s (máx. 12 min) hasta que exista
+      `media/<carpeta>/creditos.json`; el estado se ve en `curl -s https://api.github.com/repos/JohelGB/curiosidades-animales/actions/runs?per_page=3`
+      y el registro en `media/_ultimo_log.txt`. Si una carpeta ya existe, reúsala (no la pidas de nuevo).
+   b. **Mira** las fotos/clips (Read de `hoja.jpg` o de cada archivo) y elige las mejores: el animal correcto y bien visible,
+      sin texto ni marcas de agua, **nada de sangre, presas muertas ni animales heridos**, ni mapas/esqueletos/museos.
+      Si no hay suficientes buenas (mín. 3 por animal), pide otra búsqueda (otro nombre) o cambia de animal.
+   c. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal1>-vs-<animal2>.json` con `"style": "real"` siguiendo "Formato historia" y
+      "Formato dúo" (el guion es el mismo), pero cada escena lleva `"media": "media/<carpeta>/f03.jpg"` o `".../v01.mp4"`
+      en vez de dibujos (ver "Formato del spec REAL"). Ejemplo aprobado: `specs/_prueba-real-guepardo-perezoso.json`.
+      **NO uses el estilo canción.**
+6. `python3 engine/build_real.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read
+   (animal completo y reconocible, subtítulos legibles, nada raro). Corrige y repite.
+7. `python3 engine/build_real.py specs/<slug>.json` → `videos/<slug>.mp4` (30–45 s; si pasa de 45 s, acorta narraciones).
+   Si la acción de GitHub falla o no hay fotos utilizables tras 12 min, usa como respaldo el motor de dibujos
+   (`engine/build.py`, "Formato del spec (estilo clásico)") y dilo en el mensaje final.
+8. Agrega una línea a `publicados.md`, luego `git add specs videos media publicados.md && git commit && git push origin main`.
 9. Publica con Buffer `create_post` en **los dos canales** (dos llamadas), ambos con `schedulingType: "automatic"`, `mode: "shareNow"`
    y `assets: [{video:{url:<URL raw>, metadata:{title, thumbnailOffset:1500}}}]`:
    - **TikTok** (`6ae8ff41e29c69a1713efa8f`): `text` = `caption` del spec; `metadata: {tiktok: {title, isAiGenerated: true}}`.
    - **YouTube Shorts** (`6ae91564e29c69a171401081`): `text` = 2–3 frases que resuman la curiosidad + línea "Síguenos para más
-     curiosidades animales." + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
+     curiosidades animales." + una línea "📷 Imágenes: <autor> (<licencia>), … vía Wikimedia Commons" con los autores de
+     `creditos.json` de los archivos usados (obligatorio por las licencias CC BY/BY-SA) + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
      categoryId: "15", privacy: "public", madeForKids: false, isAiGenerated: true, notifySubscribers: true}}`.
 10. Espera ~1–2 min y verifica con `get_post` que ambos queden `sent`; anota los dos `externalLink` en la línea de `publicados.md`
     (commit + push). Si uno queda en `error`, reporta el mensaje; no reintentes más de una vez. Que falle uno no impide el otro.
@@ -180,3 +195,20 @@ Muestra aprobada por Johel: `specs/_muestra-cancion-pulpo.json` (úsala de model
 
 ## publicados.md
 Una línea por video: `| fecha | franja | animal | tema | link TikTok | link YouTube |`.
+
+## Formato del spec REAL (engine/build_real.py) — formato actual
+```json
+{"slug":"2026-11-23-manana-guepardo-vs-perezoso","style":"real","rate":"+12%","animal":"guepardo","animal2":"perezoso",
+ "caption":"…","title":"…","ytTitle":"…",
+ "scenes":[
+  {"media":"media/guepardo-v/v01.mp4","start":0,"text":"Gancho corto (≤ 7 palabras)","narration":"Gancho que crea misterio."},
+  {"media":"media/guepardo/f04.jpg","move":"right","badge":"+90 km/h","narration":"Dato con cifra."},
+  …,
+  {"media":"media/perezoso/f04.jpg","cta":true,"narration":"Síguenos para más curiosidades animales."}]}
+```
+- `media`: foto `.jpg` o clip `.mp4` de `media/`. Las fotos horizontales salen completas al centro con fondo desenfocado;
+  las verticales llenan la pantalla. `move` (solo fotos): `in`, `out`, `left`, `right`, `up` (alterna para que se sienta fluido).
+  `start`: segundo del clip desde donde empieza. Usa **al menos 2 clips** si hay, y pon un clip o la foto más impactante en la escena 1.
+- `text` (opcional): titular arriba; úsalo solo en el gancho. `badge` (opcional): cifra grande amarilla.
+- Los subtítulos salen solos, palabra por palabra (de `narration`). Escribe números en palabras en `narration` y en cifra en `badge`.
+- 8–9 escenas alternando los dos animales; cada escena dura lo que dura su frase.
