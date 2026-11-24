@@ -1,0 +1,61 @@
+{
+ "slug": "2026-11-24-manana-tiburon-ballena-vs-manta-gigante",
+ "style": "real",
+ "rate": "+12%",
+ "animal": "tiburón ballena",
+ "animal2": "manta gigante",
+ "caption": "🦈 Dos gigantes del mar… y uno tiene dientes en los ojos. Tiburón ballena vs manta gigante: el pez más grande del mundo vs el pez con el cerebro más grande para su tamaño. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #tiburonballena #mantaraya #animalesmarinos #sabiasque #datoscuriosos #fyp",
+ "title": "Tiburón ballena vs manta gigante: ¿cuál tiene dientes en los ojos? 🦈",
+ "ytTitle": "Tiburón ballena vs manta gigante: ¿dientes en los ojos? Curiosidades 🦈 #Shorts",
+ "scenes": [
+  {
+   "media": "media/manta-gigante/f01.jpg",
+   "move": "in",
+   "text": "Uno tiene dientes en los ojos",
+   "narration": "Dos gigantes del mar… y uno tiene dientes en los ojos."
+  },
+  {
+   "media": "media/tiburon-ballena/f03.jpg",
+   "move": "left",
+   "badge": "18 m",
+   "narration": "El tiburón ballena es el pez más grande del mundo: hasta dieciocho metros."
+  },
+  {
+   "media": "media/tiburon-ballena/f04.jpg",
+   "move": "right",
+   "narration": "Y solo come plancton: abre la boca y filtra el agua."
+  },
+  {
+   "media": "media/tiburon-ballena/f02.jpg",
+   "move": "up",
+   "narration": "Sus manchas son únicas: se identifican con un programa para mapear estrellas."
+  },
+  {
+   "media": "media/manta-gigante/f05.jpg",
+   "move": "left",
+   "badge": "7 m",
+   "narration": "Ahora mira a la manta gigante: sus aletas miden hasta siete metros."
+  },
+  {
+   "media": "media/manta-gigante/f04.jpg",
+   "move": "in",
+   "narration": "Tiene el cerebro más grande para su tamaño de todos los peces."
+  },
+  {
+   "media": "media/manta-gigante/f02.jpg",
+   "move": "out",
+   "narration": "Y se cree que se reconoce en un espejo."
+  },
+  {
+   "media": "media/tiburon-ballena/f01.jpg",
+   "move": "in",
+   "badge": "~3.000 por ojo",
+   "narration": "¿Y los dientes en los ojos? Son del tiburón ballena: miles de dientecitos que los protegen."
+  },
+  {
+   "media": "media/tiburon-ballena/f06.jpg",
+   "cta": true,
+   "narration": "¿Cuál te sorprendió más? Síguenos para más curiosidades animales."
+  }
+ ]
+}
