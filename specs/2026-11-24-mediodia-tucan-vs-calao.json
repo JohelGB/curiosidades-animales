@@ -1,0 +1,60 @@
+{
+ "slug": "2026-11-24-mediodia-tucan-vs-calao",
+ "style": "real",
+ "rate": "+12%",
+ "animal": "tucán",
+ "animal2": "cálao",
+ "caption": "🦜 Dos picos gigantes… y uno lo usa para encerrarse en un árbol. Tucán vs cálao: un pico que funciona como radiador vs una mamá que se tapia con lodo mientras el papá la alimenta por una rendija. ¿Cuál te sorprendió más? 👇 #curiosidades #animales #tucan #calao #aves #sabiasque #datoscuriosos #fyp",
+ "title": "Tucán vs cálao: ¿quién se encierra en un árbol? 🦜",
+ "ytTitle": "Tucán vs cálao: ¿quién se encierra en un árbol? Curiosidades de aves 🦜 #Shorts",
+ "scenes": [
+  {
+   "media": "media/tucan/f05.jpg",
+   "move": "in",
+   "text": "Uno se encierra en un árbol",
+   "narration": "Dos picos gigantes… y uno lo usa para encerrarse en un árbol."
+  },
+  {
+   "media": "media/tucan/f01.jpg",
+   "move": "left",
+   "badge": "1/3 del cuerpo",
+   "narration": "El pico del tucán toco mide un tercio de su cuerpo."
+  },
+  {
+   "media": "media/tucan/f07.jpg",
+   "move": "right",
+   "narration": "Pero pesa poquito: por dentro es como una espuma de hueso."
+  },
+  {
+   "media": "media/tucan/f02.jpg",
+   "move": "up",
+   "badge": "hasta 60 %",
+   "narration": "Y es su aire acondicionado: suelta hasta el sesenta por ciento de su calor."
+  },
+  {
+   "media": "media/calao/f03.jpg",
+   "move": "left",
+   "narration": "Ahora mira al cálao de Asia: se parece, pero no es pariente."
+  },
+  {
+   "media": "media/calao/f01.jpg",
+   "move": "in",
+   "narration": "Sobre el pico lleva un casco hueco, como un yelmo."
+  },
+  {
+   "media": "media/calao/f02.jpg",
+   "move": "right",
+   "narration": "Al anidar, la hembra se encierra en un árbol y tapa la entrada con lodo."
+  },
+  {
+   "media": "media/calao/f04.jpg",
+   "move": "out",
+   "narration": "El macho le pasa fruta por una rendija durante semanas."
+  },
+  {
+   "media": "media/tucan/f08.jpg",
+   "cta": true,
+   "narration": "¿Cuál te sorprendió más? Síguenos para más curiosidades animales."
+  }
+ ]
+}
