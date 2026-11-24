@@ -5,3 +5,5 @@ flamenco|Phoenicopterus ruber|8|0
 espatula-rosada|Platalea ajaja|8|0
 zorro-fenec|Vulpes zerda|8|0
 zorro-artico|Vulpes lagopus|8|0
+tiburon-ballena|Rhincodon typus|8|0
+manta-gigante|Mobula birostris|8|0
