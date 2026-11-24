@@ -9,3 +9,5 @@ tiburon-ballena|Rhincodon typus|6|0
 manta-gigante|Mobula birostris|6|0
 tucan|Ramphastos toco|8|0
 calao|Buceros bicornis|8|0
+basilisco|Basiliscus plumifrons|8|0
+zapatero|Gerris lacustris|8|0
