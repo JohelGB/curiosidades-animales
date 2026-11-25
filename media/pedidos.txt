@@ -11,3 +11,6 @@ tucan|Ramphastos toco|8|0
 calao|Buceros bicornis|8|0
 basilisco|Basiliscus plumifrons|8|0
 zapatero|Gerris lacustris|8|0
+pantera-nebulosa|Neofelis nebulosa|8|0
+tigre-dientes-sable|Smilodon sculpture|8|0
+tigre-dientes-sable-b|Smilodon reconstruction|8|0
