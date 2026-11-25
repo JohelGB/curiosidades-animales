@@ -1,0 +1,55 @@
+{
+ "slug": "2026-11-25-tarde-foca-vs-lobo-marino",
+ "style": "real",
+ "rate": "+18%",
+ "animal": "foca",
+ "animal2": "lobo marino",
+ "caption": "🦭 Parecen gemelos, pero uno baila y el otro habla. Foca vs lobo marino: el lobo marino Ronan sigue el ritmo de la música y la foca Hoover aprendió a decir frases humanas. ¿Cuál te sorprendió más? 👇 #foca #lobomarino #animalesmarinos #curiosidades #animales #sabiasque #datoscuriosos #fyp",
+ "title": "Foca vs lobo marino: ¿cuál baila y cuál habla? 🦭",
+ "ytTitle": "Foca vs lobo marino: uno baila y el otro habla 🦭 #Shorts",
+ "scenes": [
+  {
+   "media": "media/lobo-marino/f01.jpg",
+   "move": "in",
+   "text": "Uno baila y el otro habla",
+   "narration": "Parecen gemelos, pero uno baila con música… y el otro habla."
+  },
+  {
+   "media": "media/foca/f05.jpg",
+   "move": "left",
+   "narration": "La foca no tiene orejas por fuera, solo agujeritos."
+  },
+  {
+   "media": "media/foca/f07.jpg",
+   "move": "right",
+   "narration": "En tierra se arrastra sobre la panza."
+  },
+  {
+   "media": "media/lobo-marino/f07.jpg",
+   "move": "up",
+   "narration": "El lobo marino tiene orejitas y camina en cuatro aletas."
+  },
+  {
+   "media": "media/lobo-marino/f04.jpg",
+   "move": "in",
+   "badge": "Ronan 🎵",
+   "narration": "Ronan, un lobo marino, fue el primer mamífero no humano comprobado en seguir el ritmo."
+  },
+  {
+   "media": "media/foca/f02.jpg",
+   "move": "out",
+   "badge": "Hoover 🗣️",
+   "narration": "Ronan, un lobo marino, fue el primer mamífero no humano probado en seguir el ritmo."
+  },
+  {
+   "media": "media/foca/f08.jpg",
+   "move": "right",
+   "narration": "Pero la foca Hoover, de un acuario en Boston, aprendió a decir frases en inglés."
+  },
+  {
+   "media": "media/foca/f01.jpg",
+   "cta": true,
+   "narration": "Síguenos para más curiosidades animales."
+  }
+ ]
+}
