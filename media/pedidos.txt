@@ -16,3 +16,4 @@ tigre-dientes-sable|Smilodon sculpture|8|0
 tigre-dientes-sable-b|Smilodon reconstruction|8|0
 escarabajo-bombardero|Brachinus|8|0
 zorrillo|Mephitis mephitis|8|0
+escarabajo-bombardero-b|bombardier beetle|8|0
