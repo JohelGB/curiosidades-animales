@@ -1,0 +1,62 @@
+{
+ "slug": "2026-11-25-mediodia-zorrillo-vs-escarabajo-bombardero",
+ "style": "real",
+ "rate": "+18%",
+ "animal": "zorrillo",
+ "animal2": "escarabajo bombardero",
+ "title": "Zorrillo vs escarabajo bombardero: ¿quién tiene el disparo más potente? 💥",
+ "ytTitle": "Zorrillo vs escarabajo bombardero: el insecto que dispara químicos hirviendo 💥 #Shorts",
+ "caption": "💥 Uno dispara químicos HIRVIENDO… Zorrillo vs escarabajo bombardero: el zorrillo avisa antes de rociarte a 3 metros, pero un escarabajo de 1 cm dispara unos 500 chorros por segundo a casi 100 °C ¡y hasta hace que el sapo lo vomite vivo! ¿Cuál te sorprendió más? 👇 #curiosidades #animales #zorrillo #escarabajo #insectos #sabiasque #datoscuriosos #fyp",
+ "scenes": [
+  {
+   "media": "media/zorrillo/f05.jpg",
+   "move": "in",
+   "text": "¿Quién dispara más fuerte?",
+   "narration": "Estos dos se defienden disparando químicos… pero uno los dispara hirviendo."
+  },
+  {
+   "media": "media/zorrillo/f01.jpg",
+   "move": "left",
+   "narration": "El zorrillo avisa primero: pisotea el suelo, bufa y levanta la cola."
+  },
+  {
+   "media": "media/zorrillo/f06.jpg",
+   "move": "right",
+   "badge": "3 m",
+   "narration": "Si no te vas, te rocía hasta a tres metros."
+  },
+  {
+   "media": "media/zorrillo/f04.jpg",
+   "move": "up",
+   "narration": "Tiene pocos disparos y tarda días en recargar: por eso avisa."
+  },
+  {
+   "media": "media/escarabajo-bombardero-b/f02.jpg",
+   "move": "in",
+   "badge": "≈1 cm",
+   "narration": "Ahora mira al escarabajo bombardero, de apenas un centímetro."
+  },
+  {
+   "media": "media/escarabajo-bombardero-b/f04.jpg",
+   "move": "out",
+   "badge": "≈100 °C",
+   "narration": "Mezcla dos químicos en su abdomen y explotan a casi cien grados."
+  },
+  {
+   "media": "media/escarabajo-bombardero-b/f08.jpg",
+   "move": "left",
+   "badge": "500 por segundo",
+   "narration": "Y los dispara en unos quinientos chorritos por segundo."
+  },
+  {
+   "media": "media/escarabajo-bombardero-b/f03.jpg",
+   "move": "up",
+   "narration": "Si un sapo se lo traga, lo rocía por dentro… y el sapo lo vomita vivo. ¿Cuál te sorprendió más?"
+  },
+  {
+   "media": "media/escarabajo-bombardero-b/f07.jpg",
+   "cta": true,
+   "narration": "Síguenos para más curiosidades animales."
+  }
+ ]
+}
