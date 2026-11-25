@@ -17,3 +17,5 @@ tigre-dientes-sable-b|Smilodon reconstruction|8|0
 escarabajo-bombardero|Brachinus|8|0
 zorrillo|Mephitis mephitis|8|0
 escarabajo-bombardero-b|bombardier beetle|8|0
+foca|Phoca vitulina|8|0
+lobo-marino|Zalophus californianus|8|0
