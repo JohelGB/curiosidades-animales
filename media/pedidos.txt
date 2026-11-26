@@ -19,3 +19,5 @@ zorrillo|Mephitis mephitis|8|0
 escarabajo-bombardero-b|bombardier beetle|8|0
 foca|Phoca vitulina|8|0
 lobo-marino|Zalophus californianus|8|0
+pajaro-lira|Menura novaehollandiae|8|0
+cenzontle|Mimus polyglottos|8|0
