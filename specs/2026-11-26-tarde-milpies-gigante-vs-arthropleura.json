@@ -1,0 +1,63 @@
+{
+ "slug": "2026-11-26-tarde-milpies-gigante-vs-arthropleura",
+ "style": "real",
+ "rate": "+20%",
+ "animal": "milpiés gigante africano",
+ "animal2": "arthropleura",
+ "caption": "🐛 Hubo un milpiés tan largo como un carro. Milpiés gigante africano vs Arthropleura: el de hoy mide hasta 38 cm y tiene unas 256 patas, no mil; el prehistórico medía hasta 2,6 m y pesaba unos 50 kg hace unos 300 millones de años. Y el récord de patas (1.306) es de un milpiés diminuto de Australia. ¿Cuál te sorprendió más? 👇 #milpies #arthropleura #prehistoria #insectos #curiosidades #animales #sabiasque #datoscuriosos #fyp",
+ "title": "Milpiés gigante vs Arthropleura: ¿un milpiés del tamaño de un carro? 🐛",
+ "ytTitle": "Milpiés gigante vs Arthropleura: el milpiés del tamaño de un carro 🐛 #Shorts",
+ "scenes": [
+  {
+   "media": "media/arthropleura/f02.jpg",
+   "move": "in",
+   "text": "¿Un milpiés del tamaño de un carro?",
+   "narration": "Hubo un milpiés tan largo como un carro. ¿Cuántas patas tiene un milpiés?"
+  },
+  {
+   "media": "media/milpies-gigante/f05.jpg",
+   "move": "left",
+   "badge": "38 cm",
+   "narration": "Fíjate en el milpiés gigante africano: mide hasta treinta y ocho centímetros."
+  },
+  {
+   "media": "media/milpies-gigante/f06.jpg",
+   "move": "right",
+   "badge": "≈ 256 patas",
+   "narration": "Y tiene unas doscientas cincuenta y seis patas, no mil."
+  },
+  {
+   "media": "media/milpies-gigante/f02.jpg",
+   "move": "up",
+   "narration": "Si lo molestas, se enrolla y suelta un líquido que irrita."
+  },
+  {
+   "media": "media/arthropleura/f08.jpg",
+   "move": "in",
+   "badge": "2,6 m",
+   "narration": "Ahora mira a Arthropleura: medía hasta dos metros sesenta, hace unos trescientos millones de años."
+  },
+  {
+   "media": "media/arthropleura/f07.jpg",
+   "move": "left",
+   "badge": "≈ 50 kg",
+   "narration": "Pesaba unos cincuenta kilos: el bicho de tierra más grande conocido."
+  },
+  {
+   "media": "media/arthropleura/f03.jpg",
+   "move": "right",
+   "narration": "Se cree que lo ayudaron buena comida y más oxígeno en el aire."
+  },
+  {
+   "media": "media/milpies-gigante/f08.jpg",
+   "move": "out",
+   "badge": "1.306 patas",
+   "narration": "¿Y el récord? Un milpiés diminuto de Australia: mil trescientas seis patas. ¿Lo sabías?"
+  },
+  {
+   "media": "media/milpies-gigante/f01.jpg",
+   "cta": true,
+   "narration": "Síguenos para más curiosidades animales."
+  }
+ ]
+}
