@@ -1,0 +1,62 @@
+{
+ "slug": "2026-11-26-mediodia-ballena-azul-vs-musarana-etrusca",
+ "style": "real",
+ "rate": "+20%",
+ "animal": "ballena azul",
+ "animal2": "musaraña etrusca",
+ "caption": "❤️ Un corazón late 2 veces por minuto y otro 1.500. Ballena azul vs musaraña etrusca: el animal más grande que ha existido tiene el corazón más lento, y uno de los mamíferos más pequeños, de unos 2 gramos, uno de los más rápidos. ¿Cuál te sorprendió más? 👇 #ballenaazul #musaraña #mamiferos #curiosidades #animales #sabiasque #datoscuriosos #fyp",
+ "title": "Ballena azul vs musaraña: ¿2 o 1.500 latidos? ❤️",
+ "ytTitle": "Ballena azul vs musaraña etrusca: el corazón más lento y el más rápido ❤️ #Shorts",
+ "scenes": [
+  {
+   "media": "media/ballena-azul/f07.jpg",
+   "move": "in",
+   "text": "¿2 latidos o 1.500?",
+   "narration": "Un corazón late dos veces por minuto y otro mil quinientas. ¿De quién es cada uno?"
+  },
+  {
+   "media": "media/ballena-azul/f01.jpg",
+   "move": "left",
+   "narration": "Fíjate en la ballena azul, el animal más grande que ha existido."
+  },
+  {
+   "media": "media/ballena-azul/f05.jpg",
+   "move": "right",
+   "badge": "180 kg",
+   "narration": "Su corazón pesa unos ciento ochenta kilos."
+  },
+  {
+   "media": "media/ballena-azul/f06.jpg",
+   "move": "up",
+   "badge": "2 latidos/min",
+   "narration": "Al bucear, baja a solo dos latidos por minuto para ahorrar oxígeno."
+  },
+  {
+   "media": "media/musarana-etrusca/f01.jpg",
+   "move": "in",
+   "badge": "≈ 2 g",
+   "narration": "Ahora mira a la musaraña etrusca: pesa unos dos gramos."
+  },
+  {
+   "media": "media/musarana-etrusca/f06.jpg",
+   "move": "left",
+   "badge": "1.500 latidos/min",
+   "narration": "Su corazón late unas mil quinientas veces por minuto."
+  },
+  {
+   "media": "media/musarana-etrusca/f05.jpg",
+   "move": "right",
+   "narration": "Pierde calor tan rápido que come hasta el doble de su peso al día."
+  },
+  {
+   "media": "media/ballena-azul/f03.jpg",
+   "move": "out",
+   "narration": "La gigante tiene el corazón más lento y la diminuta, uno de los más rápidos. ¿Lo sabías?"
+  },
+  {
+   "media": "media/musarana-etrusca/f08.jpg",
+   "cta": true,
+   "narration": "Síguenos para más curiosidades animales."
+  }
+ ]
+}
