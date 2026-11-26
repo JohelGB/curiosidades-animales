@@ -1,0 +1,30 @@
+{
+ "slug": "2026-11-26-manana-pajaro-lira-vs-cenzontle",
+ "style": "real",
+ "rate": "+18%",
+ "animal": "pájaro lira",
+ "animal2": "cenzontle",
+ "caption": "🎶 Dos aves que copian casi cualquier sonido… pero solo una imitó taladros y sierras. Pájaro lira vs cenzontle: el pájaro lira llena su canto de imitaciones y el cenzontle aprende hasta 200 canciones. ¿Cuál te sorprendió más? 👇 #pajarolira #cenzontle #aves #curiosidades #animales #sabiasque #datoscuriosos #fyp",
+ "title": "Pájaro lira vs cenzontle: ¿quién imita mejor? 🎶",
+ "ytTitle": "Pájaro lira vs cenzontle: las aves que imitan cualquier sonido 🎶 #Shorts",
+ "scenes": [
+  {"media": "media/pajaro-lira/f05.jpg", "move": "in", "text": "¿Cuál imitó una sierra?",
+   "narration": "Estas dos aves copian casi cualquier sonido, pero solo una imitó sierras y taladros."},
+  {"media": "media/pajaro-lira/f03.jpg", "move": "left",
+   "narration": "Fíjate en el pájaro lira de Australia: su cola se abre como una lira."},
+  {"media": "media/pajaro-lira/f01.jpg", "move": "right", "badge": "80 % imitación",
+   "narration": "Cerca del ochenta por ciento de su canto son imitaciones."},
+  {"media": "media/cenzontle/f05.jpg", "move": "in",
+   "narration": "Ahora mira al cenzontle: en náhuatl, su nombre significa cuatrocientas voces."},
+  {"media": "media/cenzontle/f01.jpg", "move": "left", "badge": "200 canciones",
+   "narration": "Puede aprender hasta doscientas canciones en su vida."},
+  {"media": "media/cenzontle/f04.jpg", "move": "right", "badge": "24 horas",
+   "narration": "Copia ladridos y sirenas, y los machos solteros cantan de día y de noche."},
+  {"media": "media/pajaro-lira/f07.jpg", "move": "up",
+   "narration": "¿Y la sierra? Fue Chook, un pájaro lira del zoológico de Adelaida, en Australia."},
+  {"media": "media/cenzontle/f02.jpg", "move": "out",
+   "narration": "Uno gana en sonidos raros y el otro en canciones. ¿Cuál es tu campeón?"},
+  {"media": "media/cenzontle/f08.jpg", "cta": true,
+   "narration": "Síguenos para más curiosidades animales."}
+ ]
+}
