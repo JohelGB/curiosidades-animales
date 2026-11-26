@@ -21,3 +21,5 @@ foca|Phoca vitulina|8|0
 lobo-marino|Zalophus californianus|8|0
 pajaro-lira|Menura novaehollandiae|8|0
 cenzontle|Mimus polyglottos|8|0
+ballena-azul|Balaenoptera musculus|8|0
+musarana-etrusca|Suncus etruscus|8|0
