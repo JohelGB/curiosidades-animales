@@ -1,0 +1,85 @@
+{
+ "slug": "2026-11-27-mediodia-rata-ratatouille",
+ "style": "classic",
+ "animal": "rata",
+ "habitat": "night",
+ "rate": "+15%",
+ "caption": "🎬 La rata de Ratatouille cocina… pero las ratas reales se ríen. Si les haces cosquillas sueltan chillidos de ~50 kHz que el oído humano no capta, y luego persiguen tu mano para jugar más. Además no pueden vomitar, por eso prueban un poquito de cada comida nueva. ¿Qué otra película quieres que revisemos? 👇 #curiosidades #animales #ratas #roedores #peliculas #cine #sabiasque #datoscuriosos #fyp",
+ "title": "Rata real vs Ratatouille: ¿sabías que se ríe? 🎬",
+ "ytTitle": "Rata real: se ríe con cosquillas y no la oyes (Ratatouille) 🎬 #Shorts",
+ "ytText": "¿Sabías que las ratas reales se ríen cuando les haces cosquillas? Sueltan chillidos ultrasónicos de unos 50 kHz que el oído humano no capta, y luego persiguen la mano para seguir jugando. Como en Ratatouille, su olfato es excelente, y como no pueden vomitar, prueban un poquito de cada comida nueva. Datos curiosos de animales y del cine.\n\nSíguenos para más curiosidades animales.\n\n#Shorts #ratas #roedores #ratatouille #peliculas #cine #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<g class='tail' data-cx='170' data-cy='400'><path d='M175 400 Q90 420 70 360 Q55 315 95 290' fill='none' stroke='#4a3322' stroke-width='16' stroke-linecap='round'/><path d='M175 400 Q90 420 70 360 Q55 315 95 290' fill='none' stroke='#e8a7a0' stroke-width='9' stroke-linecap='round'/></g><ellipse cx='280' cy='370' rx='135' ry='95' fill='#9a7656' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/><ellipse cx='295' cy='405' rx='85' ry='50' fill='#d9c2a6'/><ellipse cx='225' cy='455' rx='30' ry='14' fill='#f2b4ac' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/><ellipse cx='345' cy='458' rx='30' ry='14' fill='#f2b4ac' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/><g class='wiggle' data-cx='360' data-cy='235'><ellipse cx='345' cy='215' rx='42' ry='48' fill='#9a7656' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/><ellipse cx='345' cy='218' rx='26' ry='31' fill='#f2b4ac'/></g><path d='M330 260 Q370 215 430 250 Q490 285 510 320 Q505 345 470 350 Q400 365 345 345 Q300 320 330 260 Z' fill='#9a7656' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/><path d='M440 330 Q470 345 500 335 Q480 352 450 350 Z' fill='#d9c2a6'/><circle cx='510' cy='320' r='13' fill='#e58a92' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/><g stroke='#4a3322' stroke-width='3' stroke-linecap='round'><path d='M495 330 L555 318'/><path d='M495 336 L552 342'/><path d='M492 342 L545 362'/></g><g class='blink' data-cx='420' data-cy='290'><circle cx='420' cy='290' r='19' fill='#1d1410'/><circle cx='427' cy='283' r='7' fill='#fff'/><circle cx='413' cy='297' r='3' fill='#fff'/></g><ellipse cx='455' cy='325' rx='16' ry='9' fill='#f7a6b0' opacity='0.8'/><ellipse cx='455' cy='385' rx='22' ry='12' fill='#f2b4ac' stroke='#4a3322' stroke-width='5' stroke-linejoin='round'/>",
+ "scenes": [
+  {
+   "text": "Las ratas reales <span class='hl'>se ríen</span> 😂",
+   "narration": "La rata de Ratatouille cocina… pero las ratas reales hacen algo más loco.",
+   "anim": "pop"
+  },
+  {
+   "text": "En la película: <span class='hl'>una rata chef</span>",
+   "sub": "Ratatouille (2007)",
+   "narration": "En la película, una rata con súper olfato se vuelve chef.",
+   "anim": "left",
+   "prop": "<path d='M60 130 L240 130 L225 250 Q150 270 75 250 Z' fill='#c9d3dc' stroke='#3d4a55' stroke-width='6' stroke-linejoin='round'/><rect x='45' y='115' width='210' height='22' rx='10' fill='#aab6c1' stroke='#3d4a55' stroke-width='6'/><path d='M110 95 Q95 70 115 50 M150 95 Q135 65 155 40 M190 95 Q175 70 195 50' fill='none' stroke='#9fb3c4' stroke-width='7' stroke-linecap='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Su olfato <span class='hl'>sí es real</span>",
+   "badge": "~1.200 genes",
+   "sub": "los humanos tenemos ~400",
+   "narration": "Y eso del olfato es cierto: tienen unos mil doscientos genes para oler.",
+   "anim": "left",
+   "prop": "<circle cx='150' cy='150' r='115' fill='#fff' stroke='#4a3322' stroke-width='6'/><path d='M95 120 Q150 60 205 120' fill='none' stroke='#4a90d9' stroke-width='10' stroke-linecap='round'/><path d='M75 160 Q150 90 225 160' fill='none' stroke='#4a90d9' stroke-width='10' stroke-linecap='round' opacity='0.7'/><path d='M60 200 Q150 120 240 200' fill='none' stroke='#4a90d9' stroke-width='10' stroke-linecap='round' opacity='0.45'/><circle cx='150' cy='225' r='16' fill='#e58a92' stroke='#4a3322' stroke-width='5'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Una rata <span class='hl'>no puede vomitar</span>",
+   "sub": "su cuerpo no tiene ese reflejo",
+   "narration": "Pero hay un problema: una rata no puede vomitar.",
+   "anim": "shake"
+  },
+  {
+   "text": "Por eso <span class='hl'>prueba poquito</span>",
+   "sub": "come un bocado de algo nuevo y espera",
+   "narration": "Por eso prueba un poquito de la comida nueva y espera, como un chef.",
+   "anim": "left",
+   "prop": "<path d='M40 220 L260 220 L260 120 Z' fill='#ffd34d' stroke='#7a5a10' stroke-width='6' stroke-linejoin='round'/><path d='M40 220 L260 120 L260 220 Z' fill='#ffc21f' stroke='#7a5a10' stroke-width='6' stroke-linejoin='round'/><circle cx='200' cy='190' r='14' fill='#e0a30f'/><circle cx='150' cy='205' r='9' fill='#e0a30f'/><circle cx='235' cy='160' r='8' fill='#e0a30f'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Si le haces cosquillas…",
+   "narration": "Y lo más sorprendente: si le haces cosquillas…",
+   "anim": "left",
+   "prop": "<path d='M60 230 Q40 170 80 160 L90 90 Q95 70 110 75 Q122 80 120 100 L125 60 Q130 40 147 45 Q160 50 157 70 L160 55 Q165 38 182 42 Q195 48 192 70 L193 85 Q198 70 213 75 Q226 82 222 105 L215 190 Q210 240 160 255 Q90 270 60 230 Z' fill='#f5cfa8' stroke='#7a5236' stroke-width='6' stroke-linejoin='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "¡<span class='hl'>Se ríe</span> sin que la oigas!",
+   "badge": "50 kHz",
+   "sub": "chillidos ultrasónicos",
+   "narration": "¡se ríe! Pero con chillidos tan agudos que tú no los oyes.",
+   "anim": "jump",
+   "prop": "<g fill='none' stroke='#ff7eb6' stroke-width='12' stroke-linecap='round'><path d='M80 110 Q110 150 80 190'/><path d='M120 80 Q170 150 120 220'/><path d='M160 50 Q230 150 160 250'/></g><text x='230' y='120' font-size='60' font-weight='900' fill='#ff7eb6' font-family='sans-serif'>ji</text><text x='215' y='200' font-size='60' font-weight='900' fill='#ff7eb6' font-family='sans-serif'>ji</text>",
+   "propPos": "right"
+  },
+  {
+   "text": "Y luego <span class='hl'>pide más</span>",
+   "sub": "en los experimentos persiguen la mano para jugar",
+   "narration": "Y luego persigue tu mano para que sigas jugando.",
+   "anim": "walk"
+  },
+  {
+   "text": "¿Qué otra película <span class='hl'>revisamos</span>?",
+   "sub": "déjala en los comentarios 👇",
+   "narration": "¿Qué otra película quieres que revisemos?",
+   "anim": "pop",
+   "prop": "<path d='M150 260 Q40 180 40 110 Q40 50 95 50 Q130 50 150 85 Q170 50 205 50 Q260 50 260 110 Q260 180 150 260 Z' fill='#ff6b8a' stroke='#8a1f3a' stroke-width='6'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
