@@ -1,7 +1,7 @@
 # Curiosidades Animales — TikTok automático
 
 Este repo guarda el motor y los videos del canal de TikTok **Curiosidades Animales** (@filarmonadeltarod).
-Cada video: vertical 1080×1920, ilustrado (estilo plano, colores vivos, como `engine/logo.png`), texto grande arriba,
+Cada video: vertical 1080×1920, ilustrado con dibujos propios (estilo plano, colores vivos, como `engine/logo.png`), texto grande arriba,
 narración en español con voz gratis (edge-tts, `es-MX-JorgeNeural`), música sintetizada y cierre con el logo.
 Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del video.
 
@@ -13,7 +13,9 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
 ## Procedimiento de una publicación (tarea programada)
 1. `cd` al clon del repo y `git pull --rebase origin main`.
 2. `bash engine/setup.sh` (instala edge-tts y confía en el proxy). Debe imprimir `setup ok`.
-3. **Primero revisa la sección "SEMANA DE PERROS"**: si la fecha cae ahí, sigue esa sección. Si no: lee `publicados.md`. Desde el 5 nov 2026 **cada video lleva DOS animales** (ver "Formato dúo"). Elige **dos animales que no
+3. **Desde el 27 nov 2026 el tema es "ANIMALES FAMOSOS DEL CINE"** (ver esa sección; manda sobre las reglas de elección de abajo). Lee `publicados.md`.
+   **Con el tema de cine: un animal protagonista por video (el dúo es opcional) y la especie puede repetirse si la curiosidad
+   es distinta; las reglas de este paso sobre dúo obligatorio y "nunca repetir animal" ya NO aplican.** (Reglas anteriores:) Desde el 5 nov 2026 **cada video lleva DOS animales** (ver "Formato dúo"). Elige **dos animales que no
    aparezcan ahí** (nunca repetir animal). Varía el hábitat y el tipo
    de animal respecto a los últimos 3 (mamífero, ave, insecto, pez, reptil, anfibio, marino, prehistórico…).
    **Animales prehistóricos**: también valen (dinosaurios, mamut, megalodón, tigre dientes de sable, pterosaurios,
@@ -24,34 +26,20 @@ Se publica en TikTok con Buffer usando el enlace `raw.githubusercontent.com` del
    de un pavo), nunca como personajes de películas. En `publicados.md` escribe el nombre común (p. ej. `megalodón`).
 4. Elige **una curiosidad sorprendente de cada animal** (que se contrasten o compitan) con una cadena de 3–4 datos que se encadenen (gancho → explicación → dato extra → remate).
    **Verifica cada dato con WebSearch** antes de escribirlo; si un dato no se confirma, cámbialo. Nada inventado.
-5. **FOTOS Y VIDEOS REALES (estilo `real`, obligatorio desde el 22 nov 2026: Johel pidió que no se vea como dibujos).**
-   a. Para cada animal sin carpeta en `media/`, agrega a `media/pedidos.txt` la línea `<carpeta>|<nombre científico>|8|0`
-      (p. ej. `perezoso|Bradypus variegatus|8|0`; si es un perro de raza: `perro-labrador|Labrador Retriever|8|0`).
-      **Solo fotos** (`0` videos): Wikimedia limita la descarga de videos y tarda demasiado. Commit + push: la acción de GitHub
-      "Descargar fotos y videos reales" (`tools/fetch_media.py`) baja de Wikimedia Commons fotos con licencia libre a
-      `media/<carpeta>/` con `creditos.json` (y `hoja.jpg` si sale). Tarda ~3 min. Espera con `git pull` cada 30 s (máx. 12 min)
-      hasta que exista `media/<carpeta>/creditos.json`; el estado se ve en
-      `curl -s https://api.github.com/repos/JohelGB/curiosidades-animales/actions/runs?per_page=3` y el registro en
-      `media/_ultimo_log.txt`. Si la carpeta ya existe, reúsala. Si existe una carpeta `<carpeta>-v` con clips `.mp4`, puedes usarlos.
-   b. **Mira** las fotos/clips (Read de `hoja.jpg` o de cada archivo) y elige las mejores: el animal correcto y bien visible,
-      sin texto ni marcas de agua, **nada de sangre, presas muertas ni animales heridos**, ni mapas/esqueletos/museos.
-      Si no hay suficientes buenas (mín. 3 por animal), pide otra búsqueda (otro nombre) o cambia de animal.
-   c. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal1>-vs-<animal2>.json` con `"style": "real"` siguiendo "Formato historia" y
-      "Formato dúo" (el guion es el mismo), pero cada escena lleva `"media": "media/<carpeta>/f03.jpg"` o `".../v01.mp4"`
-      en vez de dibujos (ver "Formato del spec REAL"). Ejemplo aprobado: `specs/_prueba-real-guepardo-perezoso.json`.
-      **NO uses el estilo canción.**
-6. `python3 engine/build_real.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read
-   (animal completo y reconocible, subtítulos legibles, nada raro). Corrige y repite.
-7. `python3 engine/build_real.py specs/<slug>.json` → `videos/<slug>.mp4` (30–45 s; si pasa de 45 s, acorta narraciones).
-   Si la acción de GitHub falla o no hay fotos utilizables tras 12 min, usa como respaldo el motor de dibujos
-   (`engine/build.py`, "Formato del spec (estilo clásico)") y dilo en el mensaje final.
-8. Agrega una línea a `publicados.md`, luego `git add specs videos media publicados.md && git commit && git push origin main`.
+5. **DIBUJOS ANIMADOS (desde el 27 nov 2026, pedido de Johel; se dejó el estilo de fotos reales y NO se usa Everygen ni ningún
+   servicio de pago)**. Escribe `specs/<AAAA-MM-DD>-<franja>-<animal>.json` en estilo clásico (`engine/build.py`, sección
+   "Formato del spec (estilo clásico)") con el guion de "Formato historia". El formato dúo es opcional (úsalo si la historia
+   compara dos animales). **NO uses el estilo canción.**
+6. `python3 engine/build.py specs/<slug>.json --frames` y **mira** `work/<slug>/sheet.jpg` con Read.
+   Revisa: el animal se reconoce como la especie real y se ve bonito, **no se parece al personaje de la película**, nada tapa el
+   texto, ningún texto se sale. Corrige y repite.
+7. `python3 engine/build.py specs/<slug>.json` → `videos/<slug>.mp4` (30–45 s; si pasa de 45 s, acorta narraciones y repite).
+8. Agrega una línea a `publicados.md`, luego `git add specs videos publicados.md && git commit && git push origin main`.
 9. Publica con Buffer `create_post` en **los dos canales** (dos llamadas), ambos con `schedulingType: "automatic"`, `mode: "shareNow"`
    y `assets: [{video:{url:<URL raw>, metadata:{title, thumbnailOffset:1500}}}]`:
    - **TikTok** (`6ae8ff41e29c69a1713efa8f`): `text` = `caption` del spec; `metadata: {tiktok: {title, isAiGenerated: true}}`.
    - **YouTube Shorts** (`6ae91564e29c69a171401081`): `text` = 2–3 frases que resuman la curiosidad + línea "Síguenos para más
-     curiosidades animales." + una línea "📷 Imágenes: <autor> (<licencia>), … vía Wikimedia Commons" con los autores de
-     `creditos.json` de los archivos usados (obligatorio por las licencias CC BY/BY-SA) + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
+     curiosidades animales." + hashtags empezando por `#Shorts`; `metadata: {youtube: {title: "<title> <emoji> #Shorts" (máx. 100 caracteres),
      categoryId: "15", privacy: "public", madeForKids: false, isAiGenerated: true, notifySubscribers: true}}`.
 10. Espera ~1–2 min y verifica con `get_post` que ambos queden `sent`; anota los dos `externalLink` en la línea de `publicados.md`
     (commit + push). Si uno queda en `error`, reporta el mensaje; no reintentes más de una vez. Que falle uno no impide el otro.
@@ -74,7 +62,34 @@ Cada video debe enganchar en 1–2 segundos y dejar algo aprendido. Al elegir te
 - **Duración**: apunta a 25–35 s (mejor retención); escenas ágiles, sin relleno.
 - Siempre exacto y verificado: nada de exageraciones que no sean ciertas.
 
-## ⚠️ SEMANA DE PERROS: del 2026-11-06 (mediodía) al 2026-11-09 (tarde) inclusive — tiene prioridad sobre todo lo demás
+## 🎬 ANIMALES FAMOSOS DEL CINE (desde el 2026-11-27; tema actual de TODOS los videos)
+Cada video cuenta una **curiosidad real y verificada** de un animal famoso por una película, serie o el cine en general.
+Dos tipos de tema (alterna):
+- **La especie real detrás de la película**: lo que la película no te contó o contó mal. Ej.: en la vida real, cuando muere
+  la hembra de un grupo de peces payaso, el macho más grande se convierte en hembra (Buscando a Nemo); los cirujanos azules
+  (Dory) no son olvidadizos; las ratas sí tienen un olfato excelente (Ratatouille); los leones machos duermen hasta ~20 h
+  (El Rey León); los suricatos hacen turnos de vigilancia; los pingüinos emperador (Happy Feet) no cantan como en la película
+  pero cada uno reconoce la voz de su pareja; los velociraptores reales eran del tamaño de un pavo y con plumas (Jurassic Park).
+- **Los animales que actuaron**: historias reales de animales actores y del rodaje. Ej.: la orca Keiko de Liberada (Free
+  Willy) y su regreso a Islandia; Hachiko, el perro akita real que esperó a su dueño casi 10 años en la estación de Shibuya;
+  la cantidad de cerditos que hicieron falta en Babe; el perro Terry que hizo de Toto en El mago de Oz; el gato de Desayuno
+  en Tiffany's. Solo datos que confirmes en fuentes serias (museos, universidades, prensa reconocida, sitios de la especie).
+**Reglas de derechos de autor (obligatorias):**
+- Nombra la película solo como referencia ("en Buscando a Nemo…"). **Nunca dibujes al personaje**: dibuja la especie real con
+  colores y rasgos reales, sin ropa, accesorios, expresiones ni poses icónicas del personaje, y sin texto del logo/título con su
+  tipografía. Nada de pósters, escenas, frases textuales de diálogos ni letras de canciones de la película.
+- En `text` y `caption` el nombre de la película va en texto normal (sin logos). No uses el nombre del personaje como título del video;
+  usa el de la especie ("El pez payaso real…").
+**Elección**: no repitas película ni tema (revisa la columna tema de `publicados.md`; anota ahí `<película>: <curiosidad>`).
+La especie sí puede repetirse si la curiosidad es distinta. Mezcla películas famosas de todas las épocas, animadas y con actores.
+**Guion** ("Formato historia"): gancho que conecte con la película ("¿Sabías que el papá de Nemo en la vida real… sería
+mamá?") → lo que muestra la película → la verdad de la especie (o la historia real del animal actor) con cifra o comparación
+humana → remate sorprendente → pregunta al público ("¿Qué otra película quieres que revisemos? 👇") → CTA.
+Caption: "🎬 <gancho> <dato real en 1–2 frases>. ¿<pregunta>? 👇 #curiosidades #animales #<especie> #peliculas #cine
+#sabiasque #datoscuriosos #fyp". Título TikTok: "<Especie> real vs <película>: <pregunta corta> 🎬". Título YouTube:
+"<Especie> real: <dato sorprendente> (<película>) 🎬 #Shorts" (máx. 100 caracteres).
+
+## SEMANA DE PERROS (TERMINADA: fue del 6 al 9 nov 2026; no aplica)
 Pedido de Johel: en esas fechas **TODOS los videos son de perros**, con temas que **enseñan algo importante para cuidar al perro**
 (referencia que le gustó: TikTok de @laperritopedia sobre "¿es suficiente sacar a pasear a tu perro 10 minutos?").
 Durante esas fechas se ignoran la regla de "nunca repetir animal", la de prehistóricos y el formato dúo obligatorio.
@@ -197,7 +212,7 @@ Muestra aprobada por Johel: `specs/_muestra-cancion-pulpo.json` (úsala de model
 ## publicados.md
 Una línea por video: `| fecha | franja | animal | tema | link TikTok | link YouTube |`.
 
-## Formato del spec REAL (engine/build_real.py) — formato actual
+## Formato del spec REAL (engine/build_real.py) — EN PAUSA desde el 27 nov 2026 (Johel volvió a los dibujos); no usar
 ```json
 {"slug":"2026-11-23-manana-guepardo-vs-perezoso","style":"real","rate":"+12%","animal":"guepardo","animal2":"perezoso",
  "caption":"…","title":"…","ytTitle":"…",
