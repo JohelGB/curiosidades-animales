@@ -1,0 +1,73 @@
+{
+ "slug": "2026-11-27-tarde-orca-keiko",
+ "style": "classic",
+ "animal": "orca",
+ "habitat": "ocean",
+ "rate": "+15%",
+ "caption": "🎬 La orca de Liberen a Willy (Free Willy) vivió más de 10 años en un parque de Ciudad de México. Se llamaba Keiko: tras la película más de 300.000 personas pidieron liberarlo, volvió a Islandia y en 2002 nadó solo unos 1.400 km hasta Noruega. ¿Qué otra película quieres que revisemos? 👇 #curiosidades #animales #orca #animalesmarinos #peliculas #cine #sabiasque #datoscuriosos #fyp",
+ "title": "Orca real vs Liberen a Willy: ¿sabías que vivió en México? 🎬",
+ "ytTitle": "Orca real: Keiko vivió en México y nadó hasta Noruega (Liberen a Willy) 🎬 #Shorts",
+ "ytText": "¿Sabías que la orca de Liberen a Willy (Free Willy) era real y vivió más de diez años en un parque de Ciudad de México? Keiko fue capturada en Islandia en 1979; tras la película más de 300.000 personas pidieron liberarlo, se recuperó en Oregón, volvió a Islandia y en 2002 nadó solo unos 1.400 km hasta Noruega. Datos curiosos de animales y del cine.\n\nSíguenos para más curiosidades animales.\n\n#Shorts #orca #keiko #freewilly #animalesmarinos #peliculas #cine #curiosidades #animales #sabiasque #datoscuriosos",
+ "animalSvg": "<g class='tail' data-cx='110' data-cy='292'><path d='M118 292 Q85 250 45 232 Q68 272 72 292 Q68 312 45 352 Q85 334 118 292 Z' fill='#1f2533' stroke='#0c0f16' stroke-width='5' stroke-linejoin='round'/></g><path d='M302 236 Q298 170 322 118 Q336 182 368 228 Z' fill='#1f2533' stroke='#0c0f16' stroke-width='5' stroke-linejoin='round'/><path d='M548 312 Q545 240 445 224 Q335 208 232 238 Q150 262 108 292 Q150 330 232 352 Q352 384 452 372 Q548 362 548 312 Z' fill='#1f2533' stroke='#0c0f16' stroke-width='5' stroke-linejoin='round'/><path d='M538 330 Q500 364 430 368 Q340 372 270 348 Q350 352 430 345 Q495 340 538 330 Z' fill='#f4f6fa'/><path d='M265 346 Q235 330 205 336 Q240 352 280 352 Z' fill='#f4f6fa'/><ellipse cx='300' cy='246' rx='50' ry='11' fill='#7f8898'/><ellipse cx='432' cy='266' rx='34' ry='14' transform='rotate(-12 432 266)' fill='#f4f6fa'/><g class='blink' data-cx='470' data-cy='293'><circle cx='470' cy='293' r='11' fill='#05070b' stroke='#f4f6fa' stroke-width='3'/><circle cx='474' cy='289' r='4' fill='#fff'/></g><ellipse cx='495' cy='318' rx='15' ry='8' fill='#f7a6b0' opacity='0.85'/><path d='M505 335 Q525 336 544 322' fill='none' stroke='#0c0f16' stroke-width='4' stroke-linecap='round'/><g class='flap' data-cx='405' data-cy='360'><path d='M392 356 Q378 420 418 434 Q442 408 428 356 Z' fill='#1f2533' stroke='#0c0f16' stroke-width='5' stroke-linejoin='round'/></g>",
+ "scenes": [
+  {
+   "text": "La orca real de <span class='hl'>Liberen a Willy</span> 🐋",
+   "narration": "La orca de Liberen a Willy vivió años en México.",
+   "anim": "pop"
+  },
+  {
+   "text": "Se llamaba <span class='hl'>Keiko</span>",
+   "badge": "1979",
+   "sub": "capturada en Islandia con ~2 años",
+   "narration": "Se llamaba Keiko, capturada en Islandia de bebé.",
+   "anim": "bob"
+  },
+  {
+   "text": "Vivió en un <span class='hl'>tanque en Ciudad de México</span>",
+   "sub": "agua tibia, bajo de peso y con lesiones en la piel",
+   "narration": "Vivía en un tanque chico de agua tibia, y enfermó.",
+   "anim": "left",
+   "prop": "<rect x='30' y='110' width='240' height='150' rx='10' fill='#7cc6e8' stroke='#2f5d74' stroke-width='7'/><path d='M30 140 Q90 125 150 140 Q210 155 270 140' fill='none' stroke='#ffffff' stroke-width='6' opacity='0.8'/><rect x='20' y='100' width='260' height='18' rx='8' fill='#d7dde3' stroke='#2f5d74' stroke-width='6'/><circle cx='235' cy='70' r='28' fill='#ffcf3f' stroke='#c58a00' stroke-width='5'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Tras la película <span class='hl'>pidieron liberarlo</span>",
+   "badge": "300.000+ llamadas",
+   "narration": "Tras la película, trescientas mil personas pidieron liberarla.",
+   "anim": "jump"
+  },
+  {
+   "text": "Voló a Oregón y <span class='hl'>engordó</span>",
+   "badge": "+450 kg",
+   "sub": "en su primer año (1996)",
+   "narration": "En Oregón subió más de cuatrocientos kilos.",
+   "anim": "left",
+   "prop": "<path d='M40 165 L230 140 Q270 138 272 155 Q270 172 230 172 L40 185 Z' fill='#f2f4f7' stroke='#3d4a55' stroke-width='6' stroke-linejoin='round'/><path d='M130 155 L95 80 L125 80 L180 150 Z' fill='#cfd6de' stroke='#3d4a55' stroke-width='6' stroke-linejoin='round'/><path d='M130 175 L100 240 L130 240 L180 170 Z' fill='#cfd6de' stroke='#3d4a55' stroke-width='6' stroke-linejoin='round'/><path d='M50 170 L30 120 L60 125 L75 165 Z' fill='#cfd6de' stroke='#3d4a55' stroke-width='6' stroke-linejoin='round'/>",
+   "propPos": "right"
+  },
+  {
+   "text": "Regresó al <span class='hl'>mar de Islandia</span>",
+   "badge": "1998",
+   "narration": "Luego volvió al mar de Islandia.",
+   "anim": "walk"
+  },
+  {
+   "text": "¡Nadó solo hasta <span class='hl'>Noruega</span>!",
+   "badge": "~1.400 km",
+   "sub": "en 2002",
+   "narration": "¡Y en dos mil dos nadó solo hasta Noruega, unos mil cuatrocientos kilómetros!",
+   "anim": "walk"
+  },
+  {
+   "text": "¿Qué película <span class='hl'>revisamos</span>? 👇",
+   "sub": "Keiko murió en Noruega en 2003",
+   "narration": "¿Qué otra película quieres que revisemos?",
+   "anim": "bob"
+  },
+  {
+   "text": "Síguenos para más <span class='hl'>curiosidades animales</span>",
+   "narration": "Síguenos para más curiosidades animales.",
+   "cta": true
+  }
+ ]
+}
